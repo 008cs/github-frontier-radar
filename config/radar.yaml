@@ -78,10 +78,10 @@ state:
 
 llm:
   enabled: true
-  # Set this to the model available from your OpenAI-compatible provider before
-  # running the weekly workflow.  Keep the API key in LLM_API_KEY.
-  model: ""
-  api_base_url: https://api.openai.com/v1
+  # DeepSeek uses an OpenAI-compatible Chat Completions interface.  The key
+  # itself stays in the GitHub Actions secret named LLM_API_KEY.
+  model: deepseek-v4-pro
+  api_base_url: https://api.deepseek.com
   timeout_seconds: 60
   structured_output_retries: 2
 

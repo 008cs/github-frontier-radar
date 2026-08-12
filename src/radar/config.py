@@ -170,6 +170,11 @@ class LLMConfig(BaseModel):
     model: str = ""
     api_base_url: str = "https://api.openai.com/v1"
     timeout_seconds: float = Field(default=60, gt=0, le=300)
+    max_output_tokens: int = Field(default=2_500, ge=256, le=32_000)
+    # ``None`` leaves a provider's reasoning mode unchanged.  DeepSeek supports
+    # explicit thinking control; scheduled JSON extraction is more reliable
+    # with it disabled, so a DeepSeek deployment may opt in below.
+    thinking_enabled: bool | None = None
     structured_output_retries: int = Field(default=2, ge=0, le=5)
 
     @field_validator("model", "api_base_url")

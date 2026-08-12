@@ -132,6 +132,8 @@ def test_triage_batches_retains_repo_identity_and_caps_readme() -> None:
     assert len(provider.calls) == 2
     assert "a" * 100 in provider.calls[0][1]
     assert long_readme not in provider.calls[0][1]
+    assert '"repositories"' in provider.calls[0][1]
+    assert '"project_nature":"tool"' in provider.calls[0][1]
 
 
 def test_invalid_triage_json_is_retried_then_degraded_without_losing_other_batch() -> None:
@@ -186,6 +188,42 @@ def test_provider_failure_is_typed_and_does_not_raise_for_triage() -> None:
     assert result.unavailable[0].reason == "LLM provider unavailable"
 
 
+def test_triage_recovers_common_chinese_field_names_and_values() -> None:
+    provider = FakeProvider(
+        [
+            {
+                "results": [
+                    {
+                        "id": 1,
+                        "项目类型": "工具类",
+                        "分类": "浏览器自动化",
+                        "摘要": "自动化浏览器任务。",
+                        "个人效用": "88 分",
+                        "实用价值": "80/100",
+                        "目标用户": "开发者",
+                        "采用门槛": "30",
+                        "演示概率": "5%",
+                        "置信度": "高",
+                    }
+                ]
+            }
+        ]
+    )
+
+    result = service(provider, max_llm_triage=1, llm_triage_batch_size=1).semantic_triage(
+        [triage_input(1)]
+    )
+
+    assert result.unavailable == []
+    triage = result.results[0]
+    assert triage.project_nature == "tool"
+    assert triage.personal_utility == 88
+    assert triage.practical_value == 80
+    assert triage.target_users == ["开发者"]
+    assert triage.demo_probability == 0.05
+    assert triage.confidence == 0.8
+
+
 def test_final_brief_is_validated_capped_and_evidence_prompt_is_constrained() -> None:
     provider = FakeProvider([final_payload(1)])
     long_readme = "a" * 120
@@ -201,6 +239,7 @@ def test_final_brief_is_validated_capped_and_evidence_prompt_is_constrained() ->
     assert long_readme not in prompt
     assert "只能引用 evidence 内的事实" in prompt
     assert "目前无法确认受关注的具体原因" in prompt
+    assert '"recommendation":"try"' in prompt
 
 
 def test_final_brief_wrong_repo_id_retries_and_degrades() -> None:

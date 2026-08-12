@@ -40,6 +40,7 @@ def test_openai_compatible_provider_requests_json_mode_and_parses_content() -> N
         ],
         "response_format": {"type": "json_object"},
         "temperature": 0.2,
+        "max_tokens": 2500,
     }
     assert "test-key" not in repr(provider)
 
@@ -71,3 +72,27 @@ def test_openai_compatible_provider_recovers_json_wrapped_by_provider(content: o
     provider = OpenAICompatibleProvider("test-key", LLMConfig(model="test-model"), client=client)
 
     assert provider.complete_json(system_prompt="system", user_prompt="user") == {"answer": "ok"}
+
+
+def test_deepseek_provider_disables_thinking_when_configured() -> None:
+    captured: dict[str, object] = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        captured.update(json.loads(request.content))
+        return httpx.Response(200, json={"choices": [{"message": {"content": "{}"}}]})
+
+    client = httpx.Client(transport=httpx.MockTransport(handler))
+    provider = OpenAICompatibleProvider(
+        "test-key",
+        LLMConfig(
+            model="deepseek-v4-pro",
+            api_base_url="https://api.deepseek.com",
+            thinking_enabled=False,
+            max_output_tokens=900,
+        ),
+        client=client,
+    )
+
+    assert provider.complete_json(system_prompt="system", user_prompt="user") == {}
+    assert captured["thinking"] == {"type": "disabled"}
+    assert captured["max_tokens"] == 900

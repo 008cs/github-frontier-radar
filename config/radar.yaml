@@ -92,6 +92,10 @@ llm:
   model: deepseek-v4-pro
   api_base_url: https://api.deepseek.com
   timeout_seconds: 60
+  # This job extracts small JSON records rather than solving an open-ended
+  # reasoning task. Disable DeepSeek thinking mode for faster, steadier JSON.
+  thinking_enabled: false
+  max_output_tokens: 2500
   structured_output_retries: 2
 
 feishu:

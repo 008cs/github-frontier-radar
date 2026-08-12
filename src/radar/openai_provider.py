@@ -75,7 +75,12 @@ class OpenAICompatibleProvider:
             ],
             "response_format": {"type": "json_object"},
             "temperature": 0.2,
+            "max_tokens": self._config.max_output_tokens,
         }
+        if self._uses_deepseek_api() and self._config.thinking_enabled is not None:
+            payload["thinking"] = {
+                "type": "enabled" if self._config.thinking_enabled else "disabled"
+            }
         try:
             response = self._client.post(
                 self._endpoint,
@@ -106,6 +111,11 @@ class OpenAICompatibleProvider:
             return _decode_json_object(content)
         except (KeyError, IndexError, TypeError, json.JSONDecodeError) as error:
             raise LLMProviderError("LLM response did not contain JSON content") from error
+
+    def _uses_deepseek_api(self) -> bool:
+        """Limit DeepSeek-only request options to DeepSeek's official endpoint."""
+
+        return self._config.api_base_url.rstrip("/").startswith("https://api.deepseek.com")
 
 
 def _message_text(content: object) -> str:

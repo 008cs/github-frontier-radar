@@ -29,11 +29,11 @@ limits:
   max_llm_triage: 25
   llm_triage_batch_size: 5
   max_external_research: 8
-  # Keep the automated report short enough to turn into an actual learning list.
-  max_final_briefs: 3
+  # Normal weekly recommendations remain capped at ten projects.
+  max_final_briefs: 10
   max_readme_chars_triage: 4000
   max_readme_chars_final: 12000
-  final_report_max_projects: 3
+  final_report_max_projects: 10
 
 scoring:
   global_entry: 72
@@ -68,9 +68,11 @@ scoring:
 selector:
   cooldown_days: 56
   same_topic_cap: 2
-  # Strict frontier thresholds take priority.  If none pass, include one
-  # clearly-labelled, quality-vetted study lead rather than sending an empty report.
-  minimum_weekly_projects: 1
+  # Strict frontier thresholds take priority.  With 1–3 strict picks, fill to
+  # four total using clearly-labelled, quality-vetted learning candidates.
+  # With no strict pick, send up to three learning candidates instead of empty.
+  learning_fill_target: 4
+  learning_only_max_projects: 3
   learning_min_quality: 50
   learning_min_personal_utility: 45
   learning_min_practical_value: 45

@@ -140,9 +140,11 @@ class ScoringConfig(BaseModel):
 class SelectorConfig(BaseModel):
     cooldown_days: int = Field(default=56, ge=0, le=365)
     same_topic_cap: int = Field(default=2, ge=1, le=10)
-    # A weekly report should always contain a small, clearly-labelled learning
-    # shortlist when the strict headline thresholds find nothing.
-    minimum_weekly_projects: int = Field(default=1, ge=0, le=3)
+    # When one to three strict recommendations exist, study leads supplement
+    # them to this total.  A strict-empty week instead sends up to the smaller
+    # learning-only cap below.
+    learning_fill_target: int = Field(default=4, ge=1, le=10)
+    learning_only_max_projects: int = Field(default=3, ge=1, le=3)
     learning_min_quality: float = Field(default=50, ge=0, le=100)
     learning_min_personal_utility: float = Field(default=45, ge=0, le=100)
     learning_min_practical_value: float = Field(default=45, ge=0, le=100)

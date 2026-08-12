@@ -87,15 +87,17 @@ def select_projects(
         selected.append(candidate)
         selected_ids.add(candidate.candidate.repo_id)
 
-    # Strict candidates always win.  Only when their count is below the user's
-    # small weekly minimum do we supplement with safe, relevant study leads.
-    # They remain explicitly labelled as learning candidates rather than being
-    # presented as high-confidence frontier recommendations.
-    minimum = min(selector_config.minimum_weekly_projects, max_projects)
-    if len(selected) < minimum:
+    # Strict candidates always win.  When one to three survive, supplement to
+    # four total study items.  A strict-empty week sends up to three safe,
+    # relevant study leads instead of an empty report.  These are explicitly
+    # labelled as learning candidates, never as high-confidence frontier picks.
+    fallback_target = _learning_fallback_target(
+        strict_count=len(selected), selector_config=selector_config, max_projects=max_projects
+    )
+    if len(selected) < fallback_target:
         learning_candidates.sort(key=_learning_sort_key)
         for candidate, rejected_decision in learning_candidates:
-            if len(selected) >= minimum or len(selected) >= max_projects:
+            if len(selected) >= fallback_target or len(selected) >= max_projects:
                 break
             cluster = infer_topic_cluster(candidate)
             if topic_counts[cluster] >= selector_config.same_topic_cap:
@@ -120,6 +122,18 @@ def select_projects(
                 update={"eligible": False, "rejection_reason": "final project limit reached"}
             )
     return SelectionResult(selected=selected, decisions=decisions)
+
+
+def _learning_fallback_target(
+    *, strict_count: int, selector_config: SelectorConfig, max_projects: int
+) -> int:
+    """Return the desired total after strict selection, never exceeding the caller's cap."""
+
+    if strict_count == 0:
+        return min(selector_config.learning_only_max_projects, max_projects)
+    if strict_count < selector_config.learning_fill_target:
+        return min(selector_config.learning_fill_target, max_projects)
+    return strict_count
 
 
 def _enrich_selected_candidate(

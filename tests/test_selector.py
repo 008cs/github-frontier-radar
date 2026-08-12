@@ -106,20 +106,61 @@ def test_both_weak_and_low_quality_utility_projects_are_excluded() -> None:
     assert all(not decision.eligible for decision in result.decisions)
 
 
-def test_quality_vetted_relevant_project_becomes_learning_candidate_when_strict_routes_are_empty() -> None:
-    candidate = ranked(
-        1,
+def test_one_strict_recommendation_is_supplemented_to_four_with_learning_candidates() -> None:
+    strict = ranked(1, global_score=95, utility=10, quality=75)
+    learning_candidates = [
+        ranked(
+            repo_id,
+            global_score=50,
+            utility=60,
+            quality=75,
+            practical_value=65,
+            category=f"learning topic {repo_id}",
+        )
+        for repo_id in range(2, 5)
+    ]
+    result = select([strict, *learning_candidates])
+
+    assert [item.candidate.repo_id for item in result.selected] == [1, 2, 3, 4]
+    assert result.selected[0].selection_route == "global"
+    assert [item.selection_route for item in result.selected[1:]] == ["learning"] * 3
+
+
+def test_strict_empty_week_sends_up_to_three_learning_candidates() -> None:
+    candidates = [
+        ranked(
+            repo_id,
+            global_score=50,
+            utility=60,
+            quality=75,
+            practical_value=65,
+            category=f"learning topic {repo_id}",
+        )
+        for repo_id in range(1, 5)
+    ]
+    result = select(candidates)
+
+    assert [item.candidate.repo_id for item in result.selected] == [1, 2, 3]
+    assert all(item.selection_route == "learning" for item in result.selected)
+
+
+def test_strict_selection_of_four_or_more_does_not_add_learning_candidates() -> None:
+    strict = [
+        ranked(repo_id, global_score=95, utility=10, quality=75, category=f"strict topic {repo_id}")
+        for repo_id in range(1, 5)
+    ]
+    learning = ranked(
+        5,
         global_score=50,
         utility=60,
         quality=75,
         practical_value=65,
-        category="browser automation",
+        category="learning topic",
     )
-    result = select([candidate])
+    result = select([*strict, learning])
 
-    assert [item.candidate.repo_id for item in result.selected] == [1]
-    assert result.selected[0].selection_route == "learning"
-    assert result.decisions[0].route == "learning"
+    assert [item.candidate.repo_id for item in result.selected] == [1, 2, 3, 4]
+    assert all(item.selection_route != "learning" for item in result.selected)
 
 
 def test_learning_fallback_never_promotes_demo_or_low_quality_project() -> None:

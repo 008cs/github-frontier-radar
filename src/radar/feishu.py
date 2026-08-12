@@ -148,7 +148,21 @@ def _build_card(report: RadarReport, projects: Sequence[RankedCandidate], page: 
         elements.append({"tag": "div", "text": {"tag": "lark_md", "content": "本周 Radar 没有发现达到推荐阈值的项目。宁缺毋滥。"}})
     for ranked in projects:
         elements.extend(_project_elements(ranked, report.briefs.get(ranked.candidate.repo_id), report.report_url, compact))
-    return {"msg_type": "interactive", "card": {"schema": "2.0", "config": {"wide_screen_mode": True}, "header": {"title": {"tag": "plain_text", "content": f"GitHub Frontier Radar · {week_year} W{week_number:02d}{suffix}"}, "template": "blue"}, "body": {"elements": elements}}}
+    # Schema 2.0 has a different component model from the legacy card format.
+    # In particular, it requires ``update_multi`` and does not permit the old
+    # ``action`` container.  See _project_elements for its direct buttons.
+    return {
+        "msg_type": "interactive",
+        "card": {
+            "schema": "2.0",
+            "config": {"update_multi": True},
+            "header": {
+                "title": {"tag": "plain_text", "content": f"GitHub Frontier Radar · {week_year} W{week_number:02d}{suffix}"},
+                "template": "blue",
+            },
+            "body": {"direction": "vertical", "elements": elements},
+        },
+    }
 
 
 def _project_elements(ranked: RankedCandidate, brief: IntelligenceBrief | None, report_url: object, compact: bool) -> list[object]:
@@ -169,14 +183,29 @@ def _project_elements(ranked: RankedCandidate, brief: IntelligenceBrief | None, 
             f"热度 {_score_stars(ranked.scores.global_significance)}　与你相关 {_score_stars(ranked.scores.personal_utility)}　实际价值 {_score_stars(ranked.scores.practical_value)}　上手难度 {_friction_stars(brief.adoption_friction.score)}"
         )
     elements: list[object] = [{"tag": "markdown", "content": content}, {"tag": "hr"}]
-    actions: list[object] = []
     if candidate.html_url:
-        actions.append({"tag": "button", "type": "primary", "text": {"tag": "plain_text", "content": "打开 GitHub"}, "url": str(candidate.html_url)})
+        elements.append(_open_url_button("打开 GitHub", str(candidate.html_url), primary=True))
     if report_url:
-        actions.append({"tag": "button", "type": "default", "text": {"tag": "plain_text", "content": "完整周报"}, "url": str(report_url)})
-    if actions:
-        elements.append({"tag": "action", "actions": actions})
+        elements.append(_open_url_button("完整周报", str(report_url)))
     return elements
+
+
+def _open_url_button(label: str, url: str, *, primary: bool = False) -> dict[str, object]:
+    """Return the Schema 2.0 button shape accepted by custom-bot webhooks.
+
+    Schema 2.0 removed the legacy ``action`` element and its ``url`` field.
+    URL navigation is now declared through an ``open_url`` behavior directly
+    on each button.
+    """
+
+    return {
+        "tag": "button",
+        "text": {"tag": "plain_text", "content": label},
+        "type": "primary" if primary else "default",
+        "width": "default",
+        "size": "medium",
+        "behaviors": [{"type": "open_url", "default_url": url}],
+    }
 
 
 def _assert_card_size(card: Mapping[str, object], limit: int) -> None:

@@ -78,6 +78,22 @@ def test_card_contains_required_content_urls_and_unknown_growth() -> None:
     assert "callback" not in serialized.lower()
 
 
+def test_card_uses_schema_v2_direct_url_buttons_not_legacy_action_container() -> None:
+    card = build_cards(report([project(1)], {1: brief(1)}), 17_000)[0]
+    schema = cast(dict[str, object], card["card"])
+    config = cast(dict[str, object], schema["config"])
+    body = cast(dict[str, object], schema["body"])
+    elements = cast(list[dict[str, object]], body["elements"])
+    buttons = [element for element in elements if element.get("tag") == "button"]
+
+    assert config == {"update_multi": True}
+    assert body["direction"] == "vertical"
+    assert not any(element.get("tag") == "action" for element in elements)
+    assert len(buttons) == 2
+    assert buttons[0]["behaviors"] == [{"type": "open_url", "default_url": "https://github.com/acme/repo-1"}]
+    assert buttons[1]["behaviors"] == [{"type": "open_url", "default_url": "https://github.com/acme/radar/blob/main/reports/2026-W33.md"}]
+
+
 def test_card_labels_learning_candidate_and_summary() -> None:
     learning_project = project(1).model_copy(update={"selection_route": SelectionRoute.LEARNING})
     card = build_cards(report([learning_project], {1: brief(1)}), 17_000)[0]

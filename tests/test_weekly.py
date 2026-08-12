@@ -51,6 +51,7 @@ class FakeGitHub:
         self.candidates = {item.repo_id: item for item in candidates}
         self.search_calls = 0
         self.readme_calls: list[str] = []
+        self.readmes_by_id: dict[int, str] = {}
         self.release_calls: list[str] = []
         self.fail_readme_ids: set[int] = set()
 
@@ -72,7 +73,7 @@ class FakeGitHub:
         self.readme_calls.append(full_name)
         if repo_id in self.fail_readme_ids:
             raise OSError("README unavailable")
-        return "# README\nA safe automation tool."
+        return self.readmes_by_id.get(repo_id, "# README\nA safe automation tool.")
 
     def get_latest_release(self, full_name: str):
         self.release_calls.append(full_name)
@@ -235,6 +236,20 @@ def test_one_github_readme_failure_and_one_llm_batch_failure_degrade_without_sto
     assert result.llm_triaged == 1
     assert result.selected == 1
     assert result.cards_sent == 1
+
+
+def test_weekly_caps_oversized_readmes_before_validating_llm_inputs(tmp_path: Path) -> None:
+    github = FakeGitHub([candidate(1)])
+    github.readmes_by_id[1] = "x" * 25_000
+    provider = FakeProvider()
+
+    result, _ = run(tmp_path, github, provider, FakeDelivery())
+
+    triage_payload = json.loads(provider.calls[0].split("输入：\n", maxsplit=1)[1])
+    final_payload = json.loads(provider.calls[1].split("输入：\n", maxsplit=1)[1])
+    assert result.llm_triaged == result.final_briefed == result.selected == 1
+    assert len(triage_payload["repositories"][0]["readme_excerpt"]) == 4_000
+    assert len(final_payload["readme_excerpt"]) == 12_000
 
 
 def test_external_search_failure_degrades_and_fewer_than_ten_is_valid(tmp_path: Path) -> None:

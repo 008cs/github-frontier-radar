@@ -110,7 +110,7 @@ def run_weekly_pipeline(
     prescored = ranked[: config.limits.max_weekly_prescore]
 
     triage_candidates = prescored[: config.limits.max_llm_triage]
-    readmes_by_repo = {
+    raw_readmes_by_repo = {
         item.candidate.repo_id: _safe_readme(github, item.candidate, run_logger)
         for item in triage_candidates
     }
@@ -118,7 +118,12 @@ def run_weekly_pipeline(
         TriageInput(
             candidate=item.candidate,
             growth=item.growth,
-            readme_excerpt=readmes_by_repo[item.candidate.repo_id],
+            # TriageInput validates its own boundary before IntelligenceService
+            # builds the prompt, so cap external README text here as well.
+            readme_excerpt=_cap_readme(
+                raw_readmes_by_repo[item.candidate.repo_id],
+                config.limits.max_readme_chars_triage,
+            ),
         )
         for item in triage_candidates
     ]
@@ -145,7 +150,10 @@ def run_weekly_pipeline(
             scores=item.scores,
             triage=item.triage,  # type: ignore[arg-type]
             evidence=evidence_by_repo[item.candidate.repo_id],
-            readme_excerpt=readmes_by_repo.get(item.candidate.repo_id),
+            readme_excerpt=_cap_readme(
+                raw_readmes_by_repo.get(item.candidate.repo_id),
+                config.limits.max_readme_chars_final,
+            ),
         )
         for item in candidates_for_brief
         if item.triage is not None
@@ -307,6 +315,12 @@ def _safe_readme(github: WeeklyGitHubSource, candidate: RepoCandidate, logger: l
     except (GitHubSourceError, OSError, ValueError) as error:
         logger.warning("README unavailable for %s; continuing: %s", candidate.full_name, error)
         return None
+
+
+def _cap_readme(readme: str | None, maximum: int) -> str | None:
+    """Keep externally fetched README text within the receiving model's limit."""
+
+    return readme[:maximum] if readme is not None else None
 
 
 def _safe_release(github: WeeklyGitHubSource, candidate: RepoCandidate, logger: logging.Logger):

@@ -21,7 +21,7 @@ from .feishu import FeishuDeliveryError, FeishuWebhookClient
 from .github_sources import GitHubSourceError, GitHubSources
 from .intelligence import IntelligenceService, LLMProviderError
 from .openai_provider import OpenAICompatibleProvider
-from .weekly import run_weekly_pipeline
+from .weekly import WeeklyAnalysisUnavailable, run_weekly_pipeline
 
 
 LOGGER = logging.getLogger(__name__)
@@ -66,6 +66,7 @@ def main(argv: list[str] | None = None) -> int:
         MissingRequiredSecretError,
         GitHubSourceError,
         LLMProviderError,
+        WeeklyAnalysisUnavailable,
         FeishuDeliveryError,
         OSError,
         ValueError,

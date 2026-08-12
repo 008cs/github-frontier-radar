@@ -52,3 +52,22 @@ def test_openai_compatible_provider_masks_api_response_details() -> None:
         provider.complete_json(system_prompt="system", user_prompt="user")
 
     assert "secret" not in str(error.value)
+
+
+@pytest.mark.parametrize(
+    "content",
+    [
+        "```json\n{\"answer\":\"ok\"}\n```",
+        "下面是结果：\n{\"answer\":\"ok\"}\n请查收。",
+        [{"type": "text", "text": "{\"answer\":\"ok\"}"}],
+    ],
+)
+def test_openai_compatible_provider_recovers_json_wrapped_by_provider(content: object) -> None:
+    client = httpx.Client(
+        transport=httpx.MockTransport(
+            lambda _: httpx.Response(200, json={"choices": [{"message": {"content": content}}]})
+        )
+    )
+    provider = OpenAICompatibleProvider("test-key", LLMConfig(model="test-model"), client=client)
+
+    assert provider.complete_json(system_prompt="system", user_prompt="user") == {"answer": "ok"}

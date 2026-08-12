@@ -47,6 +47,10 @@ from .state_store import DEFAULT_STATE_PATH, load_state, mark_featured, save_sta
 LOGGER = logging.getLogger(__name__)
 
 
+class WeeklyAnalysisUnavailable(RuntimeError):
+    """The weekly shortlist could not be safely analysed by the configured LLM."""
+
+
 class WeeklyGitHubSource(Protocol):
     def search_repositories(self, query: str, *, sort: str = "stars", order: str = "desc") -> list[RepoCandidate]: ...
 
@@ -128,6 +132,10 @@ def run_weekly_pipeline(
         for item in triage_candidates
     ]
     triage_run = intelligence.semantic_triage(triage_inputs)
+    if triage_inputs and not triage_run.results:
+        raise WeeklyAnalysisUnavailable(
+            "weekly triage produced no valid LLM analyses; report delivery was skipped"
+        )
     triages = {result.repo_id: result for result in triage_run.results}
     triaged = [_with_triage(item, triages.get(item.candidate.repo_id)) for item in prescored if item.candidate.repo_id in triages]
     triaged = [_with_triage_scores(item) for item in triaged]

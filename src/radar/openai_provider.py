@@ -99,9 +99,63 @@ class OpenAICompatibleProvider:
 
         try:
             choices = body["choices"]
-            content = choices[0]["message"]["content"]
-            if not isinstance(content, str):
-                raise TypeError("message content is not text")
-            return json.loads(content)
+            message = choices[0]["message"]
+            if not isinstance(message, Mapping):
+                raise TypeError("message is not an object")
+            content = _message_text(message.get("content"))
+            return _decode_json_object(content)
         except (KeyError, IndexError, TypeError, json.JSONDecodeError) as error:
             raise LLMProviderError("LLM response did not contain JSON content") from error
+
+
+def _message_text(content: object) -> str:
+    """Normalize the text shapes used by OpenAI-compatible chat providers.
+
+    Most providers return a string.  A few return content parts instead, so
+    accept that compatible representation without accepting arbitrary objects.
+    """
+
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        parts: list[str] = []
+        for part in content:
+            if not isinstance(part, Mapping):
+                continue
+            text = part.get("text")
+            if isinstance(text, str):
+                parts.append(text)
+        if parts:
+            return "".join(parts)
+    raise TypeError("message content is not text")
+
+
+def _decode_json_object(content: str) -> object:
+    """Parse JSON despite harmless Markdown fences or explanatory prefixes.
+
+    Some OpenAI-compatible providers acknowledge ``json_object`` but still
+    wrap their answer in a Markdown code fence or one short explanatory line.
+    The intelligence layer remains responsible for schema validation; this
+    adapter only recovers the JSON object the provider actually returned.
+    """
+
+    normalized = content.strip()
+    try:
+        return json.loads(normalized)
+    except json.JSONDecodeError:
+        pass
+
+    if normalized.startswith("```") and normalized.endswith("```"):
+        fenced_lines = normalized.splitlines()
+        normalized = "\n".join(fenced_lines[1:-1]).strip()
+        try:
+            return json.loads(normalized)
+        except json.JSONDecodeError:
+            pass
+
+    start = normalized.find("{")
+    if start < 0:
+        raise json.JSONDecodeError("JSON object not found", normalized, 0)
+    decoder = json.JSONDecoder()
+    value, _ = decoder.raw_decode(normalized[start:])
+    return value

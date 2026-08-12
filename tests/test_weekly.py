@@ -22,7 +22,7 @@ from radar.models import (
     WhyHot,
 )
 from radar.state_store import load_state, record_snapshot, save_state
-from radar.weekly import run_weekly_pipeline
+from radar.weekly import WeeklyAnalysisUnavailable, run_weekly_pipeline
 
 
 RUN_DATE = date(2026, 8, 12)
@@ -236,6 +236,17 @@ def test_one_github_readme_failure_and_one_llm_batch_failure_degrade_without_sto
     assert result.llm_triaged == 1
     assert result.selected == 1
     assert result.cards_sent == 1
+
+
+def test_weekly_skips_empty_delivery_when_all_llm_triage_is_unavailable(tmp_path: Path) -> None:
+    github = FakeGitHub([candidate(1), candidate(2, stars=150)])
+    delivery = FakeDelivery()
+
+    with pytest.raises(WeeklyAnalysisUnavailable, match="no valid LLM analyses"):
+        run(tmp_path, github, FakeProvider(fail_triage_ids={1, 2}), delivery)
+
+    assert delivery.cards == []
+    assert not (tmp_path / "reports" / "2026-W33.md").exists()
 
 
 def test_weekly_caps_oversized_readmes_before_validating_llm_inputs(tmp_path: Path) -> None:

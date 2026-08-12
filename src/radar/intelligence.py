@@ -65,7 +65,13 @@ class IntelligenceService:
         self._logger = logger or LOGGER
 
     def semantic_triage(self, inputs: Sequence[TriageInput]) -> TriageRunResult:
-        """Analyze a bounded shortlist, preserving valid items from imperfect batches."""
+        """Analyze a bounded shortlist, preserving valid items from imperfect batches.
+
+        Batch prompts are cheaper, but provider-specific structured-output
+        behaviour can make one malformed batch unusable.  Each affected
+        repository therefore gets one smaller individual recovery attempt
+        before it is declared unavailable.
+        """
 
         approved = list(inputs[: self._limits.max_llm_triage])
         results: list[TriageResult] = []
@@ -75,16 +81,24 @@ class IntelligenceService:
             batch_results, unavailable_ids, error = self._complete_triage_batch(batch, repo_ids)
             results.extend(batch_results)
             if unavailable_ids:
+                recovered, still_unavailable, recovery_error = self._recover_triage_individually(
+                    batch, unavailable_ids
+                )
+                results.extend(recovered)
+                if not still_unavailable:
+                    continue
                 unavailable.append(
                     AnalysisUnavailable(
                         stage="triage",
-                        repo_ids=unavailable_ids,
-                        reason=_safe_error_reason(error),
-                        attempts=self._llm_config.structured_output_retries + 1,
+                        repo_ids=still_unavailable,
+                        reason=_safe_error_reason(recovery_error or error),
+                        attempts=self._llm_config.structured_output_retries + 2,
                     )
                 )
                 self._logger.warning(
-                    "LLM triage unavailable for %s repository/repositories", len(unavailable_ids)
+                    "LLM triage unavailable for %s repository/repositories after individual recovery (%s)",
+                    len(still_unavailable),
+                    type(recovery_error or error).__name__,
                 )
         return TriageRunResult(results=results, unavailable=unavailable)
 
@@ -122,6 +136,33 @@ class IntelligenceService:
         salvaged_ids = {item.repo_id for item in salvaged}
         unavailable_ids = [repo_id for repo_id in repo_ids if repo_id not in salvaged_ids]
         return salvaged, unavailable_ids, last_error
+
+    def _recover_triage_individually(
+        self, batch: Sequence[TriageInput], unavailable_ids: Sequence[int]
+    ) -> tuple[list[TriageResult], list[int], Exception | None]:
+        """Make one small, bounded recovery request per failed batch member."""
+
+        by_id = {item.candidate.repo_id: item for item in batch}
+        recovered: list[TriageResult] = []
+        still_unavailable: list[int] = []
+        last_error: Exception | None = None
+        for repo_id in unavailable_ids:
+            item = by_id[repo_id]
+            prompt = _build_triage_prompt(
+                [item], self._user_profile, self._limits.max_readme_chars_triage
+            )
+            try:
+                response = self._provider.complete_json(
+                    system_prompt=TRIAGE_SYSTEM_PROMPT,
+                    user_prompt=prompt,
+                )
+                parsed = TriageResponse.model_validate(response)
+                validated = _validate_triage_response(parsed, [repo_id])
+                recovered.extend(validated.repositories)
+            except (LLMProviderError, StructuredOutputError, ValidationError, TypeError, ValueError) as error:
+                still_unavailable.append(repo_id)
+                last_error = error
+        return recovered, still_unavailable, last_error
 
     def generate_final_brief(self, inputs: Sequence[FinalBriefInput]) -> FinalBriefRunResult:
         """Generate no more final briefs than the configured strict budget allows."""

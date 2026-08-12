@@ -139,22 +139,28 @@ def test_invalid_triage_json_is_retried_then_degraded_without_losing_other_batch
         [
             {"repositories": [{"repo_id": 999}]},
             {"repositories": [{"repo_id": 999}]},
+            triage_payload(1),
+            {"repositories": [{"repo_id": 999}]},
             triage_payload(3),
         ]
     )
     result = service(provider).semantic_triage([triage_input(1), triage_input(2), triage_input(3)])
 
-    assert result.results[0].repo_id == 3
-    assert result.unavailable[0].repo_ids == [1, 2]
-    assert result.unavailable[0].attempts == 2
-    assert len(provider.calls) == 3
+    assert [item.repo_id for item in result.results] == [1, 3]
+    assert result.unavailable[0].repo_ids == [2]
+    assert result.unavailable[0].attempts == 3
+    assert len(provider.calls) == 5
 
 
 def test_invalid_item_in_a_triage_batch_does_not_discard_valid_siblings() -> None:
     valid = triage_payload(1)["repositories"][0]
     malformed = {"repo_id": 2, "personal_utility": "not-a-score"}
     provider = FakeProvider(
-        [{"repositories": [valid, malformed]}, {"repositories": [valid, malformed]}]
+        [
+            {"repositories": [valid, malformed]},
+            {"repositories": [valid, malformed]},
+            {"repositories": [{"repo_id": 999}]},
+        ]
     )
     result = service(provider, max_llm_triage=2, llm_triage_batch_size=2).semantic_triage(
         [triage_input(1), triage_input(2)]
@@ -163,11 +169,17 @@ def test_invalid_item_in_a_triage_batch_does_not_discard_valid_siblings() -> Non
     # First response is retried once, then its valid sibling is salvaged.
     assert [item.repo_id for item in result.results] == [1]
     assert result.unavailable[0].repo_ids == [2]
-    assert len(provider.calls) == 2
+    assert len(provider.calls) == 3
 
 
 def test_provider_failure_is_typed_and_does_not_raise_for_triage() -> None:
-    provider = FakeProvider([LLMProviderError("do not expose provider detail"), LLMProviderError("again")])
+    provider = FakeProvider(
+        [
+            LLMProviderError("do not expose provider detail"),
+            LLMProviderError("again"),
+            LLMProviderError("individual recovery also failed"),
+        ]
+    )
     result = service(provider).semantic_triage([triage_input(1)])
 
     assert result.results == []

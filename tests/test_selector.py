@@ -163,6 +163,18 @@ def test_strict_selection_of_four_or_more_does_not_add_learning_candidates() -> 
     assert all(item.selection_route != "learning" for item in result.selected)
 
 
+def test_ten_is_an_upper_limit_not_a_target_quota() -> None:
+    strict = [
+        ranked(repo_id, global_score=95, utility=10, quality=75, category=f"strict topic {repo_id}")
+        for repo_id in range(1, 6)
+    ]
+
+    result = select(strict, max_projects=10)
+
+    assert [item.candidate.repo_id for item in result.selected] == [1, 2, 3, 4, 5]
+    assert all(item.selection_route != "learning" for item in result.selected)
+
+
 def test_learning_fallback_never_promotes_demo_or_low_quality_project() -> None:
     demo = ranked(
         1,

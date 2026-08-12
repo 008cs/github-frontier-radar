@@ -29,7 +29,9 @@ limits:
   max_llm_triage: 25
   llm_triage_batch_size: 5
   max_external_research: 8
-  # Normal weekly recommendations remain capped at ten projects.
+  # Ten is only a ceiling, never a quota: send however many strict picks pass
+  # the threshold (zero to ten), then use the separately configured learning
+  # fallback only when strict picks are fewer than four.
   max_final_briefs: 10
   max_readme_chars_triage: 4000
   max_readme_chars_final: 12000

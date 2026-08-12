@@ -103,6 +103,21 @@ def test_card_labels_learning_candidate_and_summary() -> None:
     assert "🧭 学习候选" in serialized
 
 
+def test_card_shortens_long_what_it_does_and_personal_value() -> None:
+    long_brief = brief(1).model_copy(
+        update={
+            "what_it_does": "第一句工具说明。第二句工具说明。第三句不应显示。",
+            "why_it_matters_to_user": "第一句个人价值。第二句个人价值。第三句不应显示。",
+        }
+    )
+    card = build_cards(report([project(1)], {1: long_brief}), 17_000)[0]
+    serialized = str(card)
+
+    assert "第一句工具说明。第二句工具说明。" in serialized
+    assert "第一句个人价值。第二句个人价值。" in serialized
+    assert "第三句不应显示。" not in serialized
+
+
 def test_ten_project_report_and_long_chinese_content_are_split_under_safe_byte_limit() -> None:
     projects = [project(repo_id, long=True) for repo_id in range(1, 11)]
     radar_report = report(projects, {repo_id: brief(repo_id, long=True) for repo_id in range(1, 11)})

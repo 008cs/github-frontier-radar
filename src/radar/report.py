@@ -7,6 +7,7 @@ import tempfile
 from pathlib import Path
 
 from .models import IntelligenceBrief, RadarReport, RankedCandidate, Recommendation
+from .presentation import concise_brief_text
 
 
 def report_filename(report: RadarReport) -> str:
@@ -77,13 +78,13 @@ def _render_project(position: int, ranked: RankedCandidate, brief: IntelligenceB
             f"**一句话**：{brief.one_liner}",
             "",
             "### 它能做什么",
-            brief.what_it_does,
+            concise_brief_text(brief.what_it_does),
             "",
             "### 为什么最近受关注",
             f"{brief.why_hot.text}（{_confidence_label(brief.why_hot.confidence)}）",
             "",
             "### 对你的价值",
-            brief.why_it_matters_to_user,
+            concise_brief_text(brief.why_it_matters_to_user),
             "",
             f"**适合**：{' / '.join(brief.target_users) if brief.target_users else '暂未确认'}",
             "",

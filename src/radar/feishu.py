@@ -14,6 +14,7 @@ from pydantic import SecretStr
 
 from .config import FeishuConfig
 from .models import DeliveryResult, DeliveryStatus, IntelligenceBrief, RadarReport, RankedCandidate, Recommendation
+from .presentation import concise_brief_text
 
 
 class SupportsPost(Protocol):
@@ -176,7 +177,8 @@ def _project_elements(ranked: RankedCandidate, brief: IntelligenceBrief | None, 
         content = (
             f"### {learning_prefix}{_recommendation_emoji(brief.recommendation)} {candidate.full_name}\n{brief.one_liner}\n\n"
             f"**热度**：{_growth_text(ranked)}\n**为什么火**：{brief.why_hot.text}\n"
-            f"**它能做什么**：{brief.what_it_does}\n**对你的价值**：{brief.why_it_matters_to_user}\n"
+            f"**它能做什么**：{concise_brief_text(brief.what_it_does)}\n"
+            f"**对你的价值**：{concise_brief_text(brief.why_it_matters_to_user)}\n"
             f"**适合**：{' / '.join(brief.target_users) if brief.target_users else '暂未确认'}\n"
             f"**成本**：{_cost_text(brief)}\n⚠️ {brief.main_risk}\n"
             f"**结论**：{_recommendation_label(brief.recommendation)}\n\n"

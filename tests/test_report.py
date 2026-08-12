@@ -88,6 +88,21 @@ def test_report_labels_learning_candidates_without_calling_them_frontier_picks()
     assert "学习候选：未达到本周重点推荐阈值" in content
 
 
+def test_report_shortens_long_explanations_to_two_sentences() -> None:
+    long_brief = brief().model_copy(
+        update={
+            "what_it_does": "第一句说明用途。第二句说明流程。第三句不应显示。",
+            "why_it_matters_to_user": "第一句说明你的收益。第二句说明使用场景。第三句不应显示。",
+        }
+    )
+
+    content = render_markdown(report(briefs={1: long_brief}))
+
+    assert "第一句说明用途。第二句说明流程。" in content
+    assert "第一句说明你的收益。第二句说明使用场景。" in content
+    assert "第三句不应显示。" not in content
+
+
 def test_write_markdown_report_is_named_by_iso_week_and_overwrites_atomically(tmp_path: Path) -> None:
     radar_report = report()
     target = write_markdown_report(radar_report, tmp_path)

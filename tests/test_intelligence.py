@@ -239,6 +239,8 @@ def test_final_brief_is_validated_capped_and_evidence_prompt_is_constrained() ->
     assert long_readme not in prompt
     assert "只能引用 evidence 内的事实" in prompt
     assert "目前无法确认受关注的具体原因" in prompt
+    assert "只能写 1 至 2 句" in prompt
+    assert "各不超过 80 个汉字" in prompt
     assert '"recommendation":"try"' in prompt
 
 

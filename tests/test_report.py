@@ -14,6 +14,7 @@ from radar.models import (
     RepoCandidate,
     ScoreBreakdown,
     WhyHot,
+    SelectionRoute,
 )
 from radar.report import render_markdown, report_filename, write_markdown_report
 
@@ -77,6 +78,14 @@ def test_report_handles_no_project_and_missing_brief() -> None:
     content = render_markdown(report(projects=[project()], briefs={}))
     assert "完整情报简报" in content
     assert "全球意义：80/100" in content
+
+
+def test_report_labels_learning_candidates_without_calling_them_frontier_picks() -> None:
+    learning_project = project().model_copy(update={"selection_route": SelectionRoute.LEARNING})
+    content = render_markdown(report(projects=[learning_project]))
+
+    assert "值得学习的候选" in content
+    assert "学习候选：未达到本周重点推荐阈值" in content
 
 
 def test_write_markdown_report_is_named_by_iso_week_and_overwrites_atomically(tmp_path: Path) -> None:

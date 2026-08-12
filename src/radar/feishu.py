@@ -141,7 +141,7 @@ class FeishuWebhookClient:
 def _build_card(report: RadarReport, projects: Sequence[RankedCandidate], page: int, page_total: int, *, compact: bool = False) -> dict[str, object]:
     week_year, week_number, _ = report.week_start.isocalendar()
     suffix = f" {page}/{page_total}" if page_total > 1 else ""
-    elements: list[object] = [{"tag": "div", "text": {"tag": "lark_md", "content": f"本周从 **{report.total_discovered}** 个发现项目中选出 **{len(report.projects)}** 个值得关注的项目。"}}]
+    elements: list[object] = [{"tag": "div", "text": {"tag": "lark_md", "content": _selection_summary(report)}}]
     if report.weekly_observation:
         elements.append({"tag": "div", "text": {"tag": "lark_md", "content": f"**本周观察**：{report.weekly_observation}"}})
     if not projects:
@@ -153,13 +153,14 @@ def _build_card(report: RadarReport, projects: Sequence[RankedCandidate], page: 
 
 def _project_elements(ranked: RankedCandidate, brief: IntelligenceBrief | None, report_url: object, compact: bool) -> list[object]:
     candidate = ranked.candidate
+    learning_prefix = "🧭 学习候选 · " if ranked.selection_route == "learning" else ""
     if brief is None:
-        content = f"### {candidate.full_name}\n{_growth_text(ranked)}\n\n完整情报暂不可用。"
+        content = f"### {learning_prefix}{candidate.full_name}\n{_growth_text(ranked)}\n\n完整情报暂不可用。"
     elif compact:
-        content = f"### {_recommendation_emoji(brief.recommendation)} {candidate.full_name}\n{brief.one_liner}\n\n{_growth_text(ranked)} · 全球 {_score_stars(ranked.scores.global_significance)} · 相关 {_score_stars(ranked.scores.personal_utility)}"
+        content = f"### {learning_prefix}{_recommendation_emoji(brief.recommendation)} {candidate.full_name}\n{brief.one_liner}\n\n{_growth_text(ranked)} · 全球 {_score_stars(ranked.scores.global_significance)} · 相关 {_score_stars(ranked.scores.personal_utility)}"
     else:
         content = (
-            f"### {_recommendation_emoji(brief.recommendation)} {candidate.full_name}\n{brief.one_liner}\n\n"
+            f"### {learning_prefix}{_recommendation_emoji(brief.recommendation)} {candidate.full_name}\n{brief.one_liner}\n\n"
             f"**热度**：{_growth_text(ranked)}\n**为什么火**：{brief.why_hot.text}\n"
             f"**它能做什么**：{brief.what_it_does}\n**对你的价值**：{brief.why_it_matters_to_user}\n"
             f"**适合**：{' / '.join(brief.target_users) if brief.target_users else '暂未确认'}\n"
@@ -216,6 +217,16 @@ def _recommendation_emoji(recommendation: Recommendation) -> str:
 
 def _recommendation_label(recommendation: Recommendation) -> str:
     return {Recommendation.TRY: "🔥 建议试试", Recommendation.SAVE: "⭐ 值得收藏", Recommendation.KNOW: "👀 知道即可"}[recommendation]
+
+
+def _selection_summary(report: RadarReport) -> str:
+    learning_count = sum(project.selection_route == "learning" for project in report.projects)
+    if not learning_count:
+        return f"本周从 **{report.total_discovered}** 个发现项目中选出 **{len(report.projects)}** 个值得关注的项目。"
+    return (
+        f"本周从 **{report.total_discovered}** 个发现项目中选出 **{len(report.projects)}** 个学习项目，"
+        f"其中 **{learning_count}** 个为未达重点推荐线、但仍值得学习的候选。"
+    )
 
 
 def _retry_delay(attempt: int, retry_after: str | None, base_delay: float) -> float:

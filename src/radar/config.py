@@ -140,6 +140,12 @@ class ScoringConfig(BaseModel):
 class SelectorConfig(BaseModel):
     cooldown_days: int = Field(default=56, ge=0, le=365)
     same_topic_cap: int = Field(default=2, ge=1, le=10)
+    # A weekly report should always contain a small, clearly-labelled learning
+    # shortlist when the strict headline thresholds find nothing.
+    minimum_weekly_projects: int = Field(default=1, ge=0, le=3)
+    learning_min_quality: float = Field(default=50, ge=0, le=100)
+    learning_min_personal_utility: float = Field(default=45, ge=0, le=100)
+    learning_min_practical_value: float = Field(default=45, ge=0, le=100)
     exploration_bonus_max: float = Field(default=5, ge=0, le=20)
     priority_secondary_weight: float = Field(default=0.20, ge=0, le=1)
     demo_global_override: float = Field(default=90, ge=0, le=100)

@@ -25,7 +25,7 @@ def render_markdown(report: RadarReport) -> str:
         "",
         f"**{week_year} W{week_number:02d}** · {report.week_start.isoformat()} 至 {report.week_end.isoformat()}",
         "",
-        f"本周从 {report.total_discovered} 个发现项目中选出 {len(report.projects)} 个值得关注的项目。",
+        _selection_summary(report),
     ]
     if report.weekly_observation:
         lines.extend(["", f"> 本周观察：{report.weekly_observation}"])
@@ -66,6 +66,8 @@ def _render_project(position: int, ranked: RankedCandidate, brief: IntelligenceB
     if candidate.html_url:
         lines.extend([f"GitHub：{candidate.html_url}", ""])
     lines.extend([f"**热度**：{_growth_text(ranked)}", ""])
+    if ranked.selection_route == "learning":
+        lines.extend(["> 学习候选：未达到本周重点推荐阈值，但满足基础质量、相关性与实用性要求。", ""])
     if brief is None:
         lines.extend(["本项目未能生成完整情报简报；保留基础趋势信息供后续观察。", "", _score_summary(ranked)])
         return "\n".join(lines)
@@ -134,6 +136,16 @@ def _cost_text(brief: IntelligenceBrief) -> str:
     }
     label = labels[brief.cost.type]
     return f"{label}；{brief.cost.note}" if brief.cost.note else label
+
+
+def _selection_summary(report: RadarReport) -> str:
+    learning_count = sum(project.selection_route == "learning" for project in report.projects)
+    if not learning_count:
+        return f"本周从 {report.total_discovered} 个发现项目中选出 {len(report.projects)} 个值得关注的项目。"
+    return (
+        f"本周从 {report.total_discovered} 个发现项目中选出 {len(report.projects)} 个学习项目，"
+        f"其中 {learning_count} 个为未达重点推荐线、但仍值得学习的候选。"
+    )
 
 
 def _confidence_label(confidence: str) -> str:

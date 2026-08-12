@@ -21,7 +21,8 @@ def test_load_project_configuration() -> None:
 
     assert bundle.radar.timezone == "Asia/Shanghai"
     assert bundle.radar.limits.max_daily_candidates == 300
-    assert bundle.radar.limits.max_final_briefs == 10
+    assert bundle.radar.limits.max_final_briefs == 3
+    assert bundle.radar.selector.minimum_weekly_projects == 1
     assert bundle.user_profile.interests["ai_coding"] == 5
     assert "browser" in bundle.queries.root
     assert bundle.watchlist.owners == []

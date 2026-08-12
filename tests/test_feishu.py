@@ -19,6 +19,7 @@ from radar.models import (
     RepoCandidate,
     ScoreBreakdown,
     WhyHot,
+    SelectionRoute,
 )
 
 
@@ -75,6 +76,15 @@ def test_card_contains_required_content_urls_and_unknown_growth() -> None:
     assert "https://github.com/acme/repo-1" in serialized
     assert "https://github.com/acme/radar" in serialized
     assert "callback" not in serialized.lower()
+
+
+def test_card_labels_learning_candidate_and_summary() -> None:
+    learning_project = project(1).model_copy(update={"selection_route": SelectionRoute.LEARNING})
+    card = build_cards(report([learning_project], {1: brief(1)}), 17_000)[0]
+    serialized = str(card)
+
+    assert "学习项目" in serialized
+    assert "🧭 学习候选" in serialized
 
 
 def test_ten_project_report_and_long_chinese_content_are_split_under_safe_byte_limit() -> None:

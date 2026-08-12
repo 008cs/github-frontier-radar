@@ -45,6 +45,7 @@ def select_projects(
     exceptions = {exception.repo_id: exception for exception in repeat_exceptions}
     decisions: list[SelectionDecision] = []
     qualifying: list[tuple[RankedCandidate, SelectionDecision]] = []
+    learning_candidates: list[tuple[RankedCandidate, SelectionDecision]] = []
 
     for candidate in sorted(candidates, key=lambda item: item.candidate.repo_id):
         decision = _evaluate_candidate(
@@ -57,13 +58,10 @@ def select_projects(
         )
         decisions.append(decision)
         if decision.eligible:
-            enriched = candidate.model_copy(
-                update={
-                    "scores": candidate.scores.model_copy(update={"priority": decision.priority}),
-                    "topic_cluster": decision.topic_cluster,
-                }
-            )
+            enriched = _enrich_selected_candidate(candidate, decision)
             qualifying.append((enriched, decision))
+        elif _is_learning_candidate(candidate, decision, selector_config):
+            learning_candidates.append((candidate, decision))
 
     qualifying.sort(
         key=lambda item: (
@@ -89,12 +87,51 @@ def select_projects(
         selected.append(candidate)
         selected_ids.add(candidate.candidate.repo_id)
 
+    # Strict candidates always win.  Only when their count is below the user's
+    # small weekly minimum do we supplement with safe, relevant study leads.
+    # They remain explicitly labelled as learning candidates rather than being
+    # presented as high-confidence frontier recommendations.
+    minimum = min(selector_config.minimum_weekly_projects, max_projects)
+    if len(selected) < minimum:
+        learning_candidates.sort(key=_learning_sort_key)
+        for candidate, rejected_decision in learning_candidates:
+            if len(selected) >= minimum or len(selected) >= max_projects:
+                break
+            cluster = infer_topic_cluster(candidate)
+            if topic_counts[cluster] >= selector_config.same_topic_cap:
+                continue
+            decision = rejected_decision.model_copy(
+                update={
+                    "eligible": True,
+                    "route": SelectionRoute.LEARNING,
+                    "priority": calculate_priority(candidate, selector_config),
+                    "rejection_reason": None,
+                }
+            )
+            enriched = _enrich_selected_candidate(candidate, decision)
+            decisions[_decision_index(decisions, candidate.candidate.repo_id)] = decision
+            topic_counts[cluster] += 1
+            selected.append(enriched)
+            selected_ids.add(candidate.candidate.repo_id)
+
     for index, decision in enumerate(decisions):
         if decision.eligible and decision.repo_id not in selected_ids:
             decisions[index] = decision.model_copy(
                 update={"eligible": False, "rejection_reason": "final project limit reached"}
             )
     return SelectionResult(selected=selected, decisions=decisions)
+
+
+def _enrich_selected_candidate(
+    candidate: RankedCandidate, decision: SelectionDecision
+) -> RankedCandidate:
+    return candidate.model_copy(
+        update={
+            "scores": candidate.scores.model_copy(update={"priority": decision.priority}),
+            "topic_cluster": decision.topic_cluster,
+            "selection_route": decision.route,
+        }
+    )
 
 
 def _evaluate_candidate(
@@ -204,6 +241,34 @@ def _is_low_significance_demo(candidate: RankedCandidate, config: SelectorConfig
     if nature not in {ProjectNature.DEMO, ProjectNature.MEME}:
         return False
     return _safe_score(candidate.scores.global_significance) < config.demo_global_override
+
+
+def _is_learning_candidate(
+    candidate: RankedCandidate, decision: SelectionDecision, config: SelectorConfig
+) -> bool:
+    """Allow a vetted study lead only after the strict routes decline it."""
+
+    if decision.rejection_reason != "entry thresholds not met":
+        return False
+    if candidate.triage is None:
+        return False
+    if candidate.triage.project_nature in {ProjectNature.DEMO, ProjectNature.MEME}:
+        return False
+    return (
+        _safe_score(candidate.scores.quality_confidence) >= config.learning_min_quality
+        and _safe_score(candidate.scores.personal_utility) >= config.learning_min_personal_utility
+        and _safe_score(candidate.scores.practical_value) >= config.learning_min_practical_value
+    )
+
+
+def _learning_sort_key(item: tuple[RankedCandidate, SelectionDecision]) -> tuple[float, float, float, int]:
+    candidate, _ = item
+    return (
+        -_safe_score(candidate.scores.personal_utility),
+        -_safe_score(candidate.scores.practical_value),
+        -_safe_score(candidate.scores.quality_confidence),
+        candidate.candidate.repo_id,
+    )
 
 
 def _normalize_cluster(value: str) -> str:

@@ -23,6 +23,7 @@ def ranked(
     *,
     global_score: float | None = 80,
     utility: float | None = 20,
+    practical_value: float | None = None,
     quality: float | None = 80,
     category: str | None = "database",
     nature: ProjectNature = ProjectNature.TOOL,
@@ -39,6 +40,7 @@ def ranked(
             repo_id=repo_id,
             global_significance=global_score,
             personal_utility=utility,
+            practical_value=practical_value,
             quality_confidence=quality,
             exploration_value=exploration,
         ),
@@ -102,6 +104,36 @@ def test_both_weak_and_low_quality_utility_projects_are_excluded() -> None:
 
     assert result.selected == []
     assert all(not decision.eligible for decision in result.decisions)
+
+
+def test_quality_vetted_relevant_project_becomes_learning_candidate_when_strict_routes_are_empty() -> None:
+    candidate = ranked(
+        1,
+        global_score=50,
+        utility=60,
+        quality=75,
+        practical_value=65,
+        category="browser automation",
+    )
+    result = select([candidate])
+
+    assert [item.candidate.repo_id for item in result.selected] == [1]
+    assert result.selected[0].selection_route == "learning"
+    assert result.decisions[0].route == "learning"
+
+
+def test_learning_fallback_never_promotes_demo_or_low_quality_project() -> None:
+    demo = ranked(
+        1,
+        global_score=50,
+        utility=99,
+        quality=99,
+        practical_value=99,
+        nature=ProjectNature.DEMO,
+    )
+    weak = ranked(2, global_score=50, utility=99, quality=49, practical_value=99)
+
+    assert select([demo, weak]).selected == []
 
 
 def test_cooldown_requires_explicit_repeat_exception() -> None:

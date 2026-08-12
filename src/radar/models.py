@@ -372,6 +372,7 @@ class SelectionRoute(StrEnum):
     GLOBAL = "global"
     UTILITY = "utility"
     BOTH = "both"
+    LEARNING = "learning"
 
 
 class RepeatException(BaseModel):
@@ -434,6 +435,7 @@ class RankedCandidate(BaseModel):
     triage: TriageResult | None = None
     rank: Annotated[int, Field(ge=1)] | None = None
     topic_cluster: str | None = None
+    selection_route: SelectionRoute | None = None
 
     @model_validator(mode="after")
     def validate_repo_identity(self) -> RankedCandidate:

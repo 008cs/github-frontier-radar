@@ -1,0 +1,96 @@
+# Secrets deliberately do not belong here. Supply them via environment variables.
+timezone: Asia/Shanghai
+
+github:
+  api_base_url: https://api.github.com
+  api_version: "2026-03-10"
+  search_per_page: 100
+  search_max_pages: 2
+  connect_timeout_seconds: 10
+  read_timeout_seconds: 30
+  max_retries: 3
+  retry_base_delay_seconds: 1
+
+discovery:
+  trending_periods: [daily, weekly]
+  breakout_windows_days: [30, 90, 180]
+  recent_push_days: 30
+  breakout_min_stars: 20
+  exploration_min_stars: 50
+  owner_lookback_days: 30
+  # With search_max_pages: 2, 15 queries cap the daily GitHub Search budget at 30 requests.
+  # Practical-query and owner-watch searches rotate deterministically by Shanghai date.
+  max_daily_search_queries: 15
+
+limits:
+  max_daily_candidates: 300
+  max_tracked_repos: 600
+  max_weekly_prescore: 40
+  max_llm_triage: 25
+  llm_triage_batch_size: 5
+  max_external_research: 8
+  max_final_briefs: 10
+  max_readme_chars_triage: 4000
+  max_readme_chars_final: 12000
+  final_report_max_projects: 10
+
+scoring:
+  global_entry: 72
+  global_min_quality: 45
+  utility_entry: 75
+  utility_min_quality: 65
+  global_momentum_weight: 0.60
+  global_event_weight: 0.25
+  global_external_buzz_weight: 0.15
+  momentum_absolute_growth_weight: 0.45
+  momentum_relative_growth_weight: 0.30
+  momentum_trending_weight: 0.15
+  momentum_acceleration_weight: 0.10
+  event_created_weight: 0.40
+  event_release_weight: 0.35
+  event_push_weight: 0.10
+  event_revival_weight: 0.15
+  quality_readme_weight: 0.30
+  quality_license_weight: 0.20
+  quality_maintenance_weight: 0.25
+  quality_content_weight: 0.15
+  quality_maturity_weight: 0.10
+  recent_project_days: 30
+  recent_release_days: 14
+  recent_push_days: 7
+  revival_project_age_days: 180
+  revival_momentum_threshold: 75
+  quality_stale_after_days: 180
+  quality_maturity_days: 90
+  quality_new_project_floor: 25
+
+selector:
+  cooldown_days: 56
+  same_topic_cap: 2
+  exploration_bonus_max: 5
+  priority_secondary_weight: 0.20
+  demo_global_override: 90
+  global_domain_novelty_bonus: true
+
+state:
+  snapshot_retention_days: 35
+  inactive_repository_days: 30
+
+llm:
+  enabled: true
+  # Set this to the model available from your OpenAI-compatible provider before
+  # running the weekly workflow.  Keep the API key in LLM_API_KEY.
+  model: ""
+  api_base_url: https://api.openai.com/v1
+  timeout_seconds: 60
+  structured_output_retries: 2
+
+feishu:
+  enabled: true
+  safe_payload_max_bytes: 17000
+  timeout_seconds: 20
+  max_retries: 3
+  retry_base_delay_seconds: 1
+
+external_search:
+  enabled: false

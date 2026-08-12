@@ -1,0 +1,56 @@
+name: Daily Radar Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Avoid the top of the hour, when GitHub Actions scheduled jobs are busiest.
+    - cron: "23 6 * * *"
+      timezone: "Asia/Shanghai"
+
+# The job needs only enough permission to save its persistent snapshot state.
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-persistence
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out default branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install application and test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install . pytest
+
+      - name: Run offline regression tests
+        run: pytest
+
+      - name: Collect daily GitHub snapshots
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: github-frontier-radar daily
+
+      - name: Persist changed state
+        run: |
+          git add data/state.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(radar): update daily snapshots"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

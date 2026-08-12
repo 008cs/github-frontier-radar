@@ -228,6 +228,32 @@ def test_weekly_happy_path_enforces_budgets_writes_report_delivers_then_marks_fe
     assert "完整周报" in str(delivery.cards)
 
 
+def test_weekly_records_featured_repository_that_was_not_in_daily_state(tmp_path: Path) -> None:
+    github = FakeGitHub([candidate(1), candidate(2, stars=150)])
+    state_path = tmp_path / "state.json"
+    prepare_state(state_path, [github.candidates[1]])
+    cfg = config(max_final_briefs=2)
+
+    result = run_weekly_pipeline(
+        github,
+        intelligence(FakeProvider(), cfg),
+        FakeDelivery(),
+        cfg,
+        QueryBank({"automation": ["automation"]}),
+        UserProfile(interests={"browser_automation": 5}),
+        WatchlistConfig(),
+        state_path=state_path,
+        reports_dir=tmp_path / "reports",
+        run_date=RUN_DATE,
+    )
+
+    state = load_state(state_path)
+    assert result.selected == 2
+    assert state.repositories[2].full_name == "acme/repo-2"
+    assert state.repositories[2].last_featured == RUN_DATE
+    assert state.repositories[2].feature_count == 1
+
+
 def test_one_github_readme_failure_and_one_llm_batch_failure_degrade_without_stopping(tmp_path: Path) -> None:
     github = FakeGitHub([candidate(1), candidate(2, stars=150), candidate(3, stars=120)])
     github.fail_readme_ids.add(3)

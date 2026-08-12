@@ -41,7 +41,7 @@ from .scoring import (
     calculate_quality_confidence,
 )
 from .selector import select_projects
-from .state_store import DEFAULT_STATE_PATH, load_state, mark_featured, save_state
+from .state_store import DEFAULT_STATE_PATH, load_state, mark_featured, mark_seen, save_state
 
 
 LOGGER = logging.getLogger(__name__)
@@ -196,6 +196,11 @@ def run_weekly_pipeline(
     # This is intentionally the final state mutation.  A report write or
     # delivery exception leaves feature history untouched for a later retry.
     for item in final_selection.selected:
+        # The weekly source can surface a newly trending repository before the
+        # daily snapshot job has admitted it to the bounded tracking pool.
+        # It was nevertheless delivered, so preserve its feature history
+        # rather than failing after the user has already received the report.
+        mark_seen(state, item.candidate, today)
         mark_featured(state, item.candidate.repo_id, today)
     save_state(state, state_path)
 

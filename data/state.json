@@ -1,4 +1,95 @@
 {
-  "repositories": {},
+  "repositories": {
+    "1151702019": {
+      "feature_count": 1,
+      "first_seen": "2026-08-12",
+      "full_name": "firecrawl/pdf-inspector",
+      "last_featured": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "repo_id": 1151702019,
+      "snapshots": []
+    },
+    "1203558071": {
+      "feature_count": 1,
+      "first_seen": "2026-08-12",
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "last_featured": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "repo_id": 1203558071,
+      "snapshots": []
+    },
+    "1216785679": {
+      "feature_count": 1,
+      "first_seen": "2026-08-12",
+      "full_name": "esengine/DeepSeek-Reasonix",
+      "last_featured": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "repo_id": 1216785679,
+      "snapshots": []
+    },
+    "1226123343": {
+      "feature_count": 1,
+      "first_seen": "2026-08-12",
+      "full_name": "virgiliojr94/book-to-skill",
+      "last_featured": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "repo_id": 1226123343,
+      "snapshots": []
+    },
+    "1237819660": {
+      "feature_count": 1,
+      "first_seen": "2026-08-12",
+      "full_name": "zhaoxuya520/reverse-skill",
+      "last_featured": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "repo_id": 1237819660,
+      "snapshots": []
+    },
+    "1260288940": {
+      "feature_count": 1,
+      "first_seen": "2026-08-12",
+      "full_name": "cloudflare/computer",
+      "last_featured": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "repo_id": 1260288940,
+      "snapshots": []
+    },
+    "1304159264": {
+      "feature_count": 1,
+      "first_seen": "2026-08-12",
+      "full_name": "drumih/turbo-fieldfare",
+      "last_featured": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "repo_id": 1304159264,
+      "snapshots": []
+    },
+    "1319154759": {
+      "feature_count": 1,
+      "first_seen": "2026-08-12",
+      "full_name": "FareedKhan-dev/kimi-k3-in-c",
+      "last_featured": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "repo_id": 1319154759,
+      "snapshots": []
+    },
+    "1322012299": {
+      "feature_count": 1,
+      "first_seen": "2026-08-12",
+      "full_name": "firecrawl/anydoc",
+      "last_featured": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "repo_id": 1322012299,
+      "snapshots": []
+    },
+    "7613257": {
+      "feature_count": 1,
+      "first_seen": "2026-08-12",
+      "full_name": "SeleniumHQ/selenium",
+      "last_featured": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "repo_id": 7613257,
+      "snapshots": []
+    }
+  },
   "version": 1
 }

@@ -4371,10 +4371,10 @@
       ]
     },
     "1136590548": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-19",
       "full_name": "affaan-m/ECC",
-      "last_featured": null,
+      "last_featured": "2026-09-07",
       "last_seen": "2026-09-07",
       "repo_id": 1136590548,
       "snapshots": [
@@ -9551,10 +9551,10 @@
       ]
     },
     "1178737655": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-13",
       "full_name": "THU-MAIC/OpenMAIC",
-      "last_featured": null,
+      "last_featured": "2026-09-07",
       "last_seen": "2026-09-07",
       "repo_id": 1178737655,
       "snapshots": [
@@ -12741,10 +12741,10 @@
       ]
     },
     "1187630119": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-13",
       "full_name": "NVIDIA/SkillSpector",
-      "last_featured": null,
+      "last_featured": "2026-09-07",
       "last_seen": "2026-09-07",
       "repo_id": 1187630119,
       "snapshots": [
@@ -17951,10 +17951,10 @@
       ]
     },
     "1206390571": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-13",
       "full_name": "debpalash/VoiceStudio",
-      "last_featured": null,
+      "last_featured": "2026-09-07",
       "last_seen": "2026-09-07",
       "repo_id": 1206390571,
       "snapshots": [
@@ -18596,10 +18596,10 @@
       ]
     },
     "1209343409": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-13",
       "full_name": "h4ckf0r0day/obscura",
-      "last_featured": null,
+      "last_featured": "2026-09-07",
       "last_seen": "2026-09-07",
       "repo_id": 1209343409,
       "snapshots": [
@@ -26226,10 +26226,10 @@
       ]
     },
     "1267485499": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-13",
       "full_name": "vorssaint/vorssaint-utils",
-      "last_featured": null,
+      "last_featured": "2026-09-07",
       "last_seen": "2026-09-07",
       "repo_id": 1267485499,
       "snapshots": [
@@ -26521,10 +26521,10 @@
       ]
     },
     "1273824907": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-13",
       "full_name": "lidge-jun/opencodex",
-      "last_featured": null,
+      "last_featured": "2026-09-07",
       "last_seen": "2026-09-07",
       "repo_id": 1273824907,
       "snapshots": [
@@ -29539,6 +29539,15 @@
           "stars": 23952
         }
       ]
+    },
+    "1354310030": {
+      "feature_count": 1,
+      "first_seen": "2026-09-07",
+      "full_name": "lnkiai/m3e-canvas",
+      "last_featured": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "repo_id": 1354310030,
+      "snapshots": []
     },
     "137451403": {
       "feature_count": 0,

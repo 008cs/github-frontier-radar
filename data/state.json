@@ -7104,10 +7104,10 @@
       ]
     },
     "1166129534": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-13",
       "full_name": "NVIDIA/OpenShell",
-      "last_featured": null,
+      "last_featured": "2026-10-05",
       "last_seen": "2026-10-05",
       "repo_id": 1166129534,
       "snapshots": [
@@ -22534,10 +22534,10 @@
       ]
     },
     "1222527844": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-13",
       "full_name": "ifixai-ai/iFixAi",
-      "last_featured": null,
+      "last_featured": "2026-10-05",
       "last_seen": "2026-10-05",
       "repo_id": 1222527844,
       "snapshots": [
@@ -35423,11 +35423,20 @@
         }
       ]
     },
+    "1383809012": {
+      "feature_count": 1,
+      "first_seen": "2026-10-05",
+      "full_name": "yetone/magpie",
+      "last_featured": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "repo_id": 1383809012,
+      "snapshots": []
+    },
     "1385946301": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-05",
       "full_name": "Niko1221/Strata",
-      "last_featured": null,
+      "last_featured": "2026-10-05",
       "last_seen": "2026-10-05",
       "repo_id": 1385946301,
       "snapshots": [

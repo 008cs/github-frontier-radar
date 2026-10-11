@@ -5,7 +5,7 @@
       "first_seen": "2026-08-16",
       "full_name": "nrwl/nx",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 100061716,
       "snapshots": [
         {
@@ -72,6 +72,11 @@
           "date": "2026-10-10",
           "forks": 3011,
           "stars": 29399
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3012,
+          "stars": 29400
         }
       ]
     },
@@ -210,7 +215,7 @@
       "first_seen": "2026-08-16",
       "full_name": "microsoft/agent-lightning",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1004147641,
       "snapshots": [
         {
@@ -277,6 +282,11 @@
           "date": "2026-10-10",
           "forks": 1666,
           "stars": 18630
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1666,
+          "stars": 18646
         }
       ]
     },
@@ -460,7 +470,7 @@
       "first_seen": "2026-08-16",
       "full_name": "MemTensor/MemOS",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1014729376,
       "snapshots": [
         {
@@ -517,6 +527,11 @@
           "date": "2026-10-10",
           "forks": 1069,
           "stars": 11772
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1074,
+          "stars": 11796
         }
       ]
     },
@@ -633,11 +648,6 @@
       "last_seen": "2026-09-12",
       "repo_id": 1024554267,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 49719,
-          "stars": 241989
-        },
         {
           "date": "2026-09-07",
           "forks": 49879,
@@ -865,7 +875,7 @@
       "first_seen": "2026-08-16",
       "full_name": "dmtrKovalenko/fff",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1029972503,
       "snapshots": [
         {
@@ -897,6 +907,11 @@
           "date": "2026-10-10",
           "forks": 465,
           "stars": 11049
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 466,
+          "stars": 11064
         }
       ]
     },
@@ -1105,7 +1120,7 @@
       "first_seen": "2026-08-16",
       "full_name": "earendil-works/pi",
       "last_featured": "2026-08-24",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1035029907,
       "snapshots": [
         {
@@ -1202,6 +1217,11 @@
           "date": "2026-10-10",
           "forks": 14468,
           "stars": 113818
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 14504,
+          "stars": 114119
         }
       ]
     },
@@ -1210,7 +1230,7 @@
       "first_seen": "2026-08-16",
       "full_name": "osaurus-ai/osaurus",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1039587768,
       "snapshots": [
         {
@@ -1237,6 +1257,11 @@
           "date": "2026-10-10",
           "forks": 475,
           "stars": 8028
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 476,
+          "stars": 8034
         }
       ]
     },
@@ -1345,7 +1370,7 @@
       "first_seen": "2026-10-04",
       "full_name": "thedotmack/claude-mem",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1048065319,
       "snapshots": [
         {
@@ -1382,6 +1407,11 @@
           "date": "2026-10-10",
           "forks": 8673,
           "stars": 98997
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 8694,
+          "stars": 99262
         }
       ]
     },
@@ -1393,11 +1423,6 @@
       "last_seen": "2026-10-09",
       "repo_id": 105279544,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1857,
-          "stars": 25501
-        },
         {
           "date": "2026-09-07",
           "forks": 1857,
@@ -1490,7 +1515,7 @@
       "first_seen": "2026-08-16",
       "full_name": "bojieli/ai-agent-book",
       "last_featured": "2026-08-24",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1053118194,
       "snapshots": [
         {
@@ -1577,6 +1602,11 @@
           "date": "2026-10-10",
           "forks": 6017,
           "stars": 53205
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 6037,
+          "stars": 53383
         }
       ]
     },
@@ -1585,7 +1615,7 @@
       "first_seen": "2026-08-16",
       "full_name": "openchamber/openchamber",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1054790989,
       "snapshots": [
         {
@@ -1612,6 +1642,11 @@
           "date": "2026-10-10",
           "forks": 1254,
           "stars": 11350
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1260,
+          "stars": 11411
         }
       ]
     },
@@ -1623,11 +1658,6 @@
       "last_seen": "2026-09-26",
       "repo_id": 1054793726,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 3581,
-          "stars": 51061
-        },
         {
           "date": "2026-09-07",
           "forks": 3589,
@@ -1730,7 +1760,7 @@
       "first_seen": "2026-08-16",
       "full_name": "yzhao062/pyod",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 105699750,
       "snapshots": [
         {
@@ -1762,6 +1792,11 @@
           "date": "2026-10-10",
           "forks": 1511,
           "stars": 10029
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1513,
+          "stars": 10030
         }
       ]
     },
@@ -1785,13 +1820,18 @@
       "first_seen": "2026-08-18",
       "full_name": "iflytek/astron-agent",
       "last_featured": null,
-      "last_seen": "2026-09-14",
+      "last_seen": "2026-10-11",
       "repo_id": 1060001762,
       "snapshots": [
         {
           "date": "2026-09-14",
           "forks": 878,
           "stars": 8995
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 895,
+          "stars": 8888
         }
       ]
     },
@@ -1868,11 +1908,6 @@
       "last_seen": "2026-09-26",
       "repo_id": 1061953414,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 20670,
-          "stars": 174550
-        },
         {
           "date": "2026-09-11",
           "forks": 20783,
@@ -1990,7 +2025,7 @@
       "first_seen": "2026-08-16",
       "full_name": "thedaviddias/Front-End-Checklist",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 107111421,
       "snapshots": [
         {
@@ -2012,6 +2047,11 @@
           "date": "2026-10-10",
           "forks": 6759,
           "stars": 74418
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 6761,
+          "stars": 74422
         }
       ]
     },
@@ -2365,7 +2405,7 @@
       "first_seen": "2026-08-19",
       "full_name": "pascalorg/editor",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1077819522,
       "snapshots": [
         {
@@ -2457,6 +2497,11 @@
           "date": "2026-10-10",
           "forks": 3065,
           "stars": 24749
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3070,
+          "stars": 24777
         }
       ]
     },
@@ -2730,14 +2775,9 @@
       "first_seen": "2026-08-16",
       "full_name": "K-Dense-AI/scientific-agent-skills",
       "last_featured": "2026-08-31",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1079456184,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 3927,
-          "stars": 42941
-        },
         {
           "date": "2026-09-07",
           "forks": 3944,
@@ -2807,6 +2847,11 @@
           "date": "2026-10-10",
           "forks": 4336,
           "stars": 48173
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4344,
+          "stars": 48292
         }
       ]
     },
@@ -2880,7 +2925,7 @@
       "first_seen": "2026-08-16",
       "full_name": "EverMind-AI/EverOS",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1085086903,
       "snapshots": [
         {
@@ -2952,6 +2997,11 @@
           "date": "2026-10-10",
           "forks": 928,
           "stars": 13388
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 928,
+          "stars": 13396
         }
       ]
     },
@@ -3095,7 +3145,7 @@
       "first_seen": "2026-08-16",
       "full_name": "adongwanai/AgentGuide",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1088705108,
       "snapshots": [
         {
@@ -3122,6 +3172,11 @@
           "date": "2026-10-10",
           "forks": 997,
           "stars": 10607
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1002,
+          "stars": 10659
         }
       ]
     },
@@ -3450,12 +3505,27 @@
         }
       ]
     },
+    "1113573066": {
+      "feature_count": 0,
+      "first_seen": "2026-10-11",
+      "full_name": "hugohe3/ppt-master",
+      "last_featured": null,
+      "last_seen": "2026-10-11",
+      "repo_id": 1113573066,
+      "snapshots": [
+        {
+          "date": "2026-10-11",
+          "forks": 4685,
+          "stars": 59464
+        }
+      ]
+    },
     "1118085970": {
       "feature_count": 0,
       "first_seen": "2026-08-16",
       "full_name": "opensandbox-group/OpenSandbox",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1118085970,
       "snapshots": [
         {
@@ -3522,6 +3592,11 @@
           "date": "2026-10-10",
           "forks": 1450,
           "stars": 15757
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1451,
+          "stars": 15776
         }
       ]
     },
@@ -3590,7 +3665,7 @@
       "first_seen": "2026-08-13",
       "full_name": "OpenByteInc/QuantDinger",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1124295269,
       "snapshots": [
         {
@@ -3667,6 +3742,11 @@
           "date": "2026-10-10",
           "forks": 2554,
           "stars": 12593
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2566,
+          "stars": 12644
         }
       ]
     },
@@ -3885,7 +3965,7 @@
       "first_seen": "2026-08-16",
       "full_name": "volcengine/OpenViking",
       "last_featured": "2026-08-24",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1128123594,
       "snapshots": [
         {
@@ -3952,6 +4032,11 @@
           "date": "2026-10-10",
           "forks": 3121,
           "stars": 39531
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3128,
+          "stars": 39612
         }
       ]
     },
@@ -4025,7 +4110,7 @@
       "first_seen": "2026-08-16",
       "full_name": "teng-lin/notebooklm-py",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1129786550,
       "snapshots": [
         {
@@ -4092,6 +4177,11 @@
           "date": "2026-10-10",
           "forks": 2617,
           "stars": 19670
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2619,
+          "stars": 19682
         }
       ]
     },
@@ -4300,7 +4390,7 @@
       "first_seen": "2026-08-13",
       "full_name": "ZhuLinsen/daily_stock_analysis",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1131513930,
       "snapshots": [
         {
@@ -4387,6 +4477,11 @@
           "date": "2026-10-10",
           "forks": 55056,
           "stars": 66101
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 55088,
+          "stars": 66148
         }
       ]
     },
@@ -4395,14 +4490,9 @@
       "first_seen": "2026-08-16",
       "full_name": "vercel-labs/agent-browser",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1132001614,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2801,
-          "stars": 42008
-        },
         {
           "date": "2026-09-07",
           "forks": 2805,
@@ -4542,6 +4632,11 @@
           "date": "2026-10-10",
           "forks": 2962,
           "stars": 43732
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2965,
+          "stars": 43780
         }
       ]
     },
@@ -4550,7 +4645,7 @@
       "first_seen": "2026-08-20",
       "full_name": "multica-ai/multica",
       "last_featured": "2026-09-21",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1133707766,
       "snapshots": [
         {
@@ -4617,6 +4712,11 @@
           "date": "2026-10-10",
           "forks": 6813,
           "stars": 52321
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 6828,
+          "stars": 52425
         }
       ]
     },
@@ -4705,7 +4805,7 @@
       "first_seen": "2026-08-16",
       "full_name": "coreyhaines31/marketingskills",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1135212071,
       "snapshots": [
         {
@@ -4807,6 +4907,11 @@
           "date": "2026-10-10",
           "forks": 8020,
           "stars": 53942
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 8032,
+          "stars": 54064
         }
       ]
     },
@@ -4938,11 +5043,6 @@
       "last_seen": "2026-10-04",
       "repo_id": 1136590548,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 37612,
-          "stars": 249868
-        },
         {
           "date": "2026-09-07",
           "forks": 37776,
@@ -5215,7 +5315,7 @@
       "first_seen": "2026-08-16",
       "full_name": "waooAI/waoowaoo",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1139782619,
       "snapshots": [
         {
@@ -5317,6 +5417,11 @@
           "date": "2026-10-10",
           "forks": 3156,
           "stars": 14461
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3157,
+          "stars": 14482
         }
       ]
     },
@@ -5325,7 +5430,7 @@
       "first_seen": "2026-09-17",
       "full_name": "anthropics/knowledge-work-plugins",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1140828898,
       "snapshots": [
         {
@@ -5397,6 +5502,11 @@
           "date": "2026-10-10",
           "forks": 3249,
           "stars": 28286
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3277,
+          "stars": 28823
         }
       ]
     },
@@ -5405,7 +5515,7 @@
       "first_seen": "2026-08-16",
       "full_name": "mvanhorn/last30days-skill",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1140843380,
       "snapshots": [
         {
@@ -5472,6 +5582,11 @@
           "date": "2026-10-10",
           "forks": 5563,
           "stars": 63850
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 5571,
+          "stars": 63912
         }
       ]
     },
@@ -5500,7 +5615,7 @@
       "first_seen": "2026-08-16",
       "full_name": "jo-inc/camofox-browser",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1142274728,
       "snapshots": [
         {
@@ -5577,6 +5692,26 @@
           "date": "2026-10-10",
           "forks": 1148,
           "stars": 11507
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1152,
+          "stars": 11524
+        }
+      ]
+    },
+    "1142983825": {
+      "feature_count": 0,
+      "first_seen": "2026-10-11",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "last_featured": null,
+      "last_seen": "2026-10-11",
+      "repo_id": 1142983825,
+      "snapshots": [
+        {
+          "date": "2026-10-11",
+          "forks": 21982,
+          "stars": 218283
         }
       ]
     },
@@ -5669,7 +5804,7 @@
       "first_seen": "2026-08-25",
       "full_name": "HBAI-Ltd/Toonflow-app",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1145022970,
       "snapshots": [
         {
@@ -5706,6 +5841,11 @@
           "date": "2026-10-10",
           "forks": 3014,
           "stars": 16985
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3041,
+          "stars": 17119
         }
       ]
     },
@@ -5714,7 +5854,7 @@
       "first_seen": "2026-08-16",
       "full_name": "EvoMap/evolver",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1147063571,
       "snapshots": [
         {
@@ -5741,6 +5881,11 @@
           "date": "2026-10-10",
           "forks": 849,
           "stars": 9140
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 849,
+          "stars": 9141
         }
       ]
     },
@@ -5749,7 +5894,7 @@
       "first_seen": "2026-08-16",
       "full_name": "HKUDS/nanobot",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1147094660,
       "snapshots": [
         {
@@ -5866,6 +6011,11 @@
           "date": "2026-10-10",
           "forks": 8620,
           "stars": 48908
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 8617,
+          "stars": 48933
         }
       ]
     },
@@ -5874,14 +6024,9 @@
       "first_seen": "2026-08-20",
       "full_name": "mattpocock/skills",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1148788086,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 21318,
-          "stars": 252588
-        },
         {
           "date": "2026-09-07",
           "forks": 21464,
@@ -5956,6 +6101,11 @@
           "date": "2026-10-10",
           "forks": 23690,
           "stars": 282773
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 23812,
+          "stars": 284511
         }
       ]
     },
@@ -5973,7 +6123,7 @@
       "first_seen": "2026-08-17",
       "full_name": "withastro/flue",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1152451571,
       "snapshots": [
         {
@@ -5990,6 +6140,11 @@
           "date": "2026-10-10",
           "forks": 508,
           "stars": 8442
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 508,
+          "stars": 8444
         }
       ]
     },
@@ -5998,7 +6153,7 @@
       "first_seen": "2026-10-04",
       "full_name": "pingdotgg/t3code",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1153130349,
       "snapshots": [
         {
@@ -6020,6 +6175,11 @@
           "date": "2026-10-10",
           "forks": 6958,
           "stars": 26646
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 7031,
+          "stars": 26822
         }
       ]
     },
@@ -6191,11 +6351,6 @@
       "last_seen": "2026-10-05",
       "repo_id": 1158432527,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 777,
-          "stars": 10229
-        },
         {
           "date": "2026-09-07",
           "forks": 778,
@@ -6448,7 +6603,7 @@
       "first_seen": "2026-08-13",
       "full_name": "mksglu/context-mode",
       "last_featured": null,
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "repo_id": 1164477708,
       "snapshots": [
         {
@@ -6570,6 +6725,11 @@
           "date": "2026-10-04",
           "forks": 1807,
           "stars": 25247
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1893,
+          "stars": 26320
         }
       ]
     },
@@ -6578,7 +6738,7 @@
       "first_seen": "2026-08-13",
       "full_name": "cft0808/edict",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1164832776,
       "snapshots": [
         {
@@ -6645,6 +6805,11 @@
           "date": "2026-10-10",
           "forks": 1764,
           "stars": 16979
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1767,
+          "stars": 16987
         }
       ]
     },
@@ -6728,7 +6893,7 @@
       "first_seen": "2026-08-13",
       "full_name": "Panniantong/Agent-Reach",
       "last_featured": "2026-08-24",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1165277268,
       "snapshots": [
         {
@@ -6870,6 +7035,11 @@
           "date": "2026-10-10",
           "forks": 8300,
           "stars": 94924
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 8358,
+          "stars": 95488
         }
       ]
     },
@@ -7063,7 +7233,7 @@
       "first_seen": "2026-08-13",
       "full_name": "NVIDIA/OpenShell",
       "last_featured": "2026-10-05",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1166129534,
       "snapshots": [
         {
@@ -7125,6 +7295,11 @@
           "date": "2026-10-10",
           "forks": 1749,
           "stars": 15608
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1756,
+          "stars": 15734
         }
       ]
     },
@@ -7278,36 +7453,6 @@
         }
       ]
     },
-    "1167300963": {
-      "feature_count": 0,
-      "first_seen": "2026-08-13",
-      "full_name": "Imbad0202/academic-research-skills",
-      "last_featured": null,
-      "last_seen": "2026-09-10",
-      "repo_id": 1167300963,
-      "snapshots": [
-        {
-          "date": "2026-09-07",
-          "forks": 3650,
-          "stars": 46569
-        },
-        {
-          "date": "2026-09-08",
-          "forks": 3661,
-          "stars": 46815
-        },
-        {
-          "date": "2026-09-09",
-          "forks": 3681,
-          "stars": 47046
-        },
-        {
-          "date": "2026-09-10",
-          "forks": 3696,
-          "stars": 47270
-        }
-      ]
-    },
     "1167515091": {
       "feature_count": 0,
       "first_seen": "2026-08-15",
@@ -7316,11 +7461,6 @@
       "last_seen": "2026-09-17",
       "repo_id": 1167515091,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1375,
-          "stars": 10774
-        },
         {
           "date": "2026-09-07",
           "forks": 1398,
@@ -7481,11 +7621,6 @@
       "last_seen": "2026-09-25",
       "repo_id": 1168753718,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2161,
-          "stars": 17277
-        },
         {
           "date": "2026-09-07",
           "forks": 2208,
@@ -7713,7 +7848,7 @@
       "first_seen": "2026-08-13",
       "full_name": "googleworkspace/cli",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1171026502,
       "snapshots": [
         {
@@ -7825,6 +7960,11 @@
           "date": "2026-10-10",
           "forks": 1862,
           "stars": 31284
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1861,
+          "stars": 31292
         }
       ]
     },
@@ -7833,7 +7973,7 @@
       "first_seen": "2026-08-13",
       "full_name": "BigBodyCobain/Shadowbroker",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1173152133,
       "snapshots": [
         {
@@ -7875,6 +8015,11 @@
           "date": "2026-10-10",
           "forks": 1801,
           "stars": 11295
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1801,
+          "stars": 11296
         }
       ]
     },
@@ -7931,11 +8076,6 @@
       "last_seen": "2026-10-08",
       "repo_id": 1175168650,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 83,
-          "stars": 6377
-        },
         {
           "date": "2026-09-07",
           "forks": 83,
@@ -8078,14 +8218,9 @@
       "first_seen": "2026-08-13",
       "full_name": "heygen-com/hyperframes",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1177402105,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 4227,
-          "stars": 44160
-        },
         {
           "date": "2026-09-08",
           "forks": 4310,
@@ -8225,6 +8360,11 @@
           "date": "2026-10-10",
           "forks": 5338,
           "stars": 59825
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 5392,
+          "stars": 60372
         }
       ]
     },
@@ -8236,11 +8376,6 @@
       "last_seen": "2026-10-01",
       "repo_id": 1177608268,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1372,
-          "stars": 15754
-        },
         {
           "date": "2026-09-15",
           "forks": 1382,
@@ -8337,11 +8472,6 @@
       "repo_id": 1178737655,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 5237,
-          "stars": 31923
-        },
-        {
           "date": "2026-09-07",
           "forks": 5295,
           "stars": 32401
@@ -8402,11 +8532,6 @@
       "repo_id": 1179264259,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 19722,
-          "stars": 131559
-        },
-        {
           "date": "2026-09-07",
           "forks": 19744,
           "stars": 131791
@@ -8423,14 +8548,9 @@
       "first_seen": "2026-08-13",
       "full_name": "Narcooo/inkos",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1179413000,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1768,
-          "stars": 9526
-        },
         {
           "date": "2026-09-07",
           "forks": 1779,
@@ -8465,41 +8585,11 @@
           "date": "2026-10-10",
           "forks": 1888,
           "stars": 10219
-        }
-      ]
-    },
-    "1181479848": {
-      "feature_count": 0,
-      "first_seen": "2026-08-13",
-      "full_name": "calesthio/Crucix",
-      "last_featured": null,
-      "last_seen": "2026-09-10",
-      "repo_id": 1181479848,
-      "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1826,
-          "stars": 11621
         },
         {
-          "date": "2026-09-07",
-          "forks": 1829,
-          "stars": 11634
-        },
-        {
-          "date": "2026-09-08",
-          "forks": 1827,
-          "stars": 11640
-        },
-        {
-          "date": "2026-09-09",
-          "forks": 1825,
-          "stars": 11650
-        },
-        {
-          "date": "2026-09-10",
-          "forks": 1825,
-          "stars": 11660
+          "date": "2026-10-11",
+          "forks": 1889,
+          "stars": 10232
         }
       ]
     },
@@ -8508,14 +8598,9 @@
       "first_seen": "2026-08-13",
       "full_name": "jackwener/OpenCLI",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1181982220,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2849,
-          "stars": 29000
-        },
         {
           "date": "2026-09-07",
           "forks": 2851,
@@ -8600,6 +8685,11 @@
           "date": "2026-10-10",
           "forks": 2926,
           "stars": 29976
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2930,
+          "stars": 30020
         }
       ]
     },
@@ -8611,11 +8701,6 @@
       "last_seen": "2026-09-11",
       "repo_id": 1182081931,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 6863,
-          "stars": 81607
-        },
         {
           "date": "2026-09-07",
           "forks": 6872,
@@ -8652,11 +8737,6 @@
       "repo_id": 1182108611,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1666,
-          "stars": 14342
-        },
-        {
           "date": "2026-09-07",
           "forks": 1668,
           "stars": 14349
@@ -8688,14 +8768,9 @@
       "first_seen": "2026-08-13",
       "full_name": "iOfficeAI/OfficeCLI",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1182212878,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2056,
-          "stars": 30033
-        },
         {
           "date": "2026-09-07",
           "forks": 2059,
@@ -8785,6 +8860,11 @@
           "date": "2026-10-10",
           "forks": 2160,
           "stars": 31770
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2164,
+          "stars": 31813
         }
       ]
     },
@@ -8796,11 +8876,6 @@
       "last_seen": "2026-09-11",
       "repo_id": 1182547092,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 3067,
-          "stars": 22378
-        },
         {
           "date": "2026-09-07",
           "forks": 3068,
@@ -8836,11 +8911,6 @@
       "last_seen": "2026-09-12",
       "repo_id": 1183205919,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 15,
-          "stars": 8482
-        },
         {
           "date": "2026-09-07",
           "forks": 15,
@@ -8882,11 +8952,6 @@
       "repo_id": 1183206048,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 19,
-          "stars": 8503
-        },
-        {
           "date": "2026-09-07",
           "forks": 19,
           "stars": 8503
@@ -8926,11 +8991,6 @@
       "last_seen": "2026-09-12",
       "repo_id": 1183206070,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 20,
-          "stars": 8533
-        },
         {
           "date": "2026-09-07",
           "forks": 20,
@@ -8972,11 +9032,6 @@
       "repo_id": 1183325896,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 2002,
-          "stars": 35711
-        },
-        {
           "date": "2026-09-07",
           "forks": 2016,
           "stars": 35873
@@ -9016,11 +9071,6 @@
       "last_seen": "2026-10-01",
       "repo_id": 1183888342,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 4150,
-          "stars": 62229
-        },
         {
           "date": "2026-09-07",
           "forks": 4183,
@@ -9147,11 +9197,6 @@
       "repo_id": 1184030270,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1159,
-          "stars": 13512
-        },
-        {
           "date": "2026-09-07",
           "forks": 1159,
           "stars": 13516
@@ -9197,11 +9242,6 @@
       "repo_id": 1184568969,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 699,
-          "stars": 7437
-        },
-        {
           "date": "2026-09-07",
           "forks": 702,
           "stars": 7447
@@ -9246,11 +9286,6 @@
       "last_seen": "2026-09-30",
       "repo_id": 1184626912,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 283,
-          "stars": 9111
-        },
         {
           "date": "2026-09-07",
           "forks": 283,
@@ -9322,11 +9357,6 @@
       "repo_id": 1184892122,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 2721,
-          "stars": 21449
-        },
-        {
           "date": "2026-09-07",
           "forks": 2726,
           "stars": 21487
@@ -9376,11 +9406,6 @@
       "last_seen": "2026-09-14",
       "repo_id": 1184985738,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 635,
-          "stars": 8857
-        },
         {
           "date": "2026-09-07",
           "forks": 637,
@@ -9432,11 +9457,6 @@
       "repo_id": 1185389803,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 13950,
-          "stars": 40895
-        },
-        {
           "date": "2026-09-07",
           "forks": 14036,
           "stars": 41042
@@ -9486,11 +9506,6 @@
       "last_seen": "2026-10-06",
       "repo_id": 1185590488,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 9133,
-          "stars": 52481
-        },
         {
           "date": "2026-09-07",
           "forks": 9167,
@@ -9652,11 +9667,6 @@
       "repo_id": 1186219527,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1156,
-          "stars": 13241
-        },
-        {
           "date": "2026-09-07",
           "forks": 1161,
           "stars": 13288
@@ -9712,11 +9722,6 @@
       "repo_id": 1186559664,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1029,
-          "stars": 8868
-        },
-        {
           "date": "2026-09-07",
           "forks": 1031,
           "stars": 8883
@@ -9767,11 +9772,6 @@
       "repo_id": 1186742994,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 746,
-          "stars": 7988
-        },
-        {
           "date": "2026-09-07",
           "forks": 746,
           "stars": 7999
@@ -9821,11 +9821,6 @@
       "last_seen": "2026-09-15",
       "repo_id": 1187377394,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1140,
-          "stars": 9928
-        },
         {
           "date": "2026-09-07",
           "forks": 1141,
@@ -9878,14 +9873,9 @@
       "first_seen": "2026-08-13",
       "full_name": "NVIDIA/SkillSpector",
       "last_featured": "2026-09-07",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1187630119,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1382,
-          "stars": 16294
-        },
         {
           "date": "2026-09-07",
           "forks": 1393,
@@ -9990,6 +9980,11 @@
           "date": "2026-10-10",
           "forks": 1733,
           "stars": 19796
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1741,
+          "stars": 19883
         }
       ]
     },
@@ -10001,11 +9996,6 @@
       "last_seen": "2026-09-19",
       "repo_id": 1188521544,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 721,
-          "stars": 11150
-        },
         {
           "date": "2026-09-07",
           "forks": 721,
@@ -10077,11 +10067,6 @@
       "repo_id": 1189893949,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1032,
-          "stars": 10004
-        },
-        {
           "date": "2026-09-07",
           "forks": 1032,
           "stars": 10012
@@ -10133,14 +10118,9 @@
       "first_seen": "2026-08-13",
       "full_name": "larksuite/cli",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1191372811,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1380,
-          "stars": 17024
-        },
         {
           "date": "2026-09-07",
           "forks": 1380,
@@ -10230,6 +10210,11 @@
           "date": "2026-10-10",
           "forks": 1388,
           "stars": 17592
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1390,
+          "stars": 17611
         }
       ]
     },
@@ -10241,11 +10226,6 @@
       "last_seen": "2026-09-19",
       "repo_id": 1191904384,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2573,
-          "stars": 11011
-        },
         {
           "date": "2026-09-07",
           "forks": 2579,
@@ -10316,11 +10296,6 @@
       "last_seen": "2026-09-22",
       "repo_id": 1192555574,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1441,
-          "stars": 16673
-        },
         {
           "date": "2026-09-07",
           "forks": 1442,
@@ -10412,11 +10387,6 @@
       "repo_id": 1193082155,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1258,
-          "stars": 8905
-        },
-        {
           "date": "2026-09-07",
           "forks": 1257,
           "stars": 8913
@@ -10466,11 +10436,6 @@
       "last_seen": "2026-09-26",
       "repo_id": 1193909050,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2607,
-          "stars": 35552
-        },
         {
           "date": "2026-09-07",
           "forks": 2624,
@@ -10582,11 +10547,6 @@
       "repo_id": 1195243030,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1479,
-          "stars": 14849
-        },
-        {
           "date": "2026-09-07",
           "forks": 1483,
           "stars": 14879
@@ -10691,11 +10651,6 @@
       "last_seen": "2026-10-06",
       "repo_id": 1195360525,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 7060,
-          "stars": 56262
-        },
         {
           "date": "2026-09-07",
           "forks": 7083,
@@ -10827,11 +10782,6 @@
       "repo_id": 1195828337,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 2134,
-          "stars": 24373
-        },
-        {
           "date": "2026-09-07",
           "forks": 2135,
           "stars": 24394
@@ -10941,11 +10891,6 @@
       "last_seen": "2026-09-26",
       "repo_id": 1196321162,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2281,
-          "stars": 32804
-        },
         {
           "date": "2026-09-07",
           "forks": 2287,
@@ -11076,11 +11021,6 @@
       "last_seen": "2026-09-26",
       "repo_id": 1196617276,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2531,
-          "stars": 18105
-        },
         {
           "date": "2026-09-07",
           "forks": 2538,
@@ -11227,11 +11167,6 @@
       "repo_id": 1196984640,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 14626,
-          "stars": 9656
-        },
-        {
           "date": "2026-09-07",
           "forks": 14624,
           "stars": 9657
@@ -11291,11 +11226,6 @@
       "last_seen": "2026-09-27",
       "repo_id": 1197021090,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 108694,
-          "stars": 195175
-        },
         {
           "date": "2026-09-07",
           "forks": 108685,
@@ -11412,11 +11342,6 @@
       "repo_id": 1197029054,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 19538,
-          "stars": 12264
-        },
-        {
           "date": "2026-09-07",
           "forks": 19538,
           "stars": 12264
@@ -11517,11 +11442,6 @@
       "repo_id": 1197043989,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 7751,
-          "stars": 10290
-        },
-        {
           "date": "2026-09-07",
           "forks": 7751,
           "stars": 10291
@@ -11602,11 +11522,6 @@
       "repo_id": 1197145423,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 2045,
-          "stars": 8735
-        },
-        {
           "date": "2026-09-07",
           "forks": 2044,
           "stars": 8736
@@ -11666,11 +11581,6 @@
       "last_seen": "2026-09-27",
       "repo_id": 1197198701,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1610,
-          "stars": 9917
-        },
         {
           "date": "2026-09-07",
           "forks": 1625,
@@ -11776,11 +11686,6 @@
       "last_seen": "2026-09-27",
       "repo_id": 1197305828,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 16484,
-          "stars": 22374
-        },
         {
           "date": "2026-09-07",
           "forks": 16481,
@@ -11897,11 +11802,6 @@
       "repo_id": 1197515131,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 12890,
-          "stars": 114277
-        },
-        {
           "date": "2026-09-07",
           "forks": 12908,
           "stars": 114452
@@ -12013,14 +11913,9 @@
       "first_seen": "2026-08-13",
       "full_name": "NanmiCoder/cc-haha",
       "last_featured": null,
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "repo_id": 1197569406,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 8540,
-          "stars": 14287
-        },
         {
           "date": "2026-09-07",
           "forks": 8539,
@@ -12125,6 +12020,11 @@
           "date": "2026-09-27",
           "forks": 8585,
           "stars": 14725
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 8603,
+          "stars": 14950
         }
       ]
     },
@@ -12136,11 +12036,6 @@
       "last_seen": "2026-10-03",
       "repo_id": 1197652028,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1567,
-          "stars": 19561
-        },
         {
           "date": "2026-09-07",
           "forks": 1571,
@@ -12262,11 +12157,6 @@
       "repo_id": 1197990888,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 9062,
-          "stars": 32713
-        },
-        {
           "date": "2026-09-07",
           "forks": 9061,
           "stars": 32836
@@ -12387,11 +12277,6 @@
       "repo_id": 1198246700,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1142,
-          "stars": 12225
-        },
-        {
           "date": "2026-09-07",
           "forks": 1141,
           "stars": 12238
@@ -12498,14 +12383,9 @@
       "first_seen": "2026-08-13",
       "full_name": "HKUDS/Vibe-Trading",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1198306812,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 5315,
-          "stars": 32580
-        },
         {
           "date": "2026-09-07",
           "forks": 5346,
@@ -12635,6 +12515,11 @@
           "date": "2026-10-10",
           "forks": 5695,
           "stars": 35077
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 5705,
+          "stars": 35144
         }
       ]
     },
@@ -12646,11 +12531,6 @@
       "last_seen": "2026-09-28",
       "repo_id": 1198616956,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2549,
-          "stars": 15644
-        },
         {
           "date": "2026-09-07",
           "forks": 2552,
@@ -12772,11 +12652,6 @@
       "repo_id": 1199668171,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1605,
-          "stars": 14141
-        },
-        {
           "date": "2026-09-07",
           "forks": 1603,
           "stars": 14152
@@ -12891,11 +12766,6 @@
       "last_seen": "2026-09-30",
       "repo_id": 1200597263,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 11171,
-          "stars": 115068
-        },
         {
           "date": "2026-09-07",
           "forks": 11204,
@@ -13026,11 +12896,6 @@
       "last_seen": "2026-10-04",
       "repo_id": 1201173969,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 6010,
-          "stars": 103800
-        },
         {
           "date": "2026-09-07",
           "forks": 6022,
@@ -13177,11 +13042,6 @@
       "repo_id": 1201476594,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 13300,
-          "stars": 70235
-        },
-        {
           "date": "2026-09-07",
           "forks": 13314,
           "stars": 70333
@@ -13316,11 +13176,6 @@
       "last_seen": "2026-10-02",
       "repo_id": 1201656210,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 7545,
-          "stars": 58857
-        },
         {
           "date": "2026-09-07",
           "forks": 7546,
@@ -13462,11 +13317,6 @@
       "repo_id": 1201730379,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 4363,
-          "stars": 32089
-        },
-        {
           "date": "2026-09-07",
           "forks": 4368,
           "stars": 32139
@@ -13607,11 +13457,6 @@
       "repo_id": 1201787282,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 844,
-          "stars": 8310
-        },
-        {
           "date": "2026-09-07",
           "forks": 846,
           "stars": 8327
@@ -13696,11 +13541,6 @@
       "last_seen": "2026-10-02",
       "repo_id": 1201947430,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2655,
-          "stars": 10247
-        },
         {
           "date": "2026-09-07",
           "forks": 2653,
@@ -13791,11 +13631,6 @@
       "last_seen": "2026-10-02",
       "repo_id": 1202057891,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 4420,
-          "stars": 29621
-        },
         {
           "date": "2026-09-07",
           "forks": 4432,
@@ -13936,11 +13771,6 @@
       "last_seen": "2026-10-03",
       "repo_id": 1202599845,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2192,
-          "stars": 20441
-        },
         {
           "date": "2026-09-07",
           "forks": 2188,
@@ -14086,11 +13916,6 @@
       "last_seen": "2026-10-04",
       "repo_id": 1203468533,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1098,
-          "stars": 14296
-        },
         {
           "date": "2026-09-07",
           "forks": 1096,
@@ -14238,14 +14063,9 @@
       "first_seen": "2026-08-12",
       "full_name": "TencentCloud/TencentDB-Agent-Memory",
       "last_featured": "2026-08-12",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1203558071,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2422,
-          "stars": 25974
-        },
         {
           "date": "2026-09-07",
           "forks": 2427,
@@ -14395,6 +14215,11 @@
           "date": "2026-10-10",
           "forks": 2705,
           "stars": 27859
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2711,
+          "stars": 27901
         }
       ]
     },
@@ -14406,11 +14231,6 @@
       "last_seen": "2026-10-04",
       "repo_id": 1203670949,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1465,
-          "stars": 14656
-        },
         {
           "date": "2026-09-07",
           "forks": 1465,
@@ -14561,11 +14381,6 @@
       "last_seen": "2026-10-04",
       "repo_id": 1203777920,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2427,
-          "stars": 16191
-        },
         {
           "date": "2026-09-07",
           "forks": 2427,
@@ -14782,11 +14597,6 @@
       "repo_id": 1204828304,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 2061,
-          "stars": 17443
-        },
-        {
           "date": "2026-09-07",
           "forks": 2065,
           "stars": 17477
@@ -14941,11 +14751,6 @@
       "last_seen": "2026-10-06",
       "repo_id": 1206390571,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2433,
-          "stars": 18954
-        },
         {
           "date": "2026-09-07",
           "forks": 2511,
@@ -15103,14 +14908,9 @@
       "first_seen": "2026-08-13",
       "full_name": "TencentCloud/CubeSandbox",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1206553433,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1099,
-          "stars": 11802
-        },
         {
           "date": "2026-09-07",
           "forks": 1099,
@@ -15265,6 +15065,11 @@
           "date": "2026-10-10",
           "forks": 1181,
           "stars": 12853
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1185,
+          "stars": 12867
         }
       ]
     },
@@ -15276,11 +15081,6 @@
       "last_seen": "2026-10-07",
       "repo_id": 1207091162,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 898,
-          "stars": 11225
-        },
         {
           "date": "2026-09-07",
           "forks": 900,
@@ -15421,11 +15221,6 @@
       "last_seen": "2026-10-07",
       "repo_id": 1207222725,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2289,
-          "stars": 27750
-        },
         {
           "date": "2026-09-07",
           "forks": 2290,
@@ -15592,11 +15387,6 @@
       "repo_id": 1207639951,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1315,
-          "stars": 10870
-        },
-        {
           "date": "2026-09-07",
           "forks": 1315,
           "stars": 10892
@@ -15721,11 +15511,6 @@
       "last_seen": "2026-10-09",
       "repo_id": 1208221543,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2938,
-          "stars": 24152
-        },
         {
           "date": "2026-09-07",
           "forks": 2949,
@@ -15898,14 +15683,9 @@
       "first_seen": "2026-08-13",
       "full_name": "h4ckf0r0day/obscura",
       "last_featured": "2026-09-07",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1209343409,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1874,
-          "stars": 25733
-        },
         {
           "date": "2026-09-07",
           "forks": 1904,
@@ -16075,6 +15855,11 @@
           "date": "2026-10-10",
           "forks": 2134,
           "stars": 28730
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2135,
+          "stars": 28750
         }
       ]
     },
@@ -16086,11 +15871,6 @@
       "last_seen": "2026-10-10",
       "repo_id": 1209889782,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 812,
-          "stars": 10863
-        },
         {
           "date": "2026-09-07",
           "forks": 814,
@@ -16218,7 +15998,7 @@
       "first_seen": "2026-10-08",
       "full_name": "morluto/rea",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1209966933,
       "snapshots": [
         {
@@ -16235,6 +16015,11 @@
           "date": "2026-10-10",
           "forks": 7706,
           "stars": 47389
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 15360,
+          "stars": 72915
         }
       ]
     },
@@ -16243,14 +16028,9 @@
       "first_seen": "2026-08-13",
       "full_name": "tt-a1i/archify",
       "last_featured": "2026-08-31",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1211139949,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 3204,
-          "stars": 49397
-        },
         {
           "date": "2026-09-07",
           "forks": 3306,
@@ -16420,6 +16200,11 @@
           "date": "2026-10-10",
           "forks": 5481,
           "stars": 81215
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 5516,
+          "stars": 81671
         }
       ]
     },
@@ -16428,14 +16213,9 @@
       "first_seen": "2026-08-13",
       "full_name": "lewislulu/html-ppt-skill",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1211235520,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 709,
-          "stars": 8229
-        },
         {
           "date": "2026-09-07",
           "forks": 708,
@@ -16550,6 +16330,11 @@
           "date": "2026-10-10",
           "forks": 739,
           "stars": 8618
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 740,
+          "stars": 8630
         }
       ]
     },
@@ -16558,14 +16343,9 @@
       "first_seen": "2026-08-13",
       "full_name": "Robbyant/lingbot-map",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1211752857,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1894,
-          "stars": 16839
-        },
         {
           "date": "2026-09-07",
           "forks": 1895,
@@ -16735,6 +16515,11 @@
           "date": "2026-10-10",
           "forks": 1952,
           "stars": 17723
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1967,
+          "stars": 17959
         }
       ]
     },
@@ -16743,14 +16528,9 @@
       "first_seen": "2026-08-13",
       "full_name": "cloudflare/cloudflare-os",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1211925923,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1139,
-          "stars": 9683
-        },
         {
           "date": "2026-09-07",
           "forks": 1148,
@@ -16865,6 +16645,11 @@
           "date": "2026-10-10",
           "forks": 1351,
           "stars": 11314
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1352,
+          "stars": 11336
         }
       ]
     },
@@ -16873,14 +16658,9 @@
       "first_seen": "2026-08-14",
       "full_name": "kangarooking/cangjie-skill",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1212163658,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1098,
-          "stars": 9533
-        },
         {
           "date": "2026-09-07",
           "forks": 1103,
@@ -17000,6 +16780,11 @@
           "date": "2026-10-10",
           "forks": 1291,
           "stars": 11100
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1300,
+          "stars": 11147
         }
       ]
     },
@@ -17008,14 +16793,9 @@
       "first_seen": "2026-08-13",
       "full_name": "citrolabs/ego-lite",
       "last_featured": "2026-08-24",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1212503250,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 783,
-          "stars": 15089
-        },
         {
           "date": "2026-09-07",
           "forks": 789,
@@ -17185,6 +16965,11 @@
           "date": "2026-10-10",
           "forks": 906,
           "stars": 17020
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 909,
+          "stars": 17066
         }
       ]
     },
@@ -17193,14 +16978,9 @@
       "first_seen": "2026-08-13",
       "full_name": "YouMind-OpenLab/awesome-gpt-image-2",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1212562200,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 881,
-          "stars": 9754
-        },
         {
           "date": "2026-09-07",
           "forks": 880,
@@ -17315,6 +17095,11 @@
           "date": "2026-10-10",
           "forks": 883,
           "stars": 10029
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 883,
+          "stars": 10040
         }
       ]
     },
@@ -17323,14 +17108,9 @@
       "first_seen": "2026-08-13",
       "full_name": "cathrynlavery/diagram-design",
       "last_featured": "2026-08-17",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1212769188,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2040,
-          "stars": 31674
-        },
         {
           "date": "2026-09-07",
           "forks": 2074,
@@ -17500,6 +17280,11 @@
           "date": "2026-10-10",
           "forks": 3035,
           "stars": 47928
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3095,
+          "stars": 48960
         }
       ]
     },
@@ -17508,14 +17293,9 @@
       "first_seen": "2026-08-13",
       "full_name": "browser-use/browser-harness",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1213049020,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1691,
-          "stars": 17391
-        },
         {
           "date": "2026-09-07",
           "forks": 1693,
@@ -17685,6 +17465,11 @@
           "date": "2026-10-10",
           "forks": 1795,
           "stars": 18364
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1796,
+          "stars": 18380
         }
       ]
     },
@@ -17693,14 +17478,9 @@
       "first_seen": "2026-08-14",
       "full_name": "OpenCoworkAI/open-codesign",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1214028719,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 826,
-          "stars": 7883
-        },
         {
           "date": "2026-09-07",
           "forks": 826,
@@ -17810,6 +17590,11 @@
           "date": "2026-10-10",
           "forks": 845,
           "stars": 8014
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 847,
+          "stars": 8021
         }
       ]
     },
@@ -17818,14 +17603,9 @@
       "first_seen": "2026-08-25",
       "full_name": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1214290850,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1724,
-          "stars": 17085
-        },
         {
           "date": "2026-09-07",
           "forks": 1726,
@@ -17995,6 +17775,11 @@
           "date": "2026-10-10",
           "forks": 1741,
           "stars": 17292
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1742,
+          "stars": 17302
         }
       ]
     },
@@ -18003,14 +17788,9 @@
       "first_seen": "2026-08-13",
       "full_name": "kyegomez/OpenMythos",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1214346700,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 3294,
-          "stars": 14884
-        },
         {
           "date": "2026-09-07",
           "forks": 3294,
@@ -18180,6 +17960,11 @@
           "date": "2026-10-10",
           "forks": 3281,
           "stars": 14912
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3281,
+          "stars": 14910
         }
       ]
     },
@@ -18188,14 +17973,9 @@
       "first_seen": "2026-08-13",
       "full_name": "alchaincyf/huashu-design",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1215145625,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2766,
-          "stars": 23902
-        },
         {
           "date": "2026-09-07",
           "forks": 2770,
@@ -18365,6 +18145,11 @@
           "date": "2026-10-10",
           "forks": 2800,
           "stars": 24738
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2801,
+          "stars": 24788
         }
       ]
     },
@@ -18373,14 +18158,9 @@
       "first_seen": "2026-08-13",
       "full_name": "tw93/Kami",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1216173720,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 503,
-          "stars": 11217
-        },
         {
           "date": "2026-09-07",
           "forks": 505,
@@ -18525,6 +18305,11 @@
           "date": "2026-10-10",
           "forks": 555,
           "stars": 11919
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 555,
+          "stars": 11930
         }
       ]
     },
@@ -18533,14 +18318,9 @@
       "first_seen": "2026-08-12",
       "full_name": "esengine/DeepSeek-Reasonix",
       "last_featured": "2026-08-12",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1216785679,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2368,
-          "stars": 35411
-        },
         {
           "date": "2026-09-07",
           "forks": 2372,
@@ -18710,6 +18490,11 @@
           "date": "2026-10-10",
           "forks": 2439,
           "stars": 35748
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2438,
+          "stars": 35761
         }
       ]
     },
@@ -18718,14 +18503,9 @@
       "first_seen": "2026-08-13",
       "full_name": "ConardLi/garden-skills",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1216954187,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1479,
-          "stars": 12187
-        },
         {
           "date": "2026-09-07",
           "forks": 1479,
@@ -18885,6 +18665,11 @@
           "date": "2026-10-10",
           "forks": 1534,
           "stars": 12791
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1537,
+          "stars": 12812
         }
       ]
     },
@@ -18893,14 +18678,9 @@
       "first_seen": "2026-08-13",
       "full_name": "tashfeenahmed/freellmapi",
       "last_featured": "2026-09-14",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1217040185,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 3340,
-          "stars": 24426
-        },
         {
           "date": "2026-09-07",
           "forks": 3365,
@@ -19070,6 +18850,11 @@
           "date": "2026-10-10",
           "forks": 4514,
           "stars": 32554
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4554,
+          "stars": 32948
         }
       ]
     },
@@ -19078,14 +18863,9 @@
       "first_seen": "2026-08-13",
       "full_name": "anthropics/claude-for-legal",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1217153065,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1823,
-          "stars": 9374
-        },
         {
           "date": "2026-09-07",
           "forks": 1825,
@@ -19200,6 +18980,11 @@
           "date": "2026-10-10",
           "forks": 1878,
           "stars": 9633
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1878,
+          "stars": 9639
         }
       ]
     },
@@ -19208,14 +18993,9 @@
       "first_seen": "2026-08-13",
       "full_name": "crynta/terax-ai",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1217291538,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1000,
-          "stars": 9159
-        },
         {
           "date": "2026-09-07",
           "forks": 1003,
@@ -19330,6 +19110,11 @@
           "date": "2026-10-10",
           "forks": 1021,
           "stars": 9301
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1022,
+          "stars": 9305
         }
       ]
     },
@@ -19338,14 +19123,9 @@
       "first_seen": "2026-08-13",
       "full_name": "earthtojake/text-to-cad",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1217522067,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1528,
-          "stars": 14448
-        },
         {
           "date": "2026-09-07",
           "forks": 1532,
@@ -19515,6 +19295,11 @@
           "date": "2026-10-10",
           "forks": 1859,
           "stars": 18776
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1872,
+          "stars": 18994
         }
       ]
     },
@@ -19538,14 +19323,9 @@
       "first_seen": "2026-08-13",
       "full_name": "op7418/guizang-ppt-skill",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1219042200,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1814,
-          "stars": 25679
-        },
         {
           "date": "2026-09-07",
           "forks": 1815,
@@ -19715,6 +19495,11 @@
           "date": "2026-10-10",
           "forks": 1902,
           "stars": 27506
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1906,
+          "stars": 27570
         }
       ]
     },
@@ -19723,14 +19508,9 @@
       "first_seen": "2026-08-13",
       "full_name": "Yuan1z0825/nature-skills",
       "last_featured": "2026-09-28",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1219596233,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2156,
-          "stars": 39394
-        },
         {
           "date": "2026-09-07",
           "forks": 2165,
@@ -19900,6 +19680,11 @@
           "date": "2026-10-10",
           "forks": 2438,
           "stars": 46921
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2452,
+          "stars": 47159
         }
       ]
     },
@@ -19908,14 +19693,9 @@
       "first_seen": "2026-08-13",
       "full_name": "bradautomates/claude-video",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1219644159,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1697,
-          "stars": 16805
-        },
         {
           "date": "2026-09-07",
           "forks": 1706,
@@ -20085,6 +19865,11 @@
           "date": "2026-10-10",
           "forks": 1894,
           "stars": 18288
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1901,
+          "stars": 18328
         }
       ]
     },
@@ -20093,14 +19878,9 @@
       "first_seen": "2026-08-13",
       "full_name": "freestylefly/awesome-gpt-image-2",
       "last_featured": "2026-08-31",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1220744720,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2708,
-          "stars": 28162
-        },
         {
           "date": "2026-09-07",
           "forks": 2714,
@@ -20270,6 +20050,11 @@
           "date": "2026-10-10",
           "forks": 3260,
           "stars": 34211
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3265,
+          "stars": 34266
         }
       ]
     },
@@ -20278,14 +20063,9 @@
       "first_seen": "2026-08-13",
       "full_name": "Imbad0202/academic-research-skills-codex",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1220899692,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 462,
-          "stars": 10067
-        },
         {
           "date": "2026-09-07",
           "forks": 463,
@@ -20405,6 +20185,11 @@
           "date": "2026-10-10",
           "forks": 534,
           "stars": 12424
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 536,
+          "stars": 12513
         }
       ]
     },
@@ -20413,14 +20198,9 @@
       "first_seen": "2026-08-13",
       "full_name": "dnshe/DNSHE-FreeDomains",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1221522201,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 273,
-          "stars": 14186
-        },
         {
           "date": "2026-09-07",
           "forks": 278,
@@ -20590,6 +20370,11 @@
           "date": "2026-10-10",
           "forks": 406,
           "stars": 19400
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 408,
+          "stars": 19467
         }
       ]
     },
@@ -20598,14 +20383,9 @@
       "first_seen": "2026-08-13",
       "full_name": "ifixai-ai/iFixAi",
       "last_featured": "2026-10-05",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1222527844,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1281,
-          "stars": 12997
-        },
         {
           "date": "2026-09-07",
           "forks": 1281,
@@ -20775,6 +20555,11 @@
           "date": "2026-10-10",
           "forks": 1431,
           "stars": 23021
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1442,
+          "stars": 23526
         }
       ]
     },
@@ -20783,14 +20568,9 @@
       "first_seen": "2026-08-13",
       "full_name": "Nutlope/hallmark",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1222917575,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1434,
-          "stars": 28124
-        },
         {
           "date": "2026-09-07",
           "forks": 1440,
@@ -20960,6 +20740,11 @@
           "date": "2026-10-10",
           "forks": 1528,
           "stars": 29837
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1529,
+          "stars": 29876
         }
       ]
     },
@@ -20968,14 +20753,9 @@
       "first_seen": "2026-08-13",
       "full_name": "nexu-io/open-design",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1223170290,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 10884,
-          "stars": 94282
-        },
         {
           "date": "2026-09-07",
           "forks": 10914,
@@ -21145,6 +20925,11 @@
           "date": "2026-10-10",
           "forks": 11561,
           "stars": 100230
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 11575,
+          "stars": 100409
         }
       ]
     },
@@ -21153,14 +20938,9 @@
       "first_seen": "2026-08-13",
       "full_name": "t8y2/dbx",
       "last_featured": "2026-09-14",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1224172037,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1771,
-          "stars": 18082
-        },
         {
           "date": "2026-09-07",
           "forks": 1772,
@@ -21330,6 +21110,11 @@
           "date": "2026-10-10",
           "forks": 2301,
           "stars": 25402
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2325,
+          "stars": 25639
         }
       ]
     },
@@ -21338,14 +21123,9 @@
       "first_seen": "2026-08-13",
       "full_name": "CoreBunch/Instatic",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1225753223,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 777,
-          "stars": 8446
-        },
         {
           "date": "2026-09-07",
           "forks": 779,
@@ -21460,6 +21240,11 @@
           "date": "2026-10-10",
           "forks": 846,
           "stars": 8906
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 846,
+          "stars": 8915
         }
       ]
     },
@@ -21468,14 +21253,9 @@
       "first_seen": "2026-08-15",
       "full_name": "vercel-labs/deepsec",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1225774688,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 478,
-          "stars": 7917
-        },
         {
           "date": "2026-09-07",
           "forks": 477,
@@ -21585,6 +21365,11 @@
           "date": "2026-10-10",
           "forks": 493,
           "stars": 8122
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 493,
+          "stars": 8125
         }
       ]
     },
@@ -21593,14 +21378,9 @@
       "first_seen": "2026-08-12",
       "full_name": "virgiliojr94/book-to-skill",
       "last_featured": "2026-08-12",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1226123343,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2979,
-          "stars": 28676
-        },
         {
           "date": "2026-09-07",
           "forks": 2993,
@@ -21770,6 +21550,11 @@
           "date": "2026-10-10",
           "forks": 3612,
           "stars": 34331
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3621,
+          "stars": 34437
         }
       ]
     },
@@ -21778,14 +21563,9 @@
       "first_seen": "2026-08-13",
       "full_name": "darrylmorley/whatcable",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1226286910,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 262,
-          "stars": 8659
-        },
         {
           "date": "2026-09-07",
           "forks": 261,
@@ -21900,6 +21680,11 @@
           "date": "2026-10-10",
           "forks": 271,
           "stars": 8869
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 271,
+          "stars": 8871
         }
       ]
     },
@@ -21908,14 +21693,9 @@
       "first_seen": "2026-08-13",
       "full_name": "GoogleCloudPlatform/knowledge-catalog",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1229044689,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 769,
-          "stars": 9072
-        },
         {
           "date": "2026-09-07",
           "forks": 772,
@@ -22030,6 +21810,11 @@
           "date": "2026-10-10",
           "forks": 796,
           "stars": 9430
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 796,
+          "stars": 9440
         }
       ]
     },
@@ -22038,14 +21823,9 @@
       "first_seen": "2026-08-13",
       "full_name": "BigPizzaV3/CodexPlusPlus",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1230751102,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1926,
-          "stars": 30255
-        },
         {
           "date": "2026-09-07",
           "forks": 1935,
@@ -22215,6 +21995,11 @@
           "date": "2026-10-10",
           "forks": 2035,
           "stars": 31938
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2039,
+          "stars": 31984
         }
       ]
     },
@@ -22223,14 +22008,9 @@
       "first_seen": "2026-08-13",
       "full_name": "antirez/ds4",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1231148626,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2075,
-          "stars": 22095
-        },
         {
           "date": "2026-09-07",
           "forks": 2076,
@@ -22400,6 +22180,11 @@
           "date": "2026-10-10",
           "forks": 2292,
           "stars": 23745
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2294,
+          "stars": 23761
         }
       ]
     },
@@ -22408,14 +22193,9 @@
       "first_seen": "2026-08-13",
       "full_name": "PrimeIntellect-ai/prime-agent",
       "last_featured": "2026-08-17",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1232493406,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2181,
-          "stars": 19959
-        },
         {
           "date": "2026-09-07",
           "forks": 2191,
@@ -22585,6 +22365,11 @@
           "date": "2026-10-10",
           "forks": 2391,
           "stars": 21685
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2407,
+          "stars": 21847
         }
       ]
     },
@@ -22593,14 +22378,9 @@
       "first_seen": "2026-08-13",
       "full_name": "microsoft/SkillOpt",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1232669890,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1571,
-          "stars": 16702
-        },
         {
           "date": "2026-09-07",
           "forks": 1572,
@@ -22770,6 +22550,11 @@
           "date": "2026-10-10",
           "forks": 1713,
           "stars": 18169
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1717,
+          "stars": 18202
         }
       ]
     },
@@ -22778,14 +22563,9 @@
       "first_seen": "2026-08-13",
       "full_name": "simonlin1212/a-stock-data",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1235056479,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1745,
-          "stars": 9618
-        },
         {
           "date": "2026-09-07",
           "forks": 1753,
@@ -22900,6 +22680,11 @@
           "date": "2026-10-10",
           "forks": 1947,
           "stars": 10734
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1952,
+          "stars": 10761
         }
       ]
     },
@@ -22908,14 +22693,9 @@
       "first_seen": "2026-08-13",
       "full_name": "nexu-io/html-anything",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1235403234,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 847,
-          "stars": 8671
-        },
         {
           "date": "2026-09-07",
           "forks": 847,
@@ -23030,6 +22810,11 @@
           "date": "2026-10-10",
           "forks": 874,
           "stars": 9055
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 875,
+          "stars": 9072
         }
       ]
     },
@@ -23038,14 +22823,9 @@
       "first_seen": "2026-08-15",
       "full_name": "simplifaisoul/osiris",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1237031497,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1756,
-          "stars": 8554
-        },
         {
           "date": "2026-09-07",
           "forks": 1771,
@@ -23160,6 +22940,11 @@
           "date": "2026-10-10",
           "forks": 2188,
           "stars": 10619
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2211,
+          "stars": 10714
         }
       ]
     },
@@ -23168,14 +22953,9 @@
       "first_seen": "2026-08-12",
       "full_name": "zhaoxuya520/reverse-skill",
       "last_featured": "2026-08-12",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1237819660,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 4723,
-          "stars": 34699
-        },
         {
           "date": "2026-09-07",
           "forks": 4743,
@@ -23345,6 +23125,11 @@
           "date": "2026-10-10",
           "forks": 5666,
           "stars": 40482
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 5720,
+          "stars": 40726
         }
       ]
     },
@@ -23353,14 +23138,9 @@
       "first_seen": "2026-08-13",
       "full_name": "ayghri/i-have-adhd",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1238120057,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1705,
-          "stars": 27214
-        },
         {
           "date": "2026-09-07",
           "forks": 1718,
@@ -23530,6 +23310,11 @@
           "date": "2026-10-10",
           "forks": 3199,
           "stars": 56136
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3219,
+          "stars": 56310
         }
       ]
     },
@@ -23538,14 +23323,9 @@
       "first_seen": "2026-08-13",
       "full_name": "datawhalechina/Agent-Learning-Hub",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1241257629,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 777,
-          "stars": 7495
-        },
         {
           "date": "2026-09-07",
           "forks": 781,
@@ -23655,6 +23435,11 @@
           "date": "2026-10-10",
           "forks": 858,
           "stars": 8520
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 861,
+          "stars": 8558
         }
       ]
     },
@@ -23663,14 +23448,9 @@
       "first_seen": "2026-08-13",
       "full_name": "alibaba/open-code-review",
       "last_featured": "2026-09-14",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1241960226,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1633,
-          "stars": 21955
-        },
         {
           "date": "2026-09-07",
           "forks": 1637,
@@ -23840,6 +23620,11 @@
           "date": "2026-10-10",
           "forks": 3266,
           "stars": 45274
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3318,
+          "stars": 45885
         }
       ]
     },
@@ -23848,14 +23633,9 @@
       "first_seen": "2026-08-13",
       "full_name": "astrid-runtime/sdk-js",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1242346934,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 37,
-          "stars": 8113
-        },
         {
           "date": "2026-09-07",
           "forks": 37,
@@ -23965,6 +23745,11 @@
           "date": "2026-10-10",
           "forks": 37,
           "stars": 8093
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 37,
+          "stars": 8093
         }
       ]
     },
@@ -23973,14 +23758,9 @@
       "first_seen": "2026-08-13",
       "full_name": "teamchong/pxpipe",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1244617222,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 638,
-          "stars": 7346
-        },
         {
           "date": "2026-09-07",
           "forks": 638,
@@ -24085,6 +23865,11 @@
           "date": "2026-10-10",
           "forks": 653,
           "stars": 7504
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 653,
+          "stars": 7506
         }
       ]
     },
@@ -24096,11 +23881,6 @@
       "last_seen": "2026-10-08",
       "repo_id": 1244911834,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 449,
-          "stars": 4986
-        },
         {
           "date": "2026-10-02",
           "forks": 455,
@@ -24143,14 +23923,9 @@
       "first_seen": "2026-08-13",
       "full_name": "EpicGames/lore",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1246010662,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 424,
-          "stars": 8565
-        },
         {
           "date": "2026-09-07",
           "forks": 425,
@@ -24265,6 +24040,11 @@
           "date": "2026-10-10",
           "forks": 456,
           "stars": 8892
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 457,
+          "stars": 8896
         }
       ]
     },
@@ -24273,14 +24053,9 @@
       "first_seen": "2026-08-13",
       "full_name": "MoonshotAI/kimi-code",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1246459259,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1166,
-          "stars": 7264
-        },
         {
           "date": "2026-09-07",
           "forks": 1169,
@@ -24390,6 +24165,11 @@
           "date": "2026-10-10",
           "forks": 1281,
           "stars": 7811
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1283,
+          "stars": 7825
         }
       ]
     },
@@ -24398,14 +24178,9 @@
       "first_seen": "2026-08-13",
       "full_name": "open-gsd/gsd-core",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1246625636,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 661,
-          "stars": 9136
-        },
         {
           "date": "2026-09-07",
           "forks": 662,
@@ -24520,6 +24295,11 @@
           "date": "2026-10-10",
           "forks": 744,
           "stars": 10345
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 743,
+          "stars": 10388
         }
       ]
     },
@@ -24528,14 +24308,9 @@
       "first_seen": "2026-08-13",
       "full_name": "anthropics/defending-code-reference-harness",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1246839757,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 597,
-          "stars": 7408
-        },
         {
           "date": "2026-09-07",
           "forks": 597,
@@ -24645,6 +24420,11 @@
           "date": "2026-10-10",
           "forks": 618,
           "stars": 7555
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 619,
+          "stars": 7558
         }
       ]
     },
@@ -24653,14 +24433,9 @@
       "first_seen": "2026-08-13",
       "full_name": "AprilNEA/OpenLogi",
       "last_featured": "2026-08-24",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1248194723,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 592,
-          "stars": 19533
-        },
         {
           "date": "2026-09-07",
           "forks": 601,
@@ -24830,6 +24605,11 @@
           "date": "2026-10-10",
           "forks": 782,
           "stars": 23267
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 783,
+          "stars": 23323
         }
       ]
     },
@@ -24838,7 +24618,7 @@
       "first_seen": "2026-08-13",
       "full_name": "op7418/guizang-social-card-skill",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1251263546,
       "snapshots": [
         {
@@ -24930,6 +24710,11 @@
           "date": "2026-10-10",
           "forks": 572,
           "stars": 7432
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 573,
+          "stars": 7450
         }
       ]
     },
@@ -24938,14 +24723,9 @@
       "first_seen": "2026-08-13",
       "full_name": "opengeos/GeoLibre",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1251648409,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 741,
-          "stars": 7150
-        },
         {
           "date": "2026-09-07",
           "forks": 741,
@@ -25050,6 +24830,11 @@
           "date": "2026-10-10",
           "forks": 874,
           "stars": 7889
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 875,
+          "stars": 7905
         }
       ]
     },
@@ -25058,14 +24843,9 @@
       "first_seen": "2026-08-13",
       "full_name": "helloianneo/ian-xiaohei-illustrations",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1251775733,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1326,
-          "stars": 11105
-        },
         {
           "date": "2026-09-07",
           "forks": 1332,
@@ -25215,6 +24995,11 @@
           "date": "2026-10-10",
           "forks": 1433,
           "stars": 12464
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1435,
+          "stars": 12491
         }
       ]
     },
@@ -25223,14 +25008,9 @@
       "first_seen": "2026-08-13",
       "full_name": "StarTrail-org/PixelRAG",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1253138201,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 848,
-          "stars": 9881
-        },
         {
           "date": "2026-09-07",
           "forks": 850,
@@ -25345,6 +25125,11 @@
           "date": "2026-10-10",
           "forks": 892,
           "stars": 10229
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 896,
+          "stars": 10245
         }
       ]
     },
@@ -25353,7 +25138,7 @@
       "first_seen": "2026-08-13",
       "full_name": "zgwl/chinese-buy-us-stock-guide",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1254038692,
       "snapshots": [
         {
@@ -25450,6 +25235,11 @@
           "date": "2026-10-10",
           "forks": 1061,
           "stars": 7399
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1062,
+          "stars": 7409
         }
       ]
     },
@@ -25458,14 +25248,9 @@
       "first_seen": "2026-08-13",
       "full_name": "odysseus-dev/odysseus",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1255180606,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 807,
-          "stars": 86879
-        },
         {
           "date": "2026-09-07",
           "forks": 815,
@@ -25635,6 +25420,11 @@
           "date": "2026-10-10",
           "forks": 1455,
           "stars": 92464
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1482,
+          "stars": 92652
         }
       ]
     },
@@ -25643,14 +25433,9 @@
       "first_seen": "2026-08-13",
       "full_name": "zhishile/codex-auth-helper",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1256690992,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 499,
-          "stars": 12050
-        },
         {
           "date": "2026-09-07",
           "forks": 508,
@@ -25820,6 +25605,11 @@
           "date": "2026-10-10",
           "forks": 710,
           "stars": 18092
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 715,
+          "stars": 18239
         }
       ]
     },
@@ -25831,11 +25621,6 @@
       "last_seen": "2026-09-15",
       "repo_id": 1257186289,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 814,
-          "stars": 10521
-        },
         {
           "date": "2026-09-07",
           "forks": 815,
@@ -25888,14 +25673,9 @@
       "first_seen": "2026-08-12",
       "full_name": "cloudflare/computer",
       "last_featured": "2026-08-12",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1260288940,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 506,
-          "stars": 9073
-        },
         {
           "date": "2026-09-07",
           "forks": 505,
@@ -26010,6 +25790,11 @@
           "date": "2026-10-10",
           "forks": 552,
           "stars": 9539
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 552,
+          "stars": 9551
         }
       ]
     },
@@ -26018,14 +25803,9 @@
       "first_seen": "2026-08-13",
       "full_name": "laoma528/awesome-zhuiju-free",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1260652867,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 473,
-          "stars": 8030
-        },
         {
           "date": "2026-09-07",
           "forks": 478,
@@ -26140,6 +25920,11 @@
           "date": "2026-10-10",
           "forks": 796,
           "stars": 11599
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 802,
+          "stars": 11674
         }
       ]
     },
@@ -26148,14 +25933,9 @@
       "first_seen": "2026-08-13",
       "full_name": "astrid-runtime/book",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1260901035,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 32,
-          "stars": 7466
-        },
         {
           "date": "2026-09-07",
           "forks": 32,
@@ -26265,6 +26045,11 @@
           "date": "2026-10-10",
           "forks": 32,
           "stars": 7453
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 32,
+          "stars": 7453
         }
       ]
     },
@@ -26273,14 +26058,9 @@
       "first_seen": "2026-08-13",
       "full_name": "astrid-runtime/handbook",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1260901078,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 43,
-          "stars": 7407
-        },
         {
           "date": "2026-09-07",
           "forks": 43,
@@ -26385,6 +26165,11 @@
           "date": "2026-10-10",
           "forks": 43,
           "stars": 7392
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 43,
+          "stars": 7392
         }
       ]
     },
@@ -26393,14 +26178,9 @@
       "first_seen": "2026-08-13",
       "full_name": "cobusgreyling/loop-engineering",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1263648864,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1490,
-          "stars": 10991
-        },
         {
           "date": "2026-09-07",
           "forks": 1491,
@@ -26535,6 +26315,11 @@
           "date": "2026-10-10",
           "forks": 1533,
           "stars": 11445
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1541,
+          "stars": 11475
         }
       ]
     },
@@ -26543,14 +26328,9 @@
       "first_seen": "2026-08-13",
       "full_name": "makerspet/oomwoo",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1264722786,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 627,
-          "stars": 10373
-        },
         {
           "date": "2026-09-07",
           "forks": 632,
@@ -26670,6 +26450,11 @@
           "date": "2026-10-10",
           "forks": 722,
           "stars": 11428
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 722,
+          "stars": 11437
         }
       ]
     },
@@ -26678,14 +26463,9 @@
       "first_seen": "2026-08-13",
       "full_name": "chuspeeism/dashi-ppt-skill",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1264811161,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 710,
-          "stars": 7553
-        },
         {
           "date": "2026-09-07",
           "forks": 715,
@@ -26800,6 +26580,11 @@
           "date": "2026-10-10",
           "forks": 821,
           "stars": 9297
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 824,
+          "stars": 9354
         }
       ]
     },
@@ -26808,14 +26593,9 @@
       "first_seen": "2026-08-13",
       "full_name": "shadcn/improve",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1264986626,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 405,
-          "stars": 9081
-        },
         {
           "date": "2026-09-07",
           "forks": 405,
@@ -26930,6 +26710,11 @@
           "date": "2026-10-10",
           "forks": 412,
           "stars": 9219
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 412,
+          "stars": 9219
         }
       ]
     },
@@ -26938,14 +26723,9 @@
       "first_seen": "2026-08-13",
       "full_name": "XiaomiMiMo/MiMo-Code",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1265025028,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1337,
-          "stars": 12955
-        },
         {
           "date": "2026-09-07",
           "forks": 1337,
@@ -27105,6 +26885,11 @@
           "date": "2026-10-10",
           "forks": 1426,
           "stars": 13619
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1427,
+          "stars": 13618
         }
       ]
     },
@@ -27113,14 +26898,9 @@
       "first_seen": "2026-08-13",
       "full_name": "omnigent-ai/omnigent",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1266212515,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1514,
-          "stars": 9725
-        },
         {
           "date": "2026-09-07",
           "forks": 1515,
@@ -27235,6 +27015,11 @@
           "date": "2026-10-10",
           "forks": 1729,
           "stars": 10707
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1734,
+          "stars": 10736
         }
       ]
     },
@@ -27243,14 +27028,9 @@
       "first_seen": "2026-08-13",
       "full_name": "DietrichGebert/ponytail",
       "last_featured": "2026-08-24",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1266797999,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 6845,
-          "stars": 127906
-        },
         {
           "date": "2026-09-07",
           "forks": 6927,
@@ -27420,6 +27200,11 @@
           "date": "2026-10-10",
           "forks": 8590,
           "stars": 159672
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 8629,
+          "stars": 160468
         }
       ]
     },
@@ -27428,14 +27213,9 @@
       "first_seen": "2026-08-13",
       "full_name": "vorssaint/vorssaint-utils",
       "last_featured": "2026-09-07",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1267485499,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 555,
-          "stars": 15481
-        },
         {
           "date": "2026-09-07",
           "forks": 563,
@@ -27605,6 +27385,11 @@
           "date": "2026-10-10",
           "forks": 1078,
           "stars": 25555
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1094,
+          "stars": 25905
         }
       ]
     },
@@ -27616,11 +27401,6 @@
       "last_seen": "2026-09-11",
       "repo_id": 1271113810,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 508,
-          "stars": 4985
-        },
         {
           "date": "2026-09-07",
           "forks": 510,
@@ -27653,7 +27433,7 @@
       "first_seen": "2026-10-03",
       "full_name": "latent-spaces/brag",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1271560627,
       "snapshots": [
         {
@@ -27695,6 +27475,11 @@
           "date": "2026-10-10",
           "forks": 1061,
           "stars": 14778
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1092,
+          "stars": 14997
         }
       ]
     },
@@ -27703,14 +27488,9 @@
       "first_seen": "2026-08-13",
       "full_name": "baidu/Unlimited-OCR",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1273138090,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2619,
-          "stars": 25259
-        },
         {
           "date": "2026-09-07",
           "forks": 2628,
@@ -27880,6 +27660,11 @@
           "date": "2026-10-10",
           "forks": 2800,
           "stars": 26811
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2802,
+          "stars": 26829
         }
       ]
     },
@@ -27888,7 +27673,7 @@
       "first_seen": "2026-09-19",
       "full_name": "cloudflare/security-audit-skill",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1273427276,
       "snapshots": [
         {
@@ -28000,6 +27785,11 @@
           "date": "2026-10-10",
           "forks": 1618,
           "stars": 26960
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1660,
+          "stars": 27865
         }
       ]
     },
@@ -28011,11 +27801,6 @@
       "last_seen": "2026-10-08",
       "repo_id": 1273536446,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 442,
-          "stars": 5830
-        },
         {
           "date": "2026-09-07",
           "forks": 442,
@@ -28083,14 +27868,9 @@
       "first_seen": "2026-08-13",
       "full_name": "lidge-jun/opencodex",
       "last_featured": "2026-09-07",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1273824907,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1012,
-          "stars": 13485
-        },
         {
           "date": "2026-09-07",
           "forks": 1024,
@@ -28260,6 +28040,11 @@
           "date": "2026-10-10",
           "forks": 1300,
           "stars": 17197
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1307,
+          "stars": 17233
         }
       ]
     },
@@ -28268,7 +28053,7 @@
       "first_seen": "2026-10-03",
       "full_name": "spinabot/brigade",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1274498048,
       "snapshots": [
         {
@@ -28310,6 +28095,11 @@
           "date": "2026-10-10",
           "forks": 70,
           "stars": 11306
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 70,
+          "stars": 11317
         }
       ]
     },
@@ -28318,14 +28108,9 @@
       "first_seen": "2026-08-30",
       "full_name": "bilawalsidhu/gods-eye-view",
       "last_featured": "2026-09-14",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1277471539,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 3640,
-          "stars": 17995
-        },
         {
           "date": "2026-09-07",
           "forks": 3743,
@@ -28495,6 +28280,11 @@
           "date": "2026-10-10",
           "forks": 10041,
           "stars": 49662
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 10183,
+          "stars": 50363
         }
       ]
     },
@@ -28503,14 +28293,9 @@
       "first_seen": "2026-08-13",
       "full_name": "langchain-ai/openwiki",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1277477208,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1167,
-          "stars": 16153
-        },
         {
           "date": "2026-09-07",
           "forks": 1168,
@@ -28680,6 +28465,11 @@
           "date": "2026-10-10",
           "forks": 1252,
           "stars": 17047
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1252,
+          "stars": 17076
         }
       ]
     },
@@ -28691,11 +28481,6 @@
       "last_seen": "2026-09-11",
       "repo_id": 1277675818,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1252,
-          "stars": 4699
-        },
         {
           "date": "2026-09-07",
           "forks": 1263,
@@ -28723,41 +28508,6 @@
         }
       ]
     },
-    "1278830624": {
-      "feature_count": 0,
-      "first_seen": "2026-08-13",
-      "full_name": "Yu9191/wloc",
-      "last_featured": null,
-      "last_seen": "2026-09-10",
-      "repo_id": 1278830624,
-      "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2166,
-          "stars": 10034
-        },
-        {
-          "date": "2026-09-07",
-          "forks": 2174,
-          "stars": 10077
-        },
-        {
-          "date": "2026-09-08",
-          "forks": 2184,
-          "stars": 10227
-        },
-        {
-          "date": "2026-09-09",
-          "forks": 2193,
-          "stars": 10288
-        },
-        {
-          "date": "2026-09-10",
-          "forks": 2198,
-          "stars": 10346
-        }
-      ]
-    },
     "1280278993": {
       "feature_count": 0,
       "first_seen": "2026-08-13",
@@ -28766,11 +28516,6 @@
       "last_seen": "2026-10-08",
       "repo_id": 1280278993,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 376,
-          "stars": 5569
-        },
         {
           "date": "2026-09-07",
           "forks": 376,
@@ -28831,11 +28576,6 @@
       "last_seen": "2026-10-10",
       "repo_id": 1281315781,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 665,
-          "stars": 7081
-        },
         {
           "date": "2026-09-07",
           "forks": 664,
@@ -28942,11 +28682,6 @@
       "repo_id": 1283907968,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 474,
-          "stars": 5554
-        },
-        {
           "date": "2026-09-07",
           "forks": 477,
           "stars": 5570
@@ -29048,14 +28783,9 @@
       "first_seen": "2026-08-13",
       "full_name": "JustVugg/colibri",
       "last_featured": "2026-09-14",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1286080397,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2949,
-          "stars": 26870
-        },
         {
           "date": "2026-09-07",
           "forks": 2953,
@@ -29225,6 +28955,11 @@
           "date": "2026-10-10",
           "forks": 4482,
           "stars": 40822
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4505,
+          "stars": 41029
         }
       ]
     },
@@ -29236,11 +28971,6 @@
       "last_seen": "2026-10-08",
       "repo_id": 1287460663,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1273,
-          "stars": 6015
-        },
         {
           "date": "2026-09-07",
           "forks": 1279,
@@ -29308,7 +29038,7 @@
       "first_seen": "2026-09-30",
       "full_name": "hydra-db/hydradb",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1287908540,
       "snapshots": [
         {
@@ -29365,6 +29095,11 @@
           "date": "2026-10-10",
           "forks": 5457,
           "stars": 13021
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 5449,
+          "stars": 13015
         }
       ]
     },
@@ -29458,14 +29193,9 @@
       "first_seen": "2026-08-13",
       "full_name": "oso95/scroll-world",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1291501023,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1021,
-          "stars": 9024
-        },
         {
           "date": "2026-09-07",
           "forks": 1021,
@@ -29580,6 +29310,11 @@
           "date": "2026-10-10",
           "forks": 1098,
           "stars": 9878
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1106,
+          "stars": 9959
         }
       ]
     },
@@ -29588,14 +29323,9 @@
       "first_seen": "2026-08-13",
       "full_name": "petergyang/no-ai-slop",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1291783779,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 542,
-          "stars": 7272
-        },
         {
           "date": "2026-09-07",
           "forks": 551,
@@ -29710,6 +29440,11 @@
           "date": "2026-10-10",
           "forks": 835,
           "stars": 12111
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 838,
+          "stars": 12151
         }
       ]
     },
@@ -29721,11 +29456,6 @@
       "last_seen": "2026-10-06",
       "repo_id": 1293375068,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 752,
-          "stars": 4246
-        },
         {
           "date": "2026-09-07",
           "forks": 753,
@@ -29783,14 +29513,9 @@
       "first_seen": "2026-08-13",
       "full_name": "MDX-Tom/gpt-instruct",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1297316519,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 943,
-          "stars": 7489
-        },
         {
           "date": "2026-09-07",
           "forks": 953,
@@ -29905,6 +29630,11 @@
           "date": "2026-10-10",
           "forks": 1193,
           "stars": 9668
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1202,
+          "stars": 9733
         }
       ]
     },
@@ -29913,14 +29643,9 @@
       "first_seen": "2026-08-13",
       "full_name": "LiamGvchi/gc-minimal-zine-poster",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1298164130,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 304,
-          "stars": 6939
-        },
         {
           "date": "2026-09-07",
           "forks": 304,
@@ -30020,6 +29745,11 @@
           "date": "2026-10-10",
           "forks": 321,
           "stars": 7284
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 321,
+          "stars": 7297
         }
       ]
     },
@@ -30028,14 +29758,9 @@
       "first_seen": "2026-08-13",
       "full_name": "unicity-aos/aos-ce",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1298696137,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 21,
-          "stars": 8550
-        },
         {
           "date": "2026-09-07",
           "forks": 21,
@@ -30150,6 +29875,11 @@
           "date": "2026-10-10",
           "forks": 23,
           "stars": 8462
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 23,
+          "stars": 8462
         }
       ]
     },
@@ -30158,14 +29888,9 @@
       "first_seen": "2026-08-13",
       "full_name": "openai/codex-security",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1299769220,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 755,
-          "stars": 10437
-        },
         {
           "date": "2026-09-07",
           "forks": 765,
@@ -30285,6 +30010,11 @@
           "date": "2026-10-10",
           "forks": 858,
           "stars": 11047
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 857,
+          "stars": 11056
         }
       ]
     },
@@ -30293,14 +30023,9 @@
       "first_seen": "2026-08-13",
       "full_name": "xai-org/grok-build",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1300902838,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 4978,
-          "stars": 26492
-        },
         {
           "date": "2026-09-07",
           "forks": 4984,
@@ -30470,6 +30195,11 @@
           "date": "2026-10-10",
           "forks": 5129,
           "stars": 27293
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 5136,
+          "stars": 27308
         }
       ]
     },
@@ -30478,14 +30208,9 @@
       "first_seen": "2026-08-13",
       "full_name": "img2threejs/img2threejs",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1301140808,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1259,
-          "stars": 15300
-        },
         {
           "date": "2026-09-07",
           "forks": 1265,
@@ -30655,6 +30380,11 @@
           "date": "2026-10-10",
           "forks": 1504,
           "stars": 17812
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1507,
+          "stars": 17880
         }
       ]
     },
@@ -30663,14 +30393,9 @@
       "first_seen": "2026-08-13",
       "full_name": "Fei-Away/Codex-Dream-Skin",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1301597356,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1353,
-          "stars": 14331
-        },
         {
           "date": "2026-09-07",
           "forks": 1354,
@@ -30840,6 +30565,11 @@
           "date": "2026-10-10",
           "forks": 1369,
           "stars": 14940
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1369,
+          "stars": 14954
         }
       ]
     },
@@ -30851,11 +30581,6 @@
       "last_seen": "2026-10-10",
       "repo_id": 1304159264,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 423,
-          "stars": 6640
-        },
         {
           "date": "2026-09-07",
           "forks": 423,
@@ -30933,14 +30658,9 @@
       "first_seen": "2026-08-13",
       "full_name": "Vincentwei1021/video-shotcraft",
       "last_featured": "2026-09-14",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1305663861,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 666,
-          "stars": 7543
-        },
         {
           "date": "2026-09-07",
           "forks": 676,
@@ -31045,6 +30765,11 @@
           "date": "2026-10-10",
           "forks": 987,
           "stars": 11051
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 997,
+          "stars": 11181
         }
       ]
     },
@@ -31053,14 +30778,9 @@
       "first_seen": "2026-08-13",
       "full_name": "andrewyng/openworker",
       "last_featured": "2026-08-31",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1306128367,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2438,
-          "stars": 17370
-        },
         {
           "date": "2026-09-07",
           "forks": 2443,
@@ -31230,6 +30950,11 @@
           "date": "2026-10-10",
           "forks": 2623,
           "stars": 18479
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2624,
+          "stars": 18484
         }
       ]
     },
@@ -31238,7 +30963,7 @@
       "first_seen": "2026-09-13",
       "full_name": "FlashML-org/FreeToken",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1307001698,
       "snapshots": [
         {
@@ -31370,6 +31095,11 @@
           "date": "2026-10-10",
           "forks": 1432,
           "stars": 14328
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1435,
+          "stars": 14360
         }
       ]
     },
@@ -31381,11 +31111,6 @@
       "last_seen": "2026-10-08",
       "repo_id": 1310057619,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 568,
-          "stars": 4285
-        },
         {
           "date": "2026-09-07",
           "forks": 569,
@@ -31453,7 +31178,7 @@
       "first_seen": "2026-09-26",
       "full_name": "miuuyy/codex-chatgpt-web",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1312807575,
       "snapshots": [
         {
@@ -31530,6 +31255,11 @@
           "date": "2026-10-10",
           "forks": 1084,
           "stars": 13829
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1094,
+          "stars": 13914
         }
       ]
     },
@@ -31538,14 +31268,9 @@
       "first_seen": "2026-08-13",
       "full_name": "MoonshotAI/Kimi-K3",
       "last_featured": "2026-08-17",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1313576395,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 714,
-          "stars": 8710
-        },
         {
           "date": "2026-09-07",
           "forks": 716,
@@ -31660,6 +31385,11 @@
           "date": "2026-10-10",
           "forks": 755,
           "stars": 8904
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 755,
+          "stars": 8906
         }
       ]
     },
@@ -31668,7 +31398,7 @@
       "first_seen": "2026-09-23",
       "full_name": "hypit-ai/hypit",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1316470719,
       "snapshots": [
         {
@@ -31760,6 +31490,11 @@
           "date": "2026-10-10",
           "forks": 2259,
           "stars": 20594
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2289,
+          "stars": 20810
         }
       ]
     },
@@ -31768,14 +31503,9 @@
       "first_seen": "2026-08-13",
       "full_name": "yc-software/qm",
       "last_featured": "2026-08-17",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1316527318,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1777,
-          "stars": 14599
-        },
         {
           "date": "2026-09-07",
           "forks": 1781,
@@ -31945,6 +31675,11 @@
           "date": "2026-10-10",
           "forks": 1904,
           "stars": 15371
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1905,
+          "stars": 15379
         }
       ]
     },
@@ -31953,14 +31688,9 @@
       "first_seen": "2026-08-13",
       "full_name": "MiniMax-AI/MiniMax-H3",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1317041031,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 553,
-          "stars": 8108
-        },
         {
           "date": "2026-09-07",
           "forks": 559,
@@ -32075,6 +31805,11 @@
           "date": "2026-10-10",
           "forks": 729,
           "stars": 9730
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 732,
+          "stars": 9772
         }
       ]
     },
@@ -32086,11 +31821,6 @@
       "last_seen": "2026-10-10",
       "repo_id": 1317563975,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 806,
-          "stars": 6686
-        },
         {
           "date": "2026-09-07",
           "forks": 810,
@@ -32168,14 +31898,9 @@
       "first_seen": "2026-08-13",
       "full_name": "trycompai/crm",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1318768894,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1290,
-          "stars": 9842
-        },
         {
           "date": "2026-09-07",
           "forks": 1300,
@@ -32295,6 +32020,11 @@
           "date": "2026-10-10",
           "forks": 1598,
           "stars": 11183
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1605,
+          "stars": 11213
         }
       ]
     },
@@ -32303,14 +32033,9 @@
       "first_seen": "2026-08-12",
       "full_name": "FareedKhan-dev/kimi-k3-in-c",
       "last_featured": "2026-08-12",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1319154759,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1160,
-          "stars": 7138
-        },
         {
           "date": "2026-09-07",
           "forks": 1167,
@@ -32425,6 +32150,11 @@
           "date": "2026-10-10",
           "forks": 1468,
           "stars": 8964
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1470,
+          "stars": 8973
         }
       ]
     },
@@ -32433,14 +32163,9 @@
       "first_seen": "2026-08-12",
       "full_name": "firecrawl/anydoc",
       "last_featured": "2026-08-12",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1322012299,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1241,
-          "stars": 20415
-        },
         {
           "date": "2026-09-07",
           "forks": 1249,
@@ -32610,6 +32335,11 @@
           "date": "2026-10-10",
           "forks": 1438,
           "stars": 22653
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1440,
+          "stars": 22692
         }
       ]
     },
@@ -32618,7 +32348,7 @@
       "first_seen": "2026-10-09",
       "full_name": "boykopovar/AnyPS5",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1322250666,
       "snapshots": [
         {
@@ -32630,6 +32360,11 @@
           "date": "2026-10-10",
           "forks": 1838,
           "stars": 22521
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2262,
+          "stars": 26887
         }
       ]
     },
@@ -32638,7 +32373,7 @@
       "first_seen": "2026-09-13",
       "full_name": "pathwaycom/arc-task-gen",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1322954467,
       "snapshots": [
         {
@@ -32740,6 +32475,11 @@
           "date": "2026-10-10",
           "forks": 78,
           "stars": 11048
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 78,
+          "stars": 11046
         }
       ]
     },
@@ -32828,7 +32568,7 @@
       "first_seen": "2026-08-14",
       "full_name": "stefan-jansen/machine-learning-for-trading",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 132754148,
       "snapshots": [
         {
@@ -32905,6 +32645,11 @@
           "date": "2026-10-10",
           "forks": 5687,
           "stars": 21279
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 5690,
+          "stars": 21292
         }
       ]
     },
@@ -32913,13 +32658,18 @@
       "first_seen": "2026-10-10",
       "full_name": "lexmount/moli",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1329849289,
       "snapshots": [
         {
           "date": "2026-10-10",
           "forks": 371,
           "stars": 14884
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 380,
+          "stars": 15641
         }
       ]
     },
@@ -32928,14 +32678,9 @@
       "first_seen": "2026-08-14",
       "full_name": "guillaumemeyer/watermarks-remover",
       "last_featured": "2026-08-17",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1331135699,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2397,
-          "stars": 20798
-        },
         {
           "date": "2026-09-07",
           "forks": 2417,
@@ -33105,6 +32850,11 @@
           "date": "2026-10-10",
           "forks": 2718,
           "stars": 23711
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2732,
+          "stars": 23790
         }
       ]
     },
@@ -33113,14 +32863,9 @@
       "first_seen": "2026-08-14",
       "full_name": "deepseek-ai/deepseek-harness",
       "last_featured": "2026-08-17",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1333065091,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 25046,
-          "stars": 213123
-        },
         {
           "date": "2026-09-07",
           "forks": 25180,
@@ -33290,6 +33035,11 @@
           "date": "2026-10-10",
           "forks": 29569,
           "stars": 246386
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 29670,
+          "stars": 247011
         }
       ]
     },
@@ -33298,7 +33048,7 @@
       "first_seen": "2026-10-03",
       "full_name": "dataelement/dsh-desktop",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1333165619,
       "snapshots": [
         {
@@ -33340,6 +33090,11 @@
           "date": "2026-10-10",
           "forks": 464,
           "stars": 12653
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 470,
+          "stars": 12980
         }
       ]
     },
@@ -33348,14 +33103,9 @@
       "first_seen": "2026-08-23",
       "full_name": "awesome-dsh-plugin/awesome-dsh-plugin",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1333175049,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2595,
-          "stars": 14572
-        },
         {
           "date": "2026-09-07",
           "forks": 2626,
@@ -33525,6 +33275,11 @@
           "date": "2026-10-10",
           "forks": 3892,
           "stars": 18217
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3950,
+          "stars": 18310
         }
       ]
     },
@@ -33533,14 +33288,9 @@
       "first_seen": "2026-08-17",
       "full_name": "anywhere-labs/dsh-desktop",
       "last_featured": "2026-08-17",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1333321333,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1159,
-          "stars": 23786
-        },
         {
           "date": "2026-09-07",
           "forks": 1163,
@@ -33710,6 +33460,11 @@
           "date": "2026-10-10",
           "forks": 1426,
           "stars": 30268
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1430,
+          "stars": 30363
         }
       ]
     },
@@ -33718,7 +33473,7 @@
       "first_seen": "2026-10-05",
       "full_name": "google/artemis",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1333399642,
       "snapshots": [
         {
@@ -33750,6 +33505,11 @@
           "date": "2026-10-10",
           "forks": 1149,
           "stars": 11241
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1156,
+          "stars": 11302
         }
       ]
     },
@@ -33758,7 +33518,7 @@
       "first_seen": "2026-09-07",
       "full_name": "lnkiai/m3e-canvas",
       "last_featured": "2026-09-07",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1354310030,
       "snapshots": [
         {
@@ -33850,6 +33610,11 @@
           "date": "2026-10-10",
           "forks": 969,
           "stars": 9047
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 973,
+          "stars": 9115
         }
       ]
     },
@@ -33858,7 +33623,7 @@
       "first_seen": "2026-09-23",
       "full_name": "eternity4719/HowToLiveBetter",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1359648985,
       "snapshots": [
         {
@@ -33950,6 +33715,11 @@
           "date": "2026-10-10",
           "forks": 4704,
           "stars": 57111
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4864,
+          "stars": 58815
         }
       ]
     },
@@ -33958,13 +33728,18 @@
       "first_seen": "2026-10-10",
       "full_name": "robbietilton/Compositor",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1373614120,
       "snapshots": [
         {
           "date": "2026-10-10",
           "forks": 1379,
           "stars": 14840
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1452,
+          "stars": 15469
         }
       ]
     },
@@ -33973,7 +33748,7 @@
       "first_seen": "2026-09-22",
       "full_name": "browser-use/jev-ultrafast",
       "last_featured": "2026-09-28",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1373655162,
       "snapshots": [
         {
@@ -34070,6 +33845,11 @@
           "date": "2026-10-10",
           "forks": 1648,
           "stars": 22479
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1656,
+          "stars": 22560
         }
       ]
     },
@@ -34143,7 +33923,7 @@
       "first_seen": "2026-09-23",
       "full_name": "NandhaKishorM/laya",
       "last_featured": "2026-09-28",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1375382253,
       "snapshots": [
         {
@@ -34235,6 +34015,11 @@
           "date": "2026-10-10",
           "forks": 2845,
           "stars": 31983
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2854,
+          "stars": 32160
         }
       ]
     },
@@ -34243,7 +34028,7 @@
       "first_seen": "2026-10-05",
       "full_name": "yetone/magpie",
       "last_featured": "2026-10-05",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1383809012,
       "snapshots": [
         {
@@ -34265,6 +34050,11 @@
           "date": "2026-10-10",
           "forks": 513,
           "stars": 7481
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 567,
+          "stars": 8573
         }
       ]
     },
@@ -34273,7 +34063,7 @@
       "first_seen": "2026-10-05",
       "full_name": "Niko1221/Strata",
       "last_featured": "2026-10-05",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1385946301,
       "snapshots": [
         {
@@ -34305,6 +34095,11 @@
           "date": "2026-10-10",
           "forks": 1781,
           "stars": 19590
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1929,
+          "stars": 20700
         }
       ]
     },
@@ -34378,7 +34173,7 @@
       "first_seen": "2026-10-08",
       "full_name": "storytold/photocraft",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1398080271,
       "snapshots": [
         {
@@ -34395,6 +34190,11 @@
           "date": "2026-10-10",
           "forks": 5088,
           "stars": 35609
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 6333,
+          "stars": 42182
         }
       ]
     },
@@ -34403,13 +34203,18 @@
       "first_seen": "2026-10-10",
       "full_name": "openai/math",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 1407950271,
       "snapshots": [
         {
           "date": "2026-10-10",
           "forks": 1425,
           "stars": 13106
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1509,
+          "stars": 13681
         }
       ]
     },
@@ -34557,11 +34362,6 @@
       "repo_id": 145153231,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 423,
-          "stars": 5171
-        },
-        {
           "date": "2026-09-07",
           "forks": 423,
           "stars": 5171
@@ -34646,11 +34446,6 @@
       "last_seen": "2026-10-09",
       "repo_id": 14681876,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2118,
-          "stars": 15150
-        },
         {
           "date": "2026-09-07",
           "forks": 2118,
@@ -34793,7 +34588,7 @@
       "first_seen": "2026-09-20",
       "full_name": "wasmerio/wasmer",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 152572186,
       "snapshots": [
         {
@@ -34820,6 +34615,11 @@
           "date": "2026-10-10",
           "forks": 1024,
           "stars": 21140
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1024,
+          "stars": 21143
         }
       ]
     },
@@ -34848,7 +34648,7 @@
       "first_seen": "2026-09-14",
       "full_name": "huggingface/transformers",
       "last_featured": null,
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "repo_id": 155220641,
       "snapshots": [
         {
@@ -34865,6 +34665,11 @@
           "date": "2026-09-20",
           "forks": 34629,
           "stars": 166388
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 34797,
+          "stars": 167266
         }
       ]
     },
@@ -34938,7 +34743,7 @@
       "first_seen": "2026-08-13",
       "full_name": "goldmansachs/gs-quant",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 161840815,
       "snapshots": [
         {
@@ -35020,6 +34825,11 @@
           "date": "2026-10-10",
           "forks": 1777,
           "stars": 13138
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1777,
+          "stars": 13145
         }
       ]
     },
@@ -35187,11 +34997,6 @@
       "repo_id": 17420614,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1583,
-          "stars": 12985
-        },
-        {
           "date": "2026-09-07",
           "forks": 1582,
           "stars": 12988
@@ -35318,7 +35123,7 @@
       "first_seen": "2026-08-14",
       "full_name": "hummingbot/hummingbot",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 179163124,
       "snapshots": [
         {
@@ -35395,6 +35200,11 @@
           "date": "2026-10-10",
           "forks": 4978,
           "stars": 20360
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4978,
+          "stars": 20382
         }
       ]
     },
@@ -35423,7 +35233,7 @@
       "first_seen": "2026-08-16",
       "full_name": "Budibase/budibase",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 190729906,
       "snapshots": [
         {
@@ -35535,6 +35345,11 @@
           "date": "2026-10-10",
           "forks": 2232,
           "stars": 28329
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2231,
+          "stars": 28330
         }
       ]
     },
@@ -35927,11 +35742,6 @@
       "repo_id": 217676469,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1208,
-          "stars": 5324
-        },
-        {
           "date": "2026-09-07",
           "forks": 1209,
           "stars": 5333
@@ -35993,7 +35803,7 @@
       "first_seen": "2026-08-18",
       "full_name": "deepset-ai/haystack",
       "last_featured": null,
-      "last_seen": "2026-09-25",
+      "last_seen": "2026-10-11",
       "repo_id": 221654678,
       "snapshots": [
         {
@@ -36055,6 +35865,11 @@
           "date": "2026-09-25",
           "forks": 3178,
           "stars": 26591
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3262,
+          "stars": 26715
         }
       ]
     },
@@ -36262,11 +36077,6 @@
       "repo_id": 23515024,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 1004,
-          "stars": 12776
-        },
-        {
           "date": "2026-09-30",
           "forks": 1002,
           "stars": 12775
@@ -36285,41 +36095,6 @@
           "date": "2026-10-03",
           "forks": 1002,
           "stars": 12775
-        }
-      ]
-    },
-    "235431922": {
-      "feature_count": 0,
-      "first_seen": "2026-08-13",
-      "full_name": "go-rod/rod",
-      "last_featured": null,
-      "last_seen": "2026-09-10",
-      "repo_id": 235431922,
-      "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 484,
-          "stars": 7091
-        },
-        {
-          "date": "2026-09-07",
-          "forks": 484,
-          "stars": 7091
-        },
-        {
-          "date": "2026-09-08",
-          "forks": 484,
-          "stars": 7094
-        },
-        {
-          "date": "2026-09-09",
-          "forks": 484,
-          "stars": 7095
-        },
-        {
-          "date": "2026-09-10",
-          "forks": 485,
-          "stars": 7094
         }
       ]
     },
@@ -36368,14 +36143,9 @@
       "first_seen": "2026-08-13",
       "full_name": "PostHog/posthog",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 235901813,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 3337,
-          "stars": 39600
-        },
         {
           "date": "2026-09-07",
           "forks": 3340,
@@ -36515,6 +36285,11 @@
           "date": "2026-10-10",
           "forks": 3487,
           "stars": 40205
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3491,
+          "stars": 40218
         }
       ]
     },
@@ -36591,11 +36366,6 @@
       "last_seen": "2026-10-08",
       "repo_id": 243213207,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 299,
-          "stars": 4612
-        },
         {
           "date": "2026-09-07",
           "forks": 299,
@@ -36678,7 +36448,7 @@
       "first_seen": "2026-08-16",
       "full_name": "pestphp/pest",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 246674913,
       "snapshots": [
         {
@@ -36735,6 +36505,11 @@
           "date": "2026-10-10",
           "forks": 543,
           "stars": 11732
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 544,
+          "stars": 11732
         }
       ]
     },
@@ -36746,11 +36521,6 @@
       "last_seen": "2026-10-09",
       "repo_id": 2541284,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1714,
-          "stars": 30477
-        },
         {
           "date": "2026-09-07",
           "forks": 1714,
@@ -36846,11 +36616,6 @@
       "last_seen": "2026-10-07",
       "repo_id": 265810847,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1151,
-          "stars": 12421
-        },
         {
           "date": "2026-09-07",
           "forks": 1152,
@@ -37273,7 +37038,7 @@
       "first_seen": "2026-08-14",
       "full_name": "StockSharp/StockSharp",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 27703983,
       "snapshots": [
         {
@@ -37325,6 +37090,11 @@
           "date": "2026-10-10",
           "forks": 2273,
           "stars": 10857
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2276,
+          "stars": 10865
         }
       ]
     },
@@ -37403,7 +37173,7 @@
       "first_seen": "2026-08-16",
       "full_name": "airbytehq/airbyte",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 283046497,
       "snapshots": [
         {
@@ -37470,6 +37240,11 @@
           "date": "2026-10-10",
           "forks": 5398,
           "stars": 22198
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 5398,
+          "stars": 22202
         }
       ]
     },
@@ -37528,7 +37303,7 @@
       "first_seen": "2026-08-16",
       "full_name": "siyuan-note/siyuan",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 291438522,
       "snapshots": [
         {
@@ -37610,6 +37385,11 @@
           "date": "2026-10-10",
           "forks": 3051,
           "stars": 46702
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3053,
+          "stars": 46711
         }
       ]
     },
@@ -37817,11 +37597,6 @@
       "repo_id": 30329296,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 342,
-          "stars": 5909
-        },
-        {
           "date": "2026-09-07",
           "forks": 342,
           "stars": 5909
@@ -37918,7 +37693,7 @@
       "first_seen": "2026-10-02",
       "full_name": "flutter/flutter",
       "last_featured": null,
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "repo_id": 31792824,
       "snapshots": [
         {
@@ -37935,6 +37710,11 @@
           "date": "2026-10-04",
           "forks": 32933,
           "stars": 179307
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 33600,
+          "stars": 179526
         }
       ]
     },
@@ -37943,7 +37723,7 @@
       "first_seen": "2026-08-16",
       "full_name": "openbq-org/OpenBB",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 323048702,
       "snapshots": [
         {
@@ -38010,6 +37790,11 @@
           "date": "2026-10-10",
           "forks": 7642,
           "stars": 74032
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 7649,
+          "stars": 74084
         }
       ]
     },
@@ -38018,7 +37803,7 @@
       "first_seen": "2026-08-16",
       "full_name": "SigNoz/signoz",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 326404870,
       "snapshots": [
         {
@@ -38100,6 +37885,11 @@
           "date": "2026-10-10",
           "forks": 2531,
           "stars": 32324
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2530,
+          "stars": 32325
         }
       ]
     },
@@ -38213,7 +38003,7 @@
       "first_seen": "2026-08-15",
       "full_name": "ToolJet/ToolJet",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 352933140,
       "snapshots": [
         {
@@ -38295,6 +38085,11 @@
           "date": "2026-10-10",
           "forks": 5489,
           "stars": 41055
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 5493,
+          "stars": 41074
         }
       ]
     },
@@ -38368,13 +38163,18 @@
       "first_seen": "2026-10-10",
       "full_name": "netbirdio/netbird",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 357897199,
       "snapshots": [
         {
           "date": "2026-10-10",
           "forks": 1740,
           "stars": 29838
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1747,
+          "stars": 29857
         }
       ]
     },
@@ -38383,7 +38183,7 @@
       "first_seen": "2026-08-16",
       "full_name": "kubeshark/kubeshark",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 359419233,
       "snapshots": [
         {
@@ -38443,6 +38243,11 @@
         },
         {
           "date": "2026-10-10",
+          "forks": 553,
+          "stars": 12097
+        },
+        {
+          "date": "2026-10-11",
           "forks": 553,
           "stars": 12097
         }
@@ -38667,11 +38472,6 @@
       "repo_id": 423679664,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 311,
-          "stars": 6506
-        },
-        {
           "date": "2026-09-07",
           "forks": 311,
           "stars": 6506
@@ -38858,7 +38658,7 @@
       "first_seen": "2026-08-13",
       "full_name": "wilsonfreitas/awesome-quant",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 43425480,
       "snapshots": [
         {
@@ -38940,6 +38740,11 @@
           "date": "2026-10-10",
           "forks": 4098,
           "stars": 30018
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4106,
+          "stars": 30029
         }
       ]
     },
@@ -39062,11 +38867,6 @@
       "repo_id": 445768278,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 519,
-          "stars": 5216
-        },
-        {
           "date": "2026-09-07",
           "forks": 519,
           "stars": 5216
@@ -39188,13 +38988,18 @@
       "first_seen": "2026-09-27",
       "full_name": "tensorflow/tensorflow",
       "last_featured": null,
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "repo_id": 45717250,
       "snapshots": [
         {
           "date": "2026-09-27",
           "forks": 77614,
           "stars": 200453
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 78964,
+          "stars": 200730
         }
       ]
     },
@@ -39275,6 +39080,21 @@
           "date": "2026-10-01",
           "forks": 978,
           "stars": 15869
+        }
+      ]
+    },
+    "476507964": {
+      "feature_count": 0,
+      "first_seen": "2026-10-11",
+      "full_name": "storytold/artcraft",
+      "last_featured": null,
+      "last_seen": "2026-10-11",
+      "repo_id": 476507964,
+      "snapshots": [
+        {
+          "date": "2026-10-11",
+          "forks": 2294,
+          "stars": 14528
         }
       ]
     },
@@ -39608,14 +39428,9 @@
       "first_seen": "2026-08-13",
       "full_name": "apollographql/apollo-client",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 52630616,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2882,
-          "stars": 19813
-        },
         {
           "date": "2026-09-07",
           "forks": 2882,
@@ -39704,6 +39519,11 @@
         {
           "date": "2026-10-10",
           "forks": 2853,
+          "stars": 19798
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2854,
           "stars": 19798
         }
       ]
@@ -39843,7 +39663,7 @@
       "first_seen": "2026-09-19",
       "full_name": "dream-num/univer",
       "last_featured": "2026-09-28",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 543101941,
       "snapshots": [
         {
@@ -39925,6 +39745,11 @@
           "date": "2026-10-10",
           "forks": 1880,
           "stars": 22512
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1881,
+          "stars": 22530
         }
       ]
     },
@@ -40018,7 +39843,7 @@
       "first_seen": "2026-08-16",
       "full_name": "triggerdotdev/trigger.dev",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 572570113,
       "snapshots": [
         {
@@ -40130,6 +39955,11 @@
           "date": "2026-10-10",
           "forks": 1486,
           "stars": 16508
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1488,
+          "stars": 16516
         }
       ]
     },
@@ -40138,7 +39968,7 @@
       "first_seen": "2026-08-16",
       "full_name": "activepieces/activepieces",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 573661753,
       "snapshots": [
         {
@@ -40255,6 +40085,11 @@
           "date": "2026-10-10",
           "forks": 4319,
           "stars": 24968
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4323,
+          "stars": 24985
         }
       ]
     },
@@ -40263,7 +40098,7 @@
       "first_seen": "2026-08-16",
       "full_name": "AstrBotDevs/AstrBot",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 575865240,
       "snapshots": [
         {
@@ -40345,6 +40180,11 @@
           "date": "2026-10-10",
           "forks": 3031,
           "stars": 41621
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3036,
+          "stars": 41683
         }
       ]
     },
@@ -40597,11 +40437,6 @@
       "repo_id": 6105714,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 794,
-          "stars": 10643
-        },
-        {
           "date": "2026-09-07",
           "forks": 796,
           "stars": 10649
@@ -40743,7 +40578,7 @@
       "first_seen": "2026-08-17",
       "full_name": "camel-ai/camel",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 615510678,
       "snapshots": [
         {
@@ -40805,6 +40640,11 @@
           "date": "2026-10-10",
           "forks": 2109,
           "stars": 17844
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2109,
+          "stars": 17852
         }
       ]
     },
@@ -40923,7 +40763,7 @@
       "first_seen": "2026-08-18",
       "full_name": "langgenius/dify",
       "last_featured": null,
-      "last_seen": "2026-10-01",
+      "last_seen": "2026-10-11",
       "repo_id": 626805178,
       "snapshots": [
         {
@@ -41015,6 +40855,11 @@
           "date": "2026-10-01",
           "forks": 24861,
           "stars": 157623
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 24963,
+          "stars": 158103
         }
       ]
     },
@@ -41071,11 +40916,6 @@
       "last_seen": "2026-10-08",
       "repo_id": 631285104,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 903,
-          "stars": 5742
-        },
         {
           "date": "2026-09-07",
           "forks": 905,
@@ -41243,7 +41083,7 @@
       "first_seen": "2026-08-18",
       "full_name": "comet-ml/opik",
       "last_featured": null,
-      "last_seen": "2026-09-24",
+      "last_seen": "2026-10-11",
       "repo_id": 638951438,
       "snapshots": [
         {
@@ -41300,6 +41140,11 @@
           "date": "2026-09-24",
           "forks": 1823,
           "stars": 22208
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1847,
+          "stars": 22496
         }
       ]
     },
@@ -41603,7 +41448,7 @@
       "first_seen": "2026-09-24",
       "full_name": "pytorch/pytorch",
       "last_featured": null,
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "repo_id": 65600975,
       "snapshots": [
         {
@@ -41655,6 +41500,11 @@
           "date": "2026-10-04",
           "forks": 31254,
           "stars": 103696
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 31954,
+          "stars": 104145
         }
       ]
     },
@@ -41663,7 +41513,7 @@
       "first_seen": "2026-08-16",
       "full_name": "mem0ai/mem0",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 656099147,
       "snapshots": [
         {
@@ -41730,6 +41580,11 @@
           "date": "2026-10-10",
           "forks": 7870,
           "stars": 66909
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 7872,
+          "stars": 66957
         }
       ]
     },
@@ -41926,11 +41781,6 @@
       "last_seen": "2026-10-09",
       "repo_id": 66670819,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1656,
-          "stars": 25664
-        },
         {
           "date": "2026-09-07",
           "forks": 1655,
@@ -42223,7 +42073,7 @@
       "first_seen": "2026-08-16",
       "full_name": "topoteretes/cognee",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 679343504,
       "snapshots": [
         {
@@ -42290,6 +42140,11 @@
           "date": "2026-10-10",
           "forks": 3295,
           "stars": 31910
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3308,
+          "stars": 31974
         }
       ]
     },
@@ -42543,7 +42398,7 @@
       "first_seen": "2026-08-16",
       "full_name": "livekit/agents",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 707441527,
       "snapshots": [
         {
@@ -42600,6 +42455,11 @@
           "date": "2026-10-10",
           "forks": 3895,
           "stars": 14668
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3901,
+          "stars": 14686
         }
       ]
     },
@@ -42611,11 +42471,6 @@
       "last_seen": "2026-10-09",
       "repo_id": 709027512,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1499,
-          "stars": 17364
-        },
         {
           "date": "2026-09-07",
           "forks": 1501,
@@ -42753,7 +42608,7 @@
       "first_seen": "2026-08-16",
       "full_name": "crewAIInc/crewAI",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 710601088,
       "snapshots": [
         {
@@ -42820,6 +42675,11 @@
           "date": "2026-10-10",
           "forks": 8675,
           "stars": 59510
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 8684,
+          "stars": 59545
         }
       ]
     },
@@ -42872,7 +42732,7 @@
       "first_seen": "2026-08-16",
       "full_name": "conductor-oss/conductor",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 728981719,
       "snapshots": [
         {
@@ -42949,6 +42809,11 @@
           "date": "2026-10-10",
           "forks": 1030,
           "stars": 32271
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1030,
+          "stars": 32278
         }
       ]
     },
@@ -42957,7 +42822,7 @@
       "first_seen": "2026-08-16",
       "full_name": "hatchet-dev/hatchet",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 732124850,
       "snapshots": [
         {
@@ -42984,6 +42849,11 @@
           "date": "2026-10-10",
           "forks": 517,
           "stars": 8091
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 519,
+          "stars": 8094
         }
       ]
     },
@@ -42995,11 +42865,6 @@
       "last_seen": "2026-10-09",
       "repo_id": 741365632,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 802,
-          "stars": 9490
-        },
         {
           "date": "2026-09-07",
           "forks": 803,
@@ -43175,11 +43040,6 @@
       "last_seen": "2026-10-09",
       "repo_id": 749126547,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 3054,
-          "stars": 30595
-        },
         {
           "date": "2026-09-07",
           "forks": 3062,
@@ -43406,11 +43266,6 @@
       "repo_id": 7613257,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 8721,
-          "stars": 34469
-        },
-        {
           "date": "2026-09-07",
           "forks": 8720,
           "stars": 34474
@@ -43502,7 +43357,7 @@
       "first_seen": "2026-08-16",
       "full_name": "ComposioHQ/composio",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 762304524,
       "snapshots": [
         {
@@ -43584,6 +43439,11 @@
           "date": "2026-10-10",
           "forks": 4846,
           "stars": 30481
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4848,
+          "stars": 30486
         }
       ]
     },
@@ -43592,7 +43452,7 @@
       "first_seen": "2026-08-16",
       "full_name": "AI4Finance-Foundation/FinRobot",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 763842651,
       "snapshots": [
         {
@@ -43619,6 +43479,11 @@
           "date": "2026-10-10",
           "forks": 1381,
           "stars": 8186
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1384,
+          "stars": 8198
         }
       ]
     },
@@ -43707,7 +43572,7 @@
       "first_seen": "2026-08-18",
       "full_name": "opendatalab/MinerU",
       "last_featured": null,
-      "last_seen": "2026-09-24",
+      "last_seen": "2026-10-11",
       "repo_id": 765083837,
       "snapshots": [
         {
@@ -43764,6 +43629,11 @@
           "date": "2026-09-24",
           "forks": 6723,
           "stars": 80538
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 6764,
+          "stars": 81415
         }
       ]
     },
@@ -43872,7 +43742,7 @@
       "first_seen": "2026-08-16",
       "full_name": "Canner/WrenAI",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 771350543,
       "snapshots": [
         {
@@ -43954,6 +43824,11 @@
           "date": "2026-10-10",
           "forks": 2041,
           "stars": 17830
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2042,
+          "stars": 17840
         }
       ]
     },
@@ -43962,7 +43837,7 @@
       "first_seen": "2026-09-15",
       "full_name": "budtmo/docker-android",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 77145066,
       "snapshots": [
         {
@@ -44029,6 +43904,11 @@
           "date": "2026-10-10",
           "forks": 1761,
           "stars": 15955
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1760,
+          "stars": 15959
         }
       ]
     },
@@ -44102,14 +43982,9 @@
       "first_seen": "2026-08-13",
       "full_name": "firecrawl/firecrawl",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 787076358,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 9671,
-          "stars": 176900
-        },
         {
           "date": "2026-09-07",
           "forks": 9682,
@@ -44199,6 +44074,11 @@
           "date": "2026-10-10",
           "forks": 10075,
           "stars": 189946
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 10090,
+          "stars": 190226
         }
       ]
     },
@@ -44272,7 +44152,7 @@
       "first_seen": "2026-08-16",
       "full_name": "Shubhamsaboo/awesome-llm-apps",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 793375104,
       "snapshots": [
         {
@@ -44339,6 +44219,11 @@
           "date": "2026-10-10",
           "forks": 20733,
           "stars": 140982
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 20756,
+          "stars": 141155
         }
       ]
     },
@@ -44347,14 +44232,9 @@
       "first_seen": "2026-08-13",
       "full_name": "unclecode/crawl4ai",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 798201435,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 8415,
-          "stars": 81591
-        },
         {
           "date": "2026-09-07",
           "forks": 8436,
@@ -44449,6 +44329,11 @@
           "date": "2026-10-10",
           "forks": 8824,
           "stars": 85097
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 8835,
+          "stars": 85164
         }
       ]
     },
@@ -44707,7 +44592,7 @@
       "first_seen": "2026-08-16",
       "full_name": "TEN-framework/ten-framework",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 817354652,
       "snapshots": [
         {
@@ -44744,6 +44629,11 @@
           "date": "2026-10-10",
           "forks": 1362,
           "stars": 11155
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1362,
+          "stars": 11158
         }
       ]
     },
@@ -44752,7 +44642,7 @@
       "first_seen": "2026-08-16",
       "full_name": "pydantic/pydantic-ai",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 818331198,
       "snapshots": [
         {
@@ -44819,6 +44709,11 @@
           "date": "2026-10-10",
           "forks": 2895,
           "stars": 20512
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2900,
+          "stars": 20535
         }
       ]
     },
@@ -45027,7 +44922,7 @@
       "first_seen": "2026-08-16",
       "full_name": "2FastLabs/agent-squad",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 832647441,
       "snapshots": [
         {
@@ -45054,6 +44949,11 @@
           "date": "2026-10-10",
           "forks": 743,
           "stars": 7790
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 743,
+          "stars": 7790
         }
       ]
     },
@@ -45062,7 +44962,7 @@
       "first_seen": "2026-08-19",
       "full_name": "MODSetter/SurfSense",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 835975784,
       "snapshots": [
         {
@@ -45089,6 +44989,11 @@
           "date": "2026-10-10",
           "forks": 1569,
           "stars": 16341
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1570,
+          "stars": 16348
         }
       ]
     },
@@ -45100,11 +45005,6 @@
       "last_seen": "2026-10-07",
       "repo_id": 837911756,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 4647,
-          "stars": 30314
-        },
         {
           "date": "2026-09-07",
           "forks": 4646,
@@ -45297,6 +45197,21 @@
         }
       ]
     },
+    "838695230": {
+      "feature_count": 0,
+      "first_seen": "2026-10-11",
+      "full_name": "DavidHDev/react-bits",
+      "last_featured": null,
+      "last_seen": "2026-10-11",
+      "repo_id": 838695230,
+      "snapshots": [
+        {
+          "date": "2026-10-11",
+          "forks": 2391,
+          "stars": 48855
+        }
+      ]
+    },
     "839037098": {
       "feature_count": 0,
       "first_seen": "2026-08-19",
@@ -45367,7 +45282,7 @@
       "first_seen": "2026-08-16",
       "full_name": "getzep/graphiti",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 840056306,
       "snapshots": [
         {
@@ -45434,6 +45349,11 @@
           "date": "2026-10-10",
           "forks": 3244,
           "stars": 31600
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3248,
+          "stars": 31629
         }
       ]
     },
@@ -45442,7 +45362,7 @@
       "first_seen": "2026-08-16",
       "full_name": "aaif-goose/goose",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 846698999,
       "snapshots": [
         {
@@ -45524,6 +45444,11 @@
           "date": "2026-10-10",
           "forks": 6397,
           "stars": 55110
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 6404,
+          "stars": 55143
         }
       ]
     },
@@ -45662,7 +45587,7 @@
       "first_seen": "2026-08-16",
       "full_name": "NirDiamant/GenAI_Agents",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 854807707,
       "snapshots": [
         {
@@ -45744,6 +45669,11 @@
           "date": "2026-10-10",
           "forks": 4134,
           "stars": 24507
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4139,
+          "stars": 24528
         }
       ]
     },
@@ -45891,11 +45821,6 @@
       "repo_id": 8681349,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 4302,
-          "stars": 49900
-        },
-        {
           "date": "2026-09-07",
           "forks": 4301,
           "stars": 49905
@@ -46042,7 +45967,7 @@
       "first_seen": "2026-08-17",
       "full_name": "simular-ai/Agent-S",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 870189331,
       "snapshots": [
         {
@@ -46094,6 +46019,11 @@
           "date": "2026-10-10",
           "forks": 1467,
           "stars": 12575
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1466,
+          "stars": 12581
         }
       ]
     },
@@ -46312,7 +46242,7 @@
       "first_seen": "2026-08-17",
       "full_name": "steel-dev/steel-browser",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 882026761,
       "snapshots": [
         {
@@ -46339,6 +46269,11 @@
           "date": "2026-10-10",
           "forks": 991,
           "stars": 7774
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 992,
+          "stars": 7782
         }
       ]
     },
@@ -46417,7 +46352,7 @@
       "first_seen": "2026-08-16",
       "full_name": "microsoft/ai-agents-for-beginners",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 895508656,
       "snapshots": [
         {
@@ -46484,6 +46419,11 @@
           "date": "2026-10-10",
           "forks": 25221,
           "stars": 76770
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 25243,
+          "stars": 76857
         }
       ]
     },
@@ -46560,11 +46500,6 @@
       "last_seen": "2026-09-25",
       "repo_id": 896335270,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 15705,
-          "stars": 94332
-        },
         {
           "date": "2026-09-07",
           "forks": 15766,
@@ -46822,14 +46757,9 @@
       "first_seen": "2026-08-19",
       "full_name": "nanobrowser/nanobrowser",
       "last_featured": null,
-      "last_seen": "2026-10-07",
+      "last_seen": "2026-10-11",
       "repo_id": 910418754,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 1449,
-          "stars": 13744
-        },
         {
           "date": "2026-09-07",
           "forks": 1450,
@@ -46894,6 +46824,11 @@
           "date": "2026-10-07",
           "forks": 1481,
           "stars": 13986
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1483,
+          "stars": 14055
         }
       ]
     },
@@ -46902,7 +46837,7 @@
       "first_seen": "2026-10-09",
       "full_name": "browser-use/web-ui",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 910986056,
       "snapshots": [
         {
@@ -46914,6 +46849,11 @@
           "date": "2026-10-10",
           "forks": 2770,
           "stars": 16606
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2768,
+          "stars": 16611
         }
       ]
     },
@@ -46922,7 +46862,7 @@
       "first_seen": "2026-10-05",
       "full_name": "apify/apify-mcp-server",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 911256711,
       "snapshots": [
         {
@@ -46954,6 +46894,11 @@
           "date": "2026-10-10",
           "forks": 306,
           "stars": 10311
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 308,
+          "stars": 10450
         }
       ]
     },
@@ -46962,7 +46907,7 @@
       "first_seen": "2026-08-16",
       "full_name": "simstudioai/sim",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 912559512,
       "snapshots": [
         {
@@ -47074,6 +47019,11 @@
           "date": "2026-10-10",
           "forks": 3848,
           "stars": 29792
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3849,
+          "stars": 29805
         }
       ]
     },
@@ -47082,7 +47032,7 @@
       "first_seen": "2026-08-16",
       "full_name": "vxcontrol/pentagi",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 913030762,
       "snapshots": [
         {
@@ -47149,6 +47099,11 @@
           "date": "2026-10-10",
           "forks": 3270,
           "stars": 25408
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3276,
+          "stars": 25435
         }
       ]
     },
@@ -47222,7 +47177,7 @@
       "first_seen": "2026-08-16",
       "full_name": "bytedance/UI-TARS-desktop",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 918932603,
       "snapshots": [
         {
@@ -47304,6 +47259,11 @@
           "date": "2026-10-10",
           "forks": 3969,
           "stars": 39228
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3973,
+          "stars": 39229
         }
       ]
     },
@@ -47312,7 +47272,7 @@
       "first_seen": "2026-08-13",
       "full_name": "ranaroussi/yfinance",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 91948540,
       "snapshots": [
         {
@@ -47399,6 +47359,11 @@
           "date": "2026-10-10",
           "forks": 3439,
           "stars": 25476
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3438,
+          "stars": 25485
         }
       ]
     },
@@ -47712,7 +47677,7 @@
       "first_seen": "2026-08-18",
       "full_name": "Arindam200/awesome-ai-apps",
       "last_featured": null,
-      "last_seen": "2026-09-25",
+      "last_seen": "2026-10-11",
       "repo_id": 933701586,
       "snapshots": [
         {
@@ -47774,6 +47739,11 @@
           "date": "2026-09-25",
           "forks": 1843,
           "stars": 15908
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1847,
+          "stars": 16098
         }
       ]
     },
@@ -47867,7 +47837,7 @@
       "first_seen": "2026-08-16",
       "full_name": "musistudio/claude-code-router",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 938468965,
       "snapshots": [
         {
@@ -47934,6 +47904,11 @@
           "date": "2026-10-10",
           "forks": 3157,
           "stars": 37602
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3160,
+          "stars": 37617
         }
       ]
     },
@@ -47945,11 +47920,6 @@
       "last_seen": "2026-10-04",
       "repo_id": 942114501,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 2298,
-          "stars": 20124
-        },
         {
           "date": "2026-09-07",
           "forks": 2297,
@@ -48227,7 +48197,7 @@
       "first_seen": "2026-08-18",
       "full_name": "openai/openai-agents-python",
       "last_featured": null,
-      "last_seen": "2026-09-24",
+      "last_seen": "2026-10-11",
       "repo_id": 946380199,
       "snapshots": [
         {
@@ -48284,6 +48254,11 @@
           "date": "2026-09-24",
           "forks": 4801,
           "stars": 29661
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4863,
+          "stars": 29955
         }
       ]
     },
@@ -48622,7 +48597,7 @@
       "first_seen": "2026-08-16",
       "full_name": "mcp-use/mcp-use",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 956472076,
       "snapshots": [
         {
@@ -48654,6 +48629,11 @@
           "date": "2026-10-10",
           "forks": 1501,
           "stars": 10737
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1503,
+          "stars": 10742
         }
       ]
     },
@@ -48687,7 +48667,7 @@
       "first_seen": "2026-08-16",
       "full_name": "google/adk-python",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 958830659,
       "snapshots": [
         {
@@ -48754,6 +48734,11 @@
           "date": "2026-10-10",
           "forks": 4123,
           "stars": 21760
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4127,
+          "stars": 21770
         }
       ]
     },
@@ -48892,7 +48877,7 @@
       "first_seen": "2026-08-16",
       "full_name": "VoltAgent/voltagent",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 967530387,
       "snapshots": [
         {
@@ -48924,6 +48909,11 @@
           "date": "2026-10-10",
           "forks": 1160,
           "stars": 10762
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1162,
+          "stars": 10767
         }
       ]
     },
@@ -48932,7 +48922,7 @@
       "first_seen": "2026-08-16",
       "full_name": "google-gemini/gemini-cli",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 968197216,
       "snapshots": [
         {
@@ -48999,6 +48989,11 @@
           "date": "2026-10-10",
           "forks": 14700,
           "stars": 107265
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 14702,
+          "stars": 107277
         }
       ]
     },
@@ -49007,14 +49002,9 @@
       "first_seen": "2026-08-13",
       "full_name": "hesreallyhim/awesome-claude-code",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 969302809,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 4669,
-          "stars": 53564
-        },
         {
           "date": "2026-09-07",
           "forks": 4668,
@@ -49104,6 +49094,11 @@
           "date": "2026-10-10",
           "forks": 4798,
           "stars": 55324
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 4805,
+          "stars": 55388
         }
       ]
     },
@@ -49112,7 +49107,7 @@
       "first_seen": "2026-08-16",
       "full_name": "microsoft/agent-framework",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 974445592,
       "snapshots": [
         {
@@ -49179,6 +49174,11 @@
           "date": "2026-10-10",
           "forks": 2448,
           "stars": 14039
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 2454,
+          "stars": 14049
         }
       ]
     },
@@ -49190,11 +49190,6 @@
       "last_seen": "2026-09-26",
       "repo_id": 975734319,
       "snapshots": [
-        {
-          "date": "2026-09-06",
-          "forks": 26702,
-          "stars": 204665
-        },
         {
           "date": "2026-09-07",
           "forks": 26772,
@@ -49292,7 +49287,7 @@
       "first_seen": "2026-08-16",
       "full_name": "google/adk-go",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 978236277,
       "snapshots": [
         {
@@ -49319,6 +49314,11 @@
           "date": "2026-10-10",
           "forks": 1025,
           "stars": 8856
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 1027,
+          "stars": 8860
         }
       ]
     },
@@ -49327,7 +49327,7 @@
       "first_seen": "2026-08-16",
       "full_name": "enescingoz/awesome-n8n-templates",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 980205160,
       "snapshots": [
         {
@@ -49439,6 +49439,11 @@
           "date": "2026-10-10",
           "forks": 6519,
           "stars": 25843
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 6519,
+          "stars": 25858
         }
       ]
     },
@@ -49625,11 +49630,6 @@
       "repo_id": 995029641,
       "snapshots": [
         {
-          "date": "2026-09-06",
-          "forks": 8414,
-          "stars": 70687
-        },
-        {
           "date": "2026-09-07",
           "forks": 8435,
           "stars": 70973
@@ -49746,7 +49746,7 @@
       "first_seen": "2026-08-16",
       "full_name": "apache/doris",
       "last_featured": null,
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "repo_id": 99919302,
       "snapshots": [
         {
@@ -49813,6 +49813,11 @@
           "date": "2026-10-10",
           "forks": 3973,
           "stars": 16045
+        },
+        {
+          "date": "2026-10-11",
+          "forks": 3975,
+          "stars": 16063
         }
       ]
     }

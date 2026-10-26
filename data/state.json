@@ -14144,10 +14144,10 @@
       ]
     },
     "1212503250": {
-      "feature_count": 1,
+      "feature_count": 2,
       "first_seen": "2026-08-13",
       "full_name": "citrolabs/ego-lite",
-      "last_featured": "2026-08-24",
+      "last_featured": "2026-10-26",
       "last_seen": "2026-10-26",
       "repo_id": 1212503250,
       "snapshots": [
@@ -17279,10 +17279,10 @@
       ]
     },
     "1222917575": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-13",
       "full_name": "Nutlope/hallmark",
-      "last_featured": null,
+      "last_featured": "2026-10-26",
       "last_seen": "2026-10-26",
       "repo_id": 1222917575,
       "snapshots": [
@@ -29184,10 +29184,10 @@
       ]
     },
     "1329849289": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-10",
       "full_name": "lexmount/moli",
-      "last_featured": null,
+      "last_featured": "2026-10-26",
       "last_seen": "2026-10-26",
       "repo_id": 1329849289,
       "snapshots": [
@@ -31329,10 +31329,10 @@
       ]
     },
     "1385896447": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-13",
       "full_name": "Ebony-Vinyl/dsh-our-free-model",
-      "last_featured": null,
+      "last_featured": "2026-10-26",
       "last_seen": "2026-10-26",
       "repo_id": 1385896447,
       "snapshots": [
@@ -31784,10 +31784,10 @@
       ]
     },
     "1398086162": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-13",
       "full_name": "storytold/pdfcraft",
-      "last_featured": null,
+      "last_featured": "2026-10-26",
       "last_seen": "2026-10-26",
       "repo_id": 1398086162,
       "snapshots": [
@@ -32294,10 +32294,10 @@
       ]
     },
     "1421825221": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-22",
       "full_name": "deepseek-ai/DeepInfer",
-      "last_featured": null,
+      "last_featured": "2026-10-26",
       "last_seen": "2026-10-26",
       "repo_id": 1421825221,
       "snapshots": [
@@ -32329,10 +32329,10 @@
       ]
     },
     "1423101235": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-22",
       "full_name": "Gathin23/cleanyourtv",
-      "last_featured": null,
+      "last_featured": "2026-10-26",
       "last_seen": "2026-10-26",
       "repo_id": 1423101235,
       "snapshots": [
@@ -32362,6 +32362,15 @@
           "stars": 35078
         }
       ]
+    },
+    "1423892373": {
+      "feature_count": 1,
+      "first_seen": "2026-10-26",
+      "full_name": "Zagitta/gpu-unlock",
+      "last_featured": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "repo_id": 1423892373,
+      "snapshots": []
     },
     "143328315": {
       "feature_count": 0,

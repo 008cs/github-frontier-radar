@@ -2720,10 +2720,10 @@
       ]
     },
     "1097346685": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-09-24",
       "full_name": "pbakaus/impeccable",
-      "last_featured": null,
+      "last_featured": "2026-11-02",
       "last_seen": "2026-11-02",
       "repo_id": 1097346685,
       "snapshots": [
@@ -5629,10 +5629,10 @@
       ]
     },
     "1153130349": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-04",
       "full_name": "pingdotgg/t3code",
-      "last_featured": null,
+      "last_featured": "2026-11-02",
       "last_seen": "2026-11-02",
       "repo_id": 1153130349,
       "snapshots": [
@@ -20894,10 +20894,10 @@
       ]
     },
     "1273427276": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-09-19",
       "full_name": "cloudflare/security-audit-skill",
-      "last_featured": null,
+      "last_featured": "2026-11-02",
       "last_seen": "2026-11-02",
       "repo_id": 1273427276,
       "snapshots": [
@@ -28349,10 +28349,10 @@
       ]
     },
     "1339970099": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-26",
       "full_name": "peach-mitao/peach",
-      "last_featured": null,
+      "last_featured": "2026-11-02",
       "last_seen": "2026-11-02",
       "repo_id": 1339970099,
       "snapshots": [
@@ -31408,6 +31408,24 @@
         }
       ]
     },
+    "1431851693": {
+      "feature_count": 1,
+      "first_seen": "2026-11-02",
+      "full_name": "rddmwmddr/android-ad-cleaner",
+      "last_featured": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "repo_id": 1431851693,
+      "snapshots": []
+    },
+    "1432967563": {
+      "feature_count": 1,
+      "first_seen": "2026-11-02",
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "last_featured": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "repo_id": 1432967563,
+      "snapshots": []
+    },
     "143328315": {
       "feature_count": 0,
       "first_seen": "2026-08-19",
@@ -31472,6 +31490,33 @@
           "stars": 39801
         }
       ]
+    },
+    "1435695423": {
+      "feature_count": 1,
+      "first_seen": "2026-11-02",
+      "full_name": "anhao/ai-pose-gallery-zh",
+      "last_featured": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "repo_id": 1435695423,
+      "snapshots": []
+    },
+    "1438623288": {
+      "feature_count": 1,
+      "first_seen": "2026-11-02",
+      "full_name": "heydamir/unslop",
+      "last_featured": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "repo_id": 1438623288,
+      "snapshots": []
+    },
+    "1440705679": {
+      "feature_count": 1,
+      "first_seen": "2026-11-02",
+      "full_name": "deepseek-ai/dsh-superagent-prototype",
+      "last_featured": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "repo_id": 1440705679,
+      "snapshots": []
     },
     "144849757": {
       "feature_count": 0,
@@ -37634,10 +37679,10 @@
       ]
     },
     "598667202": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-25",
       "full_name": "lightpanda-io/browser",
-      "last_featured": null,
+      "last_featured": "2026-11-02",
       "last_seen": "2026-11-02",
       "repo_id": 598667202,
       "snapshots": [

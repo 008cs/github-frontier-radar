@@ -5199,10 +5199,10 @@
       ]
     },
     "1136590548": {
-      "feature_count": 1,
+      "feature_count": 2,
       "first_seen": "2026-08-19",
       "full_name": "affaan-m/ECC",
-      "last_featured": "2026-09-07",
+      "last_featured": "2026-11-09",
       "last_seen": "2026-11-09",
       "repo_id": 1136590548,
       "snapshots": [
@@ -21387,10 +21387,10 @@
       ]
     },
     "1286080397": {
-      "feature_count": 1,
+      "feature_count": 2,
       "first_seen": "2026-08-13",
       "full_name": "JustVugg/colibri",
-      "last_featured": "2026-09-14",
+      "last_featured": "2026-11-09",
       "last_seen": "2026-11-09",
       "repo_id": 1286080397,
       "snapshots": [
@@ -26667,10 +26667,10 @@
       ]
     },
     "1331261687": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-11-01",
       "full_name": "milind-soni/OpenMausBot",
-      "last_featured": null,
+      "last_featured": "2026-11-09",
       "last_seen": "2026-11-09",
       "repo_id": 1331261687,
       "snapshots": [
@@ -32020,6 +32020,15 @@
           "stars": 21216
         }
       ]
+    },
+    "1440956372": {
+      "feature_count": 1,
+      "first_seen": "2026-11-09",
+      "full_name": "storytold/craft-anything",
+      "last_featured": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "repo_id": 1440956372,
+      "snapshots": []
     },
     "144849757": {
       "feature_count": 0,

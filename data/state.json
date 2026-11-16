@@ -391,10 +391,10 @@
       ]
     },
     "1008713177": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-19",
       "full_name": "QwenLM/qwen-code",
-      "last_featured": null,
+      "last_featured": "2026-11-16",
       "last_seen": "2026-11-16",
       "repo_id": 1008713177,
       "snapshots": [
@@ -1770,10 +1770,10 @@
       ]
     },
     "1054793726": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-19",
       "full_name": "ChromeDevTools/chrome-devtools-mcp",
-      "last_featured": null,
+      "last_featured": "2026-11-16",
       "last_seen": "2026-11-16",
       "repo_id": 1054793726,
       "snapshots": [
@@ -2050,10 +2050,10 @@
       ]
     },
     "1061953414": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-31",
       "full_name": "anthropics/skills",
-      "last_featured": null,
+      "last_featured": "2026-11-16",
       "last_seen": "2026-11-16",
       "repo_id": 1061953414,
       "snapshots": [
@@ -5279,10 +5279,10 @@
       ]
     },
     "1131202426": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-11-11",
       "full_name": "meta/astryx",
-      "last_featured": null,
+      "last_featured": "2026-11-16",
       "last_seen": "2026-11-16",
       "repo_id": 1131202426,
       "snapshots": [
@@ -8098,10 +8098,10 @@
       ]
     },
     "1162099055": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-14",
       "full_name": "Leonxlnx/taste-skill",
-      "last_featured": null,
+      "last_featured": "2026-11-16",
       "last_seen": "2026-11-16",
       "repo_id": 1162099055,
       "snapshots": [
@@ -10323,10 +10323,10 @@
       ]
     },
     "1183888342": {
-      "feature_count": 1,
+      "feature_count": 2,
       "first_seen": "2026-08-13",
       "full_name": "stablyai/orca",
-      "last_featured": "2026-09-21",
+      "last_featured": "2026-11-16",
       "last_seen": "2026-11-16",
       "repo_id": 1183888342,
       "snapshots": [
@@ -10653,10 +10653,10 @@
       ]
     },
     "1187630119": {
-      "feature_count": 1,
+      "feature_count": 2,
       "first_seen": "2026-08-13",
       "full_name": "NVIDIA/SkillSpector",
-      "last_featured": "2026-09-07",
+      "last_featured": "2026-11-16",
       "last_seen": "2026-11-16",
       "repo_id": 1187630119,
       "snapshots": [
@@ -11658,10 +11658,10 @@
       ]
     },
     "1201173969": {
-      "feature_count": 1,
+      "feature_count": 2,
       "first_seen": "2026-08-13",
       "full_name": "JuliusBrussee/caveman",
-      "last_featured": "2026-09-21",
+      "last_featured": "2026-11-16",
       "last_seen": "2026-11-16",
       "repo_id": 1201173969,
       "snapshots": [
@@ -16011,10 +16011,10 @@
       ]
     },
     "1241960226": {
-      "feature_count": 1,
+      "feature_count": 2,
       "first_seen": "2026-08-13",
       "full_name": "alibaba/open-code-review",
-      "last_featured": "2026-09-14",
+      "last_featured": "2026-11-16",
       "last_seen": "2026-11-16",
       "repo_id": 1241960226,
       "snapshots": [
@@ -32856,10 +32856,10 @@
       ]
     },
     "162998479": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-11-08",
       "full_name": "sherlock-project/sherlock",
-      "last_featured": null,
+      "last_featured": "2026-11-16",
       "last_seen": "2026-11-16",
       "repo_id": 162998479,
       "snapshots": [

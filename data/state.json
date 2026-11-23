@@ -5789,10 +5789,10 @@
       ]
     },
     "1140843380": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-08-16",
       "full_name": "mvanhorn/last30days-skill",
-      "last_featured": null,
+      "last_featured": "2026-11-23",
       "last_seen": "2026-11-23",
       "repo_id": 1140843380,
       "snapshots": [
@@ -7223,10 +7223,10 @@
       ]
     },
     "1161958643": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-11-11",
       "full_name": "vercel-labs/agent-desktop",
-      "last_featured": null,
+      "last_featured": "2026-11-23",
       "last_seen": "2026-11-23",
       "repo_id": 1161958643,
       "snapshots": [
@@ -26021,10 +26021,10 @@
       ]
     },
     "1346499044": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-23",
       "full_name": "jub0t/Concat",
-      "last_featured": null,
+      "last_featured": "2026-11-23",
       "last_seen": "2026-11-23",
       "repo_id": 1346499044,
       "snapshots": [
@@ -26511,10 +26511,10 @@
       ]
     },
     "1368596582": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-11-03",
       "full_name": "google/elephant-goldfish-model",
-      "last_featured": null,
+      "last_featured": "2026-11-23",
       "last_seen": "2026-11-23",
       "repo_id": 1368596582,
       "snapshots": [
@@ -28711,10 +28711,10 @@
       ]
     },
     "1396526702": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-10-23",
       "full_name": "KnifeLemon/Filee",
-      "last_featured": null,
+      "last_featured": "2026-11-23",
       "last_seen": "2026-11-23",
       "repo_id": 1396526702,
       "snapshots": [
@@ -31980,11 +31980,20 @@
         }
       ]
     },
+    "1459971684": {
+      "feature_count": 1,
+      "first_seen": "2026-11-23",
+      "full_name": "erkamyaman/rust-anything",
+      "last_featured": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "repo_id": 1459971684,
+      "snapshots": []
+    },
     "1465855400": {
-      "feature_count": 0,
+      "feature_count": 1,
       "first_seen": "2026-11-23",
       "full_name": "ItsNotRexed/Leonida",
-      "last_featured": null,
+      "last_featured": "2026-11-23",
       "last_seen": "2026-11-23",
       "repo_id": 1465855400,
       "snapshots": [
@@ -38280,10 +38289,10 @@
       ]
     },
     "543101941": {
-      "feature_count": 1,
+      "feature_count": 2,
       "first_seen": "2026-09-19",
       "full_name": "dream-num/univer",
-      "last_featured": "2026-09-28",
+      "last_featured": "2026-11-23",
       "last_seen": "2026-11-23",
       "repo_id": 543101941,
       "snapshots": [
